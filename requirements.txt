@@ -1,0 +1,4 @@
+# Préparation audio (synthèse vocale figée en WAV)
+edge-tts==7.3.1
+# Contrôle vidéo (planches de captures, mesures d'images)
+Pillow==13.0.0
