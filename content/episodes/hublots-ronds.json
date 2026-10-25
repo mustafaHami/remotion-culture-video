@@ -1,0 +1,2827 @@
+{
+  "id": "hublots-ronds",
+  "look": "A",
+  "finish": "crayonné",
+  "title": "Pourquoi les hublots des avions sont-ils ronds ?",
+  "answer": "En 1954, deux Comet, premiers avions de ligne à réaction, se sont brisés en vol : la fatigue du métal, due aux mises en pression répétées de la cabine, avait fendu le fuselage à partir du coin d'une fenêtre presque carrée ; un angle vif concentre l'effort, un arrondi le répartit, d'où des fenêtres aux coins arrondis.",
+  "hook": {
+    "title": "Pourquoi les hublots des avions sont-ils ronds ?",
+    "highlight": "ronds"
+  },
+  "chapters": [
+    {
+      "cue": "comet",
+      "label": "Niveau 1 · Le Comet"
+    },
+    {
+      "cue": "pression",
+      "label": "Niveau 2 · La pression"
+    },
+    {
+      "cue": "coin",
+      "label": "Niveau 3 · Les coins"
+    },
+    {
+      "cue": "resultat",
+      "label": "La réponse"
+    }
+  ],
+  "narration": [
+    {
+      "id": "question",
+      "text": "Pourquoi les hublots des avions sont-ils ronds ?",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 12,
+      "keywords": [
+        "ronds"
+      ],
+      "audio": {
+        "src": "audio/78cd704922af75ca.wav",
+        "seconds": 2.04,
+        "durationInFrames": 62,
+        "words": [
+          {
+            "text": "Pourquoi",
+            "startMs": 10,
+            "endMs": 348
+          },
+          {
+            "text": "les",
+            "startMs": 360,
+            "endMs": 485
+          },
+          {
+            "text": "hublots",
+            "startMs": 498,
+            "endMs": 748
+          },
+          {
+            "text": "des",
+            "startMs": 760,
+            "endMs": 885
+          },
+          {
+            "text": "avions",
+            "startMs": 898,
+            "endMs": 1210
+          },
+          {
+            "text": "sont-ils",
+            "startMs": 1222,
+            "endMs": 1598
+          },
+          {
+            "text": "ronds ?",
+            "startMs": 1610,
+            "endMs": 1885
+          }
+        ]
+      }
+    },
+    {
+      "id": "comet",
+      "text": "En 1952, le Comet devient le premier avion de ligne à réaction.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 8,
+      "keywords": [
+        "1952",
+        "Comet"
+      ],
+      "audio": {
+        "src": "audio/ba93fb9c6f06cc72.wav",
+        "seconds": 4.36,
+        "durationInFrames": 131,
+        "words": [
+          {
+            "text": "En",
+            "startMs": 20,
+            "endMs": 158
+          },
+          {
+            "text": "1952,",
+            "startMs": 170,
+            "endMs": 1220
+          },
+          {
+            "text": "le",
+            "startMs": 1558,
+            "endMs": 1645
+          },
+          {
+            "text": "Comet",
+            "startMs": 1658,
+            "endMs": 2145
+          },
+          {
+            "text": "devient",
+            "startMs": 2158,
+            "endMs": 2482
+          },
+          {
+            "text": "le",
+            "startMs": 2495,
+            "endMs": 2595
+          },
+          {
+            "text": "premier",
+            "startMs": 2608,
+            "endMs": 2945
+          },
+          {
+            "text": "avion",
+            "startMs": 2958,
+            "endMs": 3208
+          },
+          {
+            "text": "de",
+            "startMs": 3220,
+            "endMs": 3332
+          },
+          {
+            "text": "ligne",
+            "startMs": 3345,
+            "endMs": 3570
+          },
+          {
+            "text": "à",
+            "startMs": 3582,
+            "endMs": 3620
+          },
+          {
+            "text": "réaction.",
+            "startMs": 3632,
+            "endMs": 4245
+          }
+        ]
+      }
+    },
+    {
+      "id": "crash",
+      "text": "Mais en 1954, deux Comet se brisent en plein vol.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 12,
+      "keywords": [
+        "1954",
+        "brisent"
+      ],
+      "audio": {
+        "src": "audio/f74e156cf191eee3.wav",
+        "seconds": 3.73,
+        "durationInFrames": 112,
+        "words": [
+          {
+            "text": "Mais",
+            "startMs": 20,
+            "endMs": 232
+          },
+          {
+            "text": "en",
+            "startMs": 245,
+            "endMs": 395
+          },
+          {
+            "text": "1954,",
+            "startMs": 408,
+            "endMs": 1582
+          },
+          {
+            "text": "deux",
+            "startMs": 1845,
+            "endMs": 1958
+          },
+          {
+            "text": "Comet",
+            "startMs": 1970,
+            "endMs": 2395
+          },
+          {
+            "text": "se",
+            "startMs": 2408,
+            "endMs": 2558
+          },
+          {
+            "text": "brisent",
+            "startMs": 2570,
+            "endMs": 2845
+          },
+          {
+            "text": "en",
+            "startMs": 2858,
+            "endMs": 2932
+          },
+          {
+            "text": "plein",
+            "startMs": 2945,
+            "endMs": 3145
+          },
+          {
+            "text": "vol.",
+            "startMs": 3158,
+            "endMs": 3608
+          }
+        ]
+      }
+    },
+    {
+      "id": "pression",
+      "text": "À chaque vol, la cabine est gonflée d’air comme un ballon, puis dégonflée à l’atterrissage.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 8,
+      "keywords": [
+        "gonflée",
+        "dégonflée"
+      ],
+      "audio": {
+        "src": "audio/9a81e277fbcbd2ae.wav",
+        "seconds": 5.08,
+        "durationInFrames": 153,
+        "words": [
+          {
+            "text": "À",
+            "startMs": 10,
+            "endMs": 135
+          },
+          {
+            "text": "chaque",
+            "startMs": 148,
+            "endMs": 435
+          },
+          {
+            "text": "vol,",
+            "startMs": 448,
+            "endMs": 798
+          },
+          {
+            "text": "la",
+            "startMs": 1122,
+            "endMs": 1222
+          },
+          {
+            "text": "cabine",
+            "startMs": 1235,
+            "endMs": 1598
+          },
+          {
+            "text": "est",
+            "startMs": 1610,
+            "endMs": 1660
+          },
+          {
+            "text": "gonflée",
+            "startMs": 1672,
+            "endMs": 2060
+          },
+          {
+            "text": "d’air",
+            "startMs": 2072,
+            "endMs": 2310
+          },
+          {
+            "text": "comme",
+            "startMs": 2322,
+            "endMs": 2560
+          },
+          {
+            "text": "un",
+            "startMs": 2572,
+            "endMs": 2635
+          },
+          {
+            "text": "ballon,",
+            "startMs": 2648,
+            "endMs": 2985
+          },
+          {
+            "text": "puis",
+            "startMs": 3272,
+            "endMs": 3422
+          },
+          {
+            "text": "dégonflée",
+            "startMs": 3435,
+            "endMs": 3960
+          },
+          {
+            "text": "à",
+            "startMs": 3972,
+            "endMs": 4010
+          },
+          {
+            "text": "l’atterrissage.",
+            "startMs": 4022,
+            "endMs": 4898
+          }
+        ]
+      }
+    },
+    {
+      "id": "bassin",
+      "text": "Les enquêteurs plongent un Comet dans un bassin, et le gonflent encore et encore. Après environ 3 000 cycles, il se déchire.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 12,
+      "keywords": [
+        "bassin",
+        "déchire"
+      ],
+      "audio": {
+        "src": "audio/edab16748714fe77.wav",
+        "seconds": 7.93,
+        "durationInFrames": 238,
+        "words": [
+          {
+            "text": "Les",
+            "startMs": 10,
+            "endMs": 235
+          },
+          {
+            "text": "enquêteurs",
+            "startMs": 248,
+            "endMs": 810
+          },
+          {
+            "text": "plongent",
+            "startMs": 822,
+            "endMs": 1160
+          },
+          {
+            "text": "un",
+            "startMs": 1172,
+            "endMs": 1248
+          },
+          {
+            "text": "Comet",
+            "startMs": 1260,
+            "endMs": 1748
+          },
+          {
+            "text": "dans",
+            "startMs": 1760,
+            "endMs": 1885
+          },
+          {
+            "text": "un",
+            "startMs": 1898,
+            "endMs": 2060
+          },
+          {
+            "text": "bassin,",
+            "startMs": 2072,
+            "endMs": 2522
+          },
+          {
+            "text": "et",
+            "startMs": 2860,
+            "endMs": 2885
+          },
+          {
+            "text": "le",
+            "startMs": 2898,
+            "endMs": 3010
+          },
+          {
+            "text": "gonflent",
+            "startMs": 3022,
+            "endMs": 3335
+          },
+          {
+            "text": "encore",
+            "startMs": 3348,
+            "endMs": 3672
+          },
+          {
+            "text": "et",
+            "startMs": 3685,
+            "endMs": 3748
+          },
+          {
+            "text": "encore.",
+            "startMs": 3760,
+            "endMs": 4272
+          },
+          {
+            "text": "Après",
+            "startMs": 5148,
+            "endMs": 5498
+          },
+          {
+            "text": "environ",
+            "startMs": 5510,
+            "endMs": 5948
+          },
+          {
+            "text": "3",
+            "startMs": 5960,
+            "endMs": 6030
+          },
+          {
+            "text": "000",
+            "startMs": 6030,
+            "endMs": 6240
+          },
+          {
+            "text": "cycles,",
+            "startMs": 6240,
+            "endMs": 6660
+          },
+          {
+            "text": "il",
+            "startMs": 6910,
+            "endMs": 7010
+          },
+          {
+            "text": "se",
+            "startMs": 7022,
+            "endMs": 7148
+          },
+          {
+            "text": "déchire.",
+            "startMs": 7160,
+            "endMs": 7798
+          }
+        ]
+      }
+    },
+    {
+      "id": "coin",
+      "text": "La fissure part du coin d’une petite fenêtre presque carrée, sur le toit.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 8,
+      "keywords": [
+        "coin",
+        "carrée"
+      ],
+      "audio": {
+        "src": "audio/695c854c16f4725c.wav",
+        "seconds": 3.98,
+        "durationInFrames": 120,
+        "words": [
+          {
+            "text": "La",
+            "startMs": 10,
+            "endMs": 235
+          },
+          {
+            "text": "fissure",
+            "startMs": 248,
+            "endMs": 635
+          },
+          {
+            "text": "part",
+            "startMs": 648,
+            "endMs": 848
+          },
+          {
+            "text": "du",
+            "startMs": 860,
+            "endMs": 972
+          },
+          {
+            "text": "coin",
+            "startMs": 985,
+            "endMs": 1235
+          },
+          {
+            "text": "d’une",
+            "startMs": 1248,
+            "endMs": 1435
+          },
+          {
+            "text": "petite",
+            "startMs": 1448,
+            "endMs": 1772
+          },
+          {
+            "text": "fenêtre",
+            "startMs": 1785,
+            "endMs": 2222
+          },
+          {
+            "text": "presque",
+            "startMs": 2235,
+            "endMs": 2598
+          },
+          {
+            "text": "carrée,",
+            "startMs": 2610,
+            "endMs": 2960
+          },
+          {
+            "text": "sur",
+            "startMs": 3210,
+            "endMs": 3360
+          },
+          {
+            "text": "le",
+            "startMs": 3372,
+            "endMs": 3485
+          },
+          {
+            "text": "toit.",
+            "startMs": 3498,
+            "endMs": 3848
+          }
+        ]
+      }
+    },
+    {
+      "id": "angle",
+      "text": "Dans un angle vif, l’effort se concentre en un point. Le métal s’y fatigue, et finit par se fendre.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 8,
+      "keywords": [
+        "angle",
+        "concentre"
+      ],
+      "audio": {
+        "src": "audio/49cbd09664bfa5ec.wav",
+        "seconds": 6.77,
+        "durationInFrames": 204,
+        "words": [
+          {
+            "text": "Dans",
+            "startMs": 20,
+            "endMs": 245
+          },
+          {
+            "text": "un",
+            "startMs": 258,
+            "endMs": 420
+          },
+          {
+            "text": "angle",
+            "startMs": 432,
+            "endMs": 758
+          },
+          {
+            "text": "vif,",
+            "startMs": 770,
+            "endMs": 1132
+          },
+          {
+            "text": "l’effort",
+            "startMs": 1420,
+            "endMs": 1795
+          },
+          {
+            "text": "se",
+            "startMs": 1808,
+            "endMs": 1920
+          },
+          {
+            "text": "concentre",
+            "startMs": 1932,
+            "endMs": 2420
+          },
+          {
+            "text": "en",
+            "startMs": 2432,
+            "endMs": 2470
+          },
+          {
+            "text": "un",
+            "startMs": 2482,
+            "endMs": 2608
+          },
+          {
+            "text": "point.",
+            "startMs": 2620,
+            "endMs": 2970
+          },
+          {
+            "text": "Le",
+            "startMs": 3832,
+            "endMs": 3970
+          },
+          {
+            "text": "métal",
+            "startMs": 3982,
+            "endMs": 4382
+          },
+          {
+            "text": "s’y",
+            "startMs": 4395,
+            "endMs": 4545
+          },
+          {
+            "text": "fatigue,",
+            "startMs": 4558,
+            "endMs": 5095
+          },
+          {
+            "text": "et",
+            "startMs": 5458,
+            "endMs": 5495
+          },
+          {
+            "text": "finit",
+            "startMs": 5508,
+            "endMs": 5795
+          },
+          {
+            "text": "par",
+            "startMs": 5808,
+            "endMs": 6008
+          },
+          {
+            "text": "se",
+            "startMs": 6020,
+            "endMs": 6145
+          },
+          {
+            "text": "fendre.",
+            "startMs": 6158,
+            "endMs": 6645
+          }
+        ]
+      }
+    },
+    {
+      "id": "arrondi",
+      "text": "Dans un arrondi, l’effort glisse tout autour, sans s’accumuler.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 12,
+      "keywords": [
+        "arrondi",
+        "glisse"
+      ],
+      "audio": {
+        "src": "audio/8cde6b2fd456e651.wav",
+        "seconds": 3.84,
+        "durationInFrames": 116,
+        "words": [
+          {
+            "text": "Dans",
+            "startMs": 30,
+            "endMs": 242
+          },
+          {
+            "text": "un",
+            "startMs": 255,
+            "endMs": 418
+          },
+          {
+            "text": "arrondi,",
+            "startMs": 430,
+            "endMs": 980
+          },
+          {
+            "text": "l’effort",
+            "startMs": 1280,
+            "endMs": 1630
+          },
+          {
+            "text": "glisse",
+            "startMs": 1642,
+            "endMs": 1930
+          },
+          {
+            "text": "tout",
+            "startMs": 1942,
+            "endMs": 2080
+          },
+          {
+            "text": "autour,",
+            "startMs": 2092,
+            "endMs": 2605
+          },
+          {
+            "text": "sans",
+            "startMs": 2855,
+            "endMs": 3005
+          },
+          {
+            "text": "s’accumuler.",
+            "startMs": 3018,
+            "endMs": 3742
+          }
+        ]
+      }
+    },
+    {
+      "id": "resultat",
+      "text": "Depuis, les fenêtres des avions ont des coins arrondis.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 10,
+      "keywords": [
+        "arrondis"
+      ],
+      "audio": {
+        "src": "audio/b01f9f31f6353603.wav",
+        "seconds": 3.1,
+        "durationInFrames": 93,
+        "words": [
+          {
+            "text": "Depuis,",
+            "startMs": 70,
+            "endMs": 532
+          },
+          {
+            "text": "les",
+            "startMs": 882,
+            "endMs": 995
+          },
+          {
+            "text": "fenêtres",
+            "startMs": 1008,
+            "endMs": 1445
+          },
+          {
+            "text": "des",
+            "startMs": 1458,
+            "endMs": 1582
+          },
+          {
+            "text": "avions",
+            "startMs": 1595,
+            "endMs": 1932
+          },
+          {
+            "text": "ont",
+            "startMs": 1945,
+            "endMs": 2020
+          },
+          {
+            "text": "des",
+            "startMs": 2032,
+            "endMs": 2132
+          },
+          {
+            "text": "coins",
+            "startMs": 2145,
+            "endMs": 2370
+          },
+          {
+            "text": "arrondis.",
+            "startMs": 2382,
+            "endMs": 2970
+          }
+        ]
+      }
+    },
+    {
+      "id": "conclusion",
+      "text": "Un hublot rond, ce n’est pas une question de style : c’est une question de solidité.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 10,
+      "keywords": [
+        "solidité"
+      ],
+      "audio": {
+        "src": "audio/486c1c239f577352.wav",
+        "seconds": 4.52,
+        "durationInFrames": 136,
+        "words": [
+          {
+            "text": "Un",
+            "startMs": 20,
+            "endMs": 195
+          },
+          {
+            "text": "hublot",
+            "startMs": 208,
+            "endMs": 482
+          },
+          {
+            "text": "rond,",
+            "startMs": 495,
+            "endMs": 720
+          },
+          {
+            "text": "ce",
+            "startMs": 995,
+            "endMs": 1132
+          },
+          {
+            "text": "n’est",
+            "startMs": 1145,
+            "endMs": 1270
+          },
+          {
+            "text": "pas",
+            "startMs": 1282,
+            "endMs": 1420
+          },
+          {
+            "text": "une",
+            "startMs": 1432,
+            "endMs": 1582
+          },
+          {
+            "text": "question",
+            "startMs": 1595,
+            "endMs": 1970
+          },
+          {
+            "text": "de",
+            "startMs": 1982,
+            "endMs": 2108
+          },
+          {
+            "text": "style :",
+            "startMs": 2120,
+            "endMs": 2495
+          },
+          {
+            "text": "c’est",
+            "startMs": 2858,
+            "endMs": 3008
+          },
+          {
+            "text": "une",
+            "startMs": 3020,
+            "endMs": 3208
+          },
+          {
+            "text": "question",
+            "startMs": 3220,
+            "endMs": 3582
+          },
+          {
+            "text": "de",
+            "startMs": 3595,
+            "endMs": 3708
+          },
+          {
+            "text": "solidité.",
+            "startMs": 3720,
+            "endMs": 4420
+          }
+        ]
+      }
+    },
+    {
+      "id": "abonne",
+      "text": "Abonne-toi pour d’autres secrets du ciel.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 20,
+      "keywords": [
+        "secrets"
+      ],
+      "audio": {
+        "src": "audio/88573bc10331e58e.wav",
+        "seconds": 2.27,
+        "durationInFrames": 69,
+        "words": [
+          {
+            "text": "Abonne-toi",
+            "startMs": 10,
+            "endMs": 610
+          },
+          {
+            "text": "pour",
+            "startMs": 622,
+            "endMs": 822
+          },
+          {
+            "text": "d’autres",
+            "startMs": 835,
+            "endMs": 1172
+          },
+          {
+            "text": "secrets",
+            "startMs": 1185,
+            "endMs": 1498
+          },
+          {
+            "text": "du",
+            "startMs": 1510,
+            "endMs": 1635
+          },
+          {
+            "text": "ciel.",
+            "startMs": 1648,
+            "endMs": 2135
+          }
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "date1952",
+      "type": "compteur",
+      "label": "1952",
+      "cue": "comet",
+      "word": "1952",
+      "occurrence": 1
+    },
+    {
+      "id": "date1954",
+      "type": "compteur",
+      "label": "1954",
+      "cue": "crash",
+      "word": "1954",
+      "occurrence": 1
+    },
+    {
+      "id": "cycles",
+      "type": "compteur",
+      "label": "≈ 3 000 cycles",
+      "cue": "bassin",
+      "word": "000",
+      "occurrence": 1
+    },
+    {
+      "id": "coin",
+      "type": "repere",
+      "label": "départ de la fissure",
+      "cue": "coin",
+      "word": "coin",
+      "occurrence": 1
+    },
+    {
+      "id": "angle",
+      "type": "lignes",
+      "label": "effort concentré",
+      "cue": "angle",
+      "word": "concentre",
+      "occurrence": 1
+    },
+    {
+      "id": "arrondi",
+      "type": "lignes",
+      "label": "effort réparti",
+      "cue": "arrondi",
+      "word": "glisse",
+      "occurrence": 1
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Le de Havilland Comet est le premier avion de ligne à réaction ; il entre en service commercial avec BOAC le 2 mai 1952.",
+      "title": "Wikipédia (en), « de Havilland Comet »",
+      "url": "https://en.wikipedia.org/wiki/De_Havilland_Comet",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Premier service le 2 mai 1952 (l'accident de Calcutta du 2 mai 1953 a lieu « un an jour pour jour » après) ; en 1954, deux Comet se brisent en vol au-dessus de la Méditerranée, près de l'île d'Elbe (10 janvier) et de Naples (8 avril).",
+      "title": "FAA, Lessons Learned, « De Havilland DH-106 Comet 1 »",
+      "url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/G-ALYV",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Vol BOAC 781, 10 janvier 1954 : le Comet G-ALYP se désintègre en vol au large de l'île d'Elbe ; cause retenue : fatigue du métal due aux mises en pression et dépressurisations répétées, rupture partie de la fenêtre ADF du toit.",
+      "title": "Wikipédia (en), « BOAC Flight 781 »",
+      "url": "https://en.wikipedia.org/wiki/BOAC_Flight_781",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Essai en bassin : le fuselage du Comet G-ALYU, rempli d'eau et mis en pression de façon répétée, se rompt après 1 230 vols réels et 1 830 cycles au bassin (environ 3 000), au coin d'une fenêtre presque carrée ; la pièce d'origine de la rupture de l'avion d'Elbe porte les deux fenêtres ADF du toit.",
+      "title": "FAA, Lessons Learned, « De Havilland DH-106 Comet 1 »",
+      "url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/G-ALYV",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Le fuselage d'essai G-ALYU cède après 3 057 cycles ; la fatigue de G-ALYP part d'un trou de rivet près du coin arrière de la fenêtre ADF ; les contraintes autour des découpes et des fenêtres étaient plus fortes que prévu. Les Comet suivants reçoivent des fenêtres ovales.",
+      "title": "Wikipédia (en), « de Havilland Comet »",
+      "url": "https://en.wikipedia.org/wiki/De_Havilland_Comet",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Les fenêtres presque carrées créaient des concentrations de contraintes bien plus fortes que prévu, qui fatiguaient le métal autour de leurs coins.",
+      "title": "FAA, Lessons Learned, « De Havilland DH-106 Comet 1 »",
+      "url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/G-ALYV",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Un angle vif est le plus fort « concentrateur de contraintes » ; plus le coin est arrondi, plus la contrainte y baisse ; sous des efforts répétés (fatigue), la fissure naît au coin.",
+      "title": "Jon Croke, « The Inside Corner on Reducing Stress », KITPLANES, 20 février 2023",
+      "url": "https://www.kitplanes.com/the-inside-corner-on-reducing-stress/",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Les coins vifs des fenêtres du Comet concentraient l'effort ; les fenêtres arrondies répartissent la pression plus également et sont devenues la règle dans l'aviation de ligne.",
+      "title": "Jake Rossen, « Why Are Airplane Windows Round? », Mental Floss, 3 septembre 2024",
+      "url": "https://www.mentalfloss.com/article/84603/why-are-airplane-windows-round",
+      "consulted": "2026-10-25"
+    }
+  ],
+  "staging": {
+    "composition": "HublotsRonds",
+    "decor": "avion",
+    "objects": [
+      {
+        "id": "plane",
+        "scale": [
+          {
+            "at": "pression:gonflée-4",
+            "v": 1
+          },
+          {
+            "at": "pression:gonflée+8",
+            "v": 1.035,
+            "ease": "back:1.6"
+          },
+          {
+            "at": "pression:dégonflée",
+            "v": 1.035
+          },
+          {
+            "at": "pression:dégonflée+12",
+            "v": 1
+          },
+          {
+            "at": "bassin:gonflent+0",
+            "v": 1
+          },
+          {
+            "at": "bassin:gonflent+6",
+            "v": 1.03,
+            "ease": "out"
+          },
+          {
+            "at": "bassin:gonflent+12",
+            "v": 1,
+            "ease": "in"
+          },
+          {
+            "at": "bassin:gonflent+13",
+            "v": 1
+          },
+          {
+            "at": "bassin:gonflent+19",
+            "v": 1.03,
+            "ease": "out"
+          },
+          {
+            "at": "bassin:gonflent+25",
+            "v": 1,
+            "ease": "in"
+          },
+          {
+            "at": "bassin:gonflent+26",
+            "v": 1
+          },
+          {
+            "at": "bassin:gonflent+32",
+            "v": 1.03,
+            "ease": "out"
+          },
+          {
+            "at": "bassin:gonflent+38",
+            "v": 1,
+            "ease": "in"
+          },
+          {
+            "at": "bassin:gonflent+39",
+            "v": 1
+          },
+          {
+            "at": "bassin:gonflent+45",
+            "v": 1.03,
+            "ease": "out"
+          },
+          {
+            "at": "bassin:gonflent+51",
+            "v": 1,
+            "ease": "in"
+          },
+          {
+            "at": "bassin:gonflent+52",
+            "v": 1
+          },
+          {
+            "at": "bassin:gonflent+58",
+            "v": 1.03,
+            "ease": "out"
+          },
+          {
+            "at": "bassin:gonflent+64",
+            "v": 1,
+            "ease": "in"
+          },
+          {
+            "at": "bassin:gonflent+65",
+            "v": 1
+          },
+          {
+            "at": "bassin:gonflent+71",
+            "v": 1.03,
+            "ease": "out"
+          },
+          {
+            "at": "bassin:gonflent+77",
+            "v": 1,
+            "ease": "in"
+          },
+          {
+            "at": "bassin:gonflent+78",
+            "v": 1
+          },
+          {
+            "at": "bassin:gonflent+84",
+            "v": 1.03,
+            "ease": "out"
+          },
+          {
+            "at": "bassin:gonflent+90",
+            "v": 1,
+            "ease": "in"
+          }
+        ],
+        "rotate": [
+          {
+            "at": "crash:brisent-6",
+            "v": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": "crash:brisent+4",
+            "v": [
+              0.05,
+              0,
+              0
+            ],
+            "ease": "out"
+          },
+          {
+            "at": "crash:brisent+24",
+            "v": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "id": "lid",
+        "move": [
+          {
+            "at": "pression+4",
+            "v": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": "pression+36",
+            "v": [
+              0,
+              8,
+              3
+            ]
+          }
+        ],
+        "rotate": [
+          {
+            "at": "pression+4",
+            "v": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": "pression+36",
+            "v": [
+              0.35,
+              0,
+              0
+            ]
+          }
+        ],
+        "opacity": [
+          {
+            "at": "pression+24",
+            "v": 1
+          },
+          {
+            "at": "pression+36",
+            "v": 0,
+            "ease": "out"
+          }
+        ]
+      },
+      {
+        "id": "tank",
+        "pivot": [
+          0,
+          "TANK_FLOOR",
+          0
+        ],
+        "scaleY": [
+          {
+            "at": "bassin+4",
+            "v": 0
+          },
+          {
+            "at": "bassin:bassin",
+            "v": 1,
+            "ease": "back:1.4"
+          },
+          {
+            "at": "coin-12",
+            "v": 1
+          },
+          {
+            "at": "coin+8",
+            "v": 0,
+            "ease": "backIn:1.4"
+          }
+        ]
+      },
+      {
+        "id": "tankWater",
+        "pivot": [
+          0,
+          "TANK_FLOOR",
+          0
+        ],
+        "opacity": [
+          {
+            "at": "start",
+            "v": 0.4
+          }
+        ],
+        "scaleY": [
+          {
+            "at": "bassin:bassin+2",
+            "v": 0
+          },
+          {
+            "at": "bassin:gonflent-2",
+            "v": 1
+          },
+          {
+            "at": "coin-14",
+            "v": 1
+          },
+          {
+            "at": "coin",
+            "v": 0,
+            "ease": "in"
+          }
+        ]
+      },
+      {
+        "id": "crack",
+        "reveal": [
+          {
+            "at": "bassin:déchire-2",
+            "v": 0
+          },
+          {
+            "at": "bassin:déchire+14",
+            "v": 0.55,
+            "ease": "out"
+          },
+          {
+            "at": "coin:coin-4",
+            "v": 0.55
+          },
+          {
+            "at": "coin:coin+24",
+            "v": 1
+          }
+        ]
+      },
+      {
+        "id": "panelSquare",
+        "position": [
+          -3.2,
+          3.0,
+          8
+        ],
+        "scale": [
+          {
+            "at": "angle-12",
+            "v": 0
+          },
+          {
+            "at": "angle+4",
+            "v": 1,
+            "ease": "back:1.8"
+          },
+          {
+            "at": "resultat+10",
+            "v": 1
+          },
+          {
+            "at": "resultat+24",
+            "v": 0,
+            "ease": "backIn:1.6"
+          }
+        ]
+      },
+      {
+        "id": "panelRound",
+        "position": [
+          3.2,
+          3.0,
+          8
+        ],
+        "scale": [
+          {
+            "at": "arrondi-12",
+            "v": 0
+          },
+          {
+            "at": "arrondi+4",
+            "v": 1,
+            "ease": "back:1.8"
+          },
+          {
+            "at": "conclusion-4",
+            "v": 1
+          },
+          {
+            "at": "conclusion+26",
+            "v": 0.6
+          }
+        ],
+        "move": [
+          {
+            "at": "conclusion-4",
+            "v": [
+              3.2,
+              3.0,
+              8
+            ]
+          },
+          {
+            "at": "conclusion+26",
+            "v": [
+              9,
+              7,
+              2
+            ]
+          }
+        ]
+      }
+    ],
+    "camera": [
+      {
+        "at": "start",
+        "shot": {
+          "target": [
+            0,
+            -1.5,
+            2
+          ],
+          "yaw": 32,
+          "pitch": 18,
+          "distance": 105,
+          "centerY": 1000
+        },
+        "travel": {
+          "from": "start",
+          "to": "comet",
+          "yaw": 4
+        }
+      },
+      {
+        "at": "comet",
+        "duration": 40,
+        "shot": {
+          "target": [
+            0,
+            -0.5,
+            0
+          ],
+          "yaw": 58,
+          "pitch": 12,
+          "distance": 92,
+          "centerY": 980
+        },
+        "travel": {
+          "from": "comet+40",
+          "to": "crash",
+          "yaw": 10
+        }
+      },
+      {
+        "at": "crash-4",
+        "duration": 30,
+        "shot": {
+          "target": [
+            3,
+            0.5,
+            0
+          ],
+          "yaw": 40,
+          "pitch": 16,
+          "distance": 70,
+          "centerY": 980
+        }
+      },
+      {
+        "at": "pression-4",
+        "duration": 34,
+        "shot": {
+          "target": [
+            -4,
+            0,
+            0
+          ],
+          "yaw": 20,
+          "pitch": 10,
+          "distance": 48,
+          "centerY": 960
+        },
+        "travel": {
+          "from": "pression+30",
+          "to": "bassin",
+          "yaw": -6
+        }
+      },
+      {
+        "at": "bassin-4",
+        "duration": 36,
+        "shot": {
+          "target": [
+            0,
+            -2,
+            0
+          ],
+          "yaw": 28,
+          "pitch": 22,
+          "distance": 125,
+          "centerY": 960
+        },
+        "travel": {
+          "from": "bassin+32",
+          "to": "bassin:déchire",
+          "yaw": 5
+        }
+      },
+      {
+        "at": "bassin:déchire-14",
+        "duration": 24,
+        "shot": {
+          "target": [
+            2.5,
+            1.4,
+            0.4
+          ],
+          "yaw": 18,
+          "pitch": 34,
+          "distance": 42,
+          "centerY": 980
+        }
+      },
+      {
+        "at": "coin-2",
+        "duration": 30,
+        "shot": {
+          "target": [
+            "ADF_X - 1.5",
+            "ROOF",
+            0.8
+          ],
+          "yaw": 24,
+          "pitch": 62,
+          "distance": 24,
+          "centerY": 980
+        },
+        "travel": {
+          "from": "coin+28",
+          "to": "angle",
+          "yaw": 6
+        }
+      },
+      {
+        "at": "angle-6",
+        "duration": 30,
+        "shot": {
+          "target": [
+            -3.2,
+            3.0,
+            8
+          ],
+          "yaw": 0,
+          "pitch": 4,
+          "distance": 32,
+          "centerY": 960
+        }
+      },
+      {
+        "at": "arrondi-8",
+        "duration": 30,
+        "shot": {
+          "target": [
+            0,
+            3.0,
+            8
+          ],
+          "yaw": 0,
+          "pitch": 6,
+          "distance": 52,
+          "centerY": 980
+        }
+      },
+      {
+        "at": "resultat-4",
+        "duration": 30,
+        "shot": {
+          "target": [
+            3.2,
+            3.0,
+            8
+          ],
+          "yaw": 6,
+          "pitch": 6,
+          "distance": 34,
+          "centerY": 980
+        },
+        "travel": {
+          "from": "resultat+26",
+          "to": "conclusion",
+          "yaw": -6
+        }
+      },
+      {
+        "at": "conclusion-4",
+        "duration": 36,
+        "shot": {
+          "target": [
+            0.5,
+            0.5,
+            3
+          ],
+          "yaw": 30,
+          "pitch": 16,
+          "distance": 100,
+          "centerY": 980
+        },
+        "travel": {
+          "from": "conclusion+32",
+          "to": "abonne",
+          "yaw": 6
+        }
+      },
+      {
+        "at": "abonne-4",
+        "duration": 32,
+        "shot": {
+          "target": [
+            "owl.x",
+            "owl.y + 1",
+            "owl.z"
+          ],
+          "yaw": 26,
+          "pitch": 8,
+          "distance": 24,
+          "centerY": 1040
+        }
+      }
+    ],
+    "owl": {
+      "spots": [
+        {
+          "at": "start",
+          "position": [
+            0.5,
+            "WING_TOP",
+            5.2
+          ],
+          "height": 2.2
+        },
+        {
+          "at": "coin",
+          "position": [
+            "ADF_X + 2.5",
+            "ROOF",
+            0
+          ],
+          "height": 1.4
+        },
+        {
+          "at": "angle+6",
+          "position": [
+            -1.6,
+            5.0,
+            8
+          ],
+          "height": 1.3
+        },
+        {
+          "at": "arrondi+6",
+          "position": [
+            1.6,
+            5.0,
+            8
+          ],
+          "height": 1.3
+        },
+        {
+          "at": "conclusion",
+          "position": [
+            0.5,
+            "WING_TOP",
+            5.2
+          ],
+          "height": 2.2
+        }
+      ],
+      "poses": [
+        [
+          "start",
+          "wonder",
+          0
+        ],
+        [
+          "comet+20",
+          "pointRight",
+          1
+        ],
+        [
+          "crash+10",
+          "wonder",
+          0
+        ],
+        [
+          "pression+20",
+          "pointLeft",
+          -1
+        ],
+        [
+          "bassin+30",
+          "wonder",
+          0
+        ],
+        [
+          "bassin:gonflent",
+          "pointRight",
+          1
+        ],
+        [
+          "coin+6",
+          "pointLeft",
+          -1
+        ],
+        [
+          "angle+12",
+          "pointLeft",
+          -1
+        ],
+        [
+          "arrondi+12",
+          "pointRight",
+          1
+        ],
+        [
+          "resultat+10",
+          "wonder",
+          0
+        ],
+        [
+          "conclusion+10",
+          "idle",
+          0
+        ],
+        [
+          "abonne",
+          "wave",
+          0
+        ]
+      ],
+      "hops": [
+        "comet:1952",
+        "crash:1954",
+        "pression:gonflée",
+        "bassin:000",
+        "bassin:déchire",
+        "coin:coin",
+        "angle:concentre",
+        "arrondi:glisse",
+        "resultat:arrondis",
+        "conclusion:solidité"
+      ]
+    },
+    "annotations": [
+      {
+        "kind": "tags",
+        "out": "comet",
+        "tags": [
+          {
+            "text": "?",
+            "hot": true,
+            "at": [
+              1,
+              0.6,
+              "RADIUS + 0.3"
+            ]
+          }
+        ]
+      },
+      {
+        "kind": "line",
+        "hot": true,
+        "from": [
+          -4,
+          1.9,
+          0.0
+        ],
+        "to": [
+          -4,
+          2.7,
+          0.0
+        ],
+        "in": "pression:gonflée-2",
+        "inFor": 10,
+        "out": "pression:dégonflée",
+        "outFor": 8
+      },
+      {
+        "kind": "line",
+        "hot": true,
+        "from": [
+          -4,
+          1.344,
+          1.344
+        ],
+        "to": [
+          -4,
+          1.909,
+          1.909
+        ],
+        "in": "pression:gonflée-2",
+        "inFor": 10,
+        "out": "pression:dégonflée",
+        "outFor": 8
+      },
+      {
+        "kind": "line",
+        "hot": true,
+        "from": [
+          -4,
+          0.0,
+          1.9
+        ],
+        "to": [
+          -4,
+          0.0,
+          2.7
+        ],
+        "in": "pression:gonflée-2",
+        "inFor": 10,
+        "out": "pression:dégonflée",
+        "outFor": 8
+      },
+      {
+        "kind": "line",
+        "hot": true,
+        "from": [
+          -4,
+          -1.221,
+          1.455
+        ],
+        "to": [
+          -4,
+          -1.736,
+          2.068
+        ],
+        "in": "pression:gonflée-2",
+        "inFor": 10,
+        "out": "pression:dégonflée",
+        "outFor": 8
+      },
+      {
+        "kind": "line",
+        "hot": true,
+        "from": [
+          -4,
+          1.344,
+          -1.344
+        ],
+        "to": [
+          -4,
+          1.909,
+          -1.909
+        ],
+        "in": "pression:gonflée-2",
+        "inFor": 10,
+        "out": "pression:dégonflée",
+        "outFor": 8
+      },
+      {
+        "kind": "path",
+        "hot": true,
+        "points": [
+          [
+            4.0,
+            1.8,
+            -0.3
+          ],
+          [
+            4.5,
+            1.8,
+            -0.3
+          ],
+          [
+            4.5,
+            1.8,
+            0.3
+          ],
+          [
+            4.0,
+            1.8,
+            0.3
+          ],
+          [
+            4.0,
+            1.8,
+            -0.3
+          ]
+        ],
+        "in": "coin:carrée-4",
+        "inFor": 12,
+        "out": "angle",
+        "outFor": 8
+      },
+      {
+        "kind": "tags",
+        "tags": [
+          {
+            "id": "coin",
+            "hot": true,
+            "at": [
+              "ADF_X - 0.4",
+              "ROOF + 0.5",
+              0.4
+            ],
+            "in": "coin:coin-2",
+            "inFor": 10,
+            "out": "angle",
+            "outFor": 8
+          }
+        ]
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            -5.6,
+            3.35,
+            8.3
+          ],
+          [
+            -4.38,
+            3.35,
+            8.3
+          ],
+          [
+            -4.3,
+            4.12,
+            8.3
+          ],
+          [
+            -2.1,
+            4.12,
+            8.3
+          ],
+          [
+            -2.02,
+            3.35,
+            8.3
+          ],
+          [
+            -0.8,
+            3.35,
+            8.3
+          ]
+        ],
+        "in": "angle:angle+0",
+        "inFor": 20,
+        "ease": "smooth",
+        "out": "resultat+10",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            -5.6,
+            2.65,
+            8.3
+          ],
+          [
+            -4.38,
+            2.65,
+            8.3
+          ],
+          [
+            -4.3,
+            1.88,
+            8.3
+          ],
+          [
+            -2.1,
+            1.88,
+            8.3
+          ],
+          [
+            -2.02,
+            2.65,
+            8.3
+          ],
+          [
+            -0.8,
+            2.65,
+            8.3
+          ]
+        ],
+        "in": "angle:angle+0",
+        "inFor": 20,
+        "ease": "smooth",
+        "out": "resultat+10",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            -5.6,
+            3.75,
+            8.3
+          ],
+          [
+            -4.38,
+            3.75,
+            8.3
+          ],
+          [
+            -4.3,
+            4.12,
+            8.3
+          ],
+          [
+            -2.1,
+            4.12,
+            8.3
+          ],
+          [
+            -2.02,
+            3.75,
+            8.3
+          ],
+          [
+            -0.8,
+            3.75,
+            8.3
+          ]
+        ],
+        "in": "angle:angle+4",
+        "inFor": 20,
+        "ease": "smooth",
+        "out": "resultat+10",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            -5.6,
+            2.25,
+            8.3
+          ],
+          [
+            -4.38,
+            2.25,
+            8.3
+          ],
+          [
+            -4.3,
+            1.88,
+            8.3
+          ],
+          [
+            -2.1,
+            1.88,
+            8.3
+          ],
+          [
+            -2.02,
+            2.25,
+            8.3
+          ],
+          [
+            -0.8,
+            2.25,
+            8.3
+          ]
+        ],
+        "in": "angle:angle+4",
+        "inFor": 20,
+        "ease": "smooth",
+        "out": "resultat+10",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            -5.6,
+            4.6,
+            8.3
+          ],
+          [
+            -0.8,
+            4.6,
+            8.3
+          ]
+        ],
+        "in": "angle:angle+8",
+        "inFor": 20,
+        "ease": "smooth",
+        "out": "resultat+10",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            -5.6,
+            1.4,
+            8.3
+          ],
+          [
+            -0.8,
+            1.4,
+            8.3
+          ]
+        ],
+        "in": "angle:angle+8",
+        "inFor": 20,
+        "ease": "smooth",
+        "out": "resultat+10",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "hot": true,
+        "points": [
+          [
+            -3.92,
+            4.12,
+            8.3
+          ],
+          [
+            -4.32,
+            4.12,
+            8.3
+          ],
+          [
+            -4.32,
+            3.72,
+            8.3
+          ]
+        ],
+        "in": "angle:concentre-2",
+        "inFor": 8,
+        "out": "resultat+10",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "hot": true,
+        "points": [
+          [
+            -2.48,
+            4.12,
+            8.3
+          ],
+          [
+            -2.08,
+            4.12,
+            8.3
+          ],
+          [
+            -2.08,
+            3.72,
+            8.3
+          ]
+        ],
+        "in": "angle:concentre+1",
+        "inFor": 8,
+        "out": "resultat+10",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "hot": true,
+        "points": [
+          [
+            -2.48,
+            1.88,
+            8.3
+          ],
+          [
+            -2.08,
+            1.88,
+            8.3
+          ],
+          [
+            -2.08,
+            2.28,
+            8.3
+          ]
+        ],
+        "in": "angle:concentre+4",
+        "inFor": 8,
+        "out": "resultat+10",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "hot": true,
+        "points": [
+          [
+            -3.92,
+            1.88,
+            8.3
+          ],
+          [
+            -4.32,
+            1.88,
+            8.3
+          ],
+          [
+            -4.32,
+            2.28,
+            8.3
+          ]
+        ],
+        "in": "angle:concentre+7",
+        "inFor": 8,
+        "out": "resultat+10",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "hot": true,
+        "points": [
+          [
+            -2.1,
+            4.1,
+            8.3
+          ],
+          [
+            -1.75,
+            4.38,
+            8.3
+          ],
+          [
+            -1.6,
+            4.3,
+            8.3
+          ],
+          [
+            -1.25,
+            4.62,
+            8.3
+          ],
+          [
+            -1.1,
+            4.58,
+            8.3
+          ]
+        ],
+        "in": "angle:fendre-6",
+        "inFor": 12,
+        "out": "resultat+10",
+        "outFor": 12
+      },
+      {
+        "kind": "tags",
+        "tags": [
+          {
+            "id": "angle",
+            "hot": true,
+            "at": [
+              -4.3,
+              4.55,
+              8.3
+            ],
+            "in": "angle:concentre",
+            "inFor": 10,
+            "out": "resultat+10",
+            "outFor": 12
+          }
+        ]
+      },
+      {
+        "kind": "path",
+        "hot": true,
+        "points": [
+          [
+            0.8,
+            3.364,
+            8.3
+          ],
+          [
+            1.1,
+            3.389,
+            8.3
+          ],
+          [
+            1.4,
+            3.445,
+            8.3
+          ],
+          [
+            1.7,
+            3.551,
+            8.3
+          ],
+          [
+            2.0,
+            3.72,
+            8.3
+          ],
+          [
+            2.3,
+            3.946,
+            8.3
+          ],
+          [
+            2.6,
+            4.188,
+            8.3
+          ],
+          [
+            2.9,
+            4.378,
+            8.3
+          ],
+          [
+            3.2,
+            4.45,
+            8.3
+          ],
+          [
+            3.5,
+            4.378,
+            8.3
+          ],
+          [
+            3.8,
+            4.188,
+            8.3
+          ],
+          [
+            4.1,
+            3.946,
+            8.3
+          ],
+          [
+            4.4,
+            3.72,
+            8.3
+          ],
+          [
+            4.7,
+            3.551,
+            8.3
+          ],
+          [
+            5.0,
+            3.445,
+            8.3
+          ],
+          [
+            5.3,
+            3.389,
+            8.3
+          ],
+          [
+            5.6,
+            3.364,
+            8.3
+          ]
+        ],
+        "in": "arrondi:arrondi+0",
+        "inFor": 22,
+        "ease": "smooth",
+        "out": "conclusion",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "hot": true,
+        "points": [
+          [
+            0.8,
+            2.636,
+            8.3
+          ],
+          [
+            1.1,
+            2.611,
+            8.3
+          ],
+          [
+            1.4,
+            2.555,
+            8.3
+          ],
+          [
+            1.7,
+            2.449,
+            8.3
+          ],
+          [
+            2.0,
+            2.28,
+            8.3
+          ],
+          [
+            2.3,
+            2.054,
+            8.3
+          ],
+          [
+            2.6,
+            1.812,
+            8.3
+          ],
+          [
+            2.9,
+            1.622,
+            8.3
+          ],
+          [
+            3.2,
+            1.55,
+            8.3
+          ],
+          [
+            3.5,
+            1.622,
+            8.3
+          ],
+          [
+            3.8,
+            1.812,
+            8.3
+          ],
+          [
+            4.1,
+            2.054,
+            8.3
+          ],
+          [
+            4.4,
+            2.28,
+            8.3
+          ],
+          [
+            4.7,
+            2.449,
+            8.3
+          ],
+          [
+            5.0,
+            2.555,
+            8.3
+          ],
+          [
+            5.3,
+            2.611,
+            8.3
+          ],
+          [
+            5.6,
+            2.636,
+            8.3
+          ]
+        ],
+        "in": "arrondi:arrondi+0",
+        "inFor": 22,
+        "ease": "smooth",
+        "out": "conclusion",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "hot": true,
+        "points": [
+          [
+            0.8,
+            3.759,
+            8.3
+          ],
+          [
+            1.1,
+            3.775,
+            8.3
+          ],
+          [
+            1.4,
+            3.81,
+            8.3
+          ],
+          [
+            1.7,
+            3.878,
+            8.3
+          ],
+          [
+            2.0,
+            3.986,
+            8.3
+          ],
+          [
+            2.3,
+            4.129,
+            8.3
+          ],
+          [
+            2.6,
+            4.283,
+            8.3
+          ],
+          [
+            2.9,
+            4.404,
+            8.3
+          ],
+          [
+            3.2,
+            4.45,
+            8.3
+          ],
+          [
+            3.5,
+            4.404,
+            8.3
+          ],
+          [
+            3.8,
+            4.283,
+            8.3
+          ],
+          [
+            4.1,
+            4.129,
+            8.3
+          ],
+          [
+            4.4,
+            3.986,
+            8.3
+          ],
+          [
+            4.7,
+            3.878,
+            8.3
+          ],
+          [
+            5.0,
+            3.81,
+            8.3
+          ],
+          [
+            5.3,
+            3.775,
+            8.3
+          ],
+          [
+            5.6,
+            3.759,
+            8.3
+          ]
+        ],
+        "in": "arrondi:arrondi+4",
+        "inFor": 22,
+        "ease": "smooth",
+        "out": "conclusion",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "hot": true,
+        "points": [
+          [
+            0.8,
+            2.241,
+            8.3
+          ],
+          [
+            1.1,
+            2.225,
+            8.3
+          ],
+          [
+            1.4,
+            2.19,
+            8.3
+          ],
+          [
+            1.7,
+            2.122,
+            8.3
+          ],
+          [
+            2.0,
+            2.014,
+            8.3
+          ],
+          [
+            2.3,
+            1.871,
+            8.3
+          ],
+          [
+            2.6,
+            1.717,
+            8.3
+          ],
+          [
+            2.9,
+            1.596,
+            8.3
+          ],
+          [
+            3.2,
+            1.55,
+            8.3
+          ],
+          [
+            3.5,
+            1.596,
+            8.3
+          ],
+          [
+            3.8,
+            1.717,
+            8.3
+          ],
+          [
+            4.1,
+            1.871,
+            8.3
+          ],
+          [
+            4.4,
+            2.014,
+            8.3
+          ],
+          [
+            4.7,
+            2.122,
+            8.3
+          ],
+          [
+            5.0,
+            2.19,
+            8.3
+          ],
+          [
+            5.3,
+            2.225,
+            8.3
+          ],
+          [
+            5.6,
+            2.241,
+            8.3
+          ]
+        ],
+        "in": "arrondi:arrondi+4",
+        "inFor": 22,
+        "ease": "smooth",
+        "out": "conclusion",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            0.8,
+            4.6,
+            8.3
+          ],
+          [
+            5.6,
+            4.6,
+            8.3
+          ]
+        ],
+        "in": "arrondi:arrondi+8",
+        "inFor": 20,
+        "ease": "smooth",
+        "out": "conclusion",
+        "outFor": 12
+      },
+      {
+        "kind": "path",
+        "points": [
+          [
+            0.8,
+            1.4,
+            8.3
+          ],
+          [
+            5.6,
+            1.4,
+            8.3
+          ]
+        ],
+        "in": "arrondi:arrondi+8",
+        "inFor": 20,
+        "ease": "smooth",
+        "out": "conclusion",
+        "outFor": 12
+      },
+      {
+        "kind": "tags",
+        "tags": [
+          {
+            "id": "arrondi",
+            "hot": true,
+            "at": [
+              3.2,
+              4.95,
+              8.3
+            ],
+            "in": "arrondi:glisse",
+            "inFor": 10,
+            "out": "conclusion",
+            "outFor": 12
+          }
+        ]
+      },
+      {
+        "kind": "path",
+        "hot": true,
+        "points": [
+          [
+            4.5,
+            3.0,
+            8.3
+          ],
+          [
+            4.456,
+            3.336,
+            8.3
+          ],
+          [
+            4.326,
+            3.65,
+            8.3
+          ],
+          [
+            4.119,
+            3.919,
+            8.3
+          ],
+          [
+            3.85,
+            4.126,
+            8.3
+          ],
+          [
+            3.536,
+            4.256,
+            8.3
+          ],
+          [
+            3.2,
+            4.3,
+            8.3
+          ],
+          [
+            2.864,
+            4.256,
+            8.3
+          ],
+          [
+            2.55,
+            4.126,
+            8.3
+          ],
+          [
+            2.281,
+            3.919,
+            8.3
+          ],
+          [
+            2.074,
+            3.65,
+            8.3
+          ],
+          [
+            1.944,
+            3.336,
+            8.3
+          ],
+          [
+            1.9,
+            3.0,
+            8.3
+          ],
+          [
+            1.944,
+            2.664,
+            8.3
+          ],
+          [
+            2.074,
+            2.35,
+            8.3
+          ],
+          [
+            2.281,
+            2.081,
+            8.3
+          ],
+          [
+            2.55,
+            1.874,
+            8.3
+          ],
+          [
+            2.864,
+            1.744,
+            8.3
+          ],
+          [
+            3.2,
+            1.7,
+            8.3
+          ],
+          [
+            3.536,
+            1.744,
+            8.3
+          ],
+          [
+            3.85,
+            1.874,
+            8.3
+          ],
+          [
+            4.119,
+            2.081,
+            8.3
+          ],
+          [
+            4.326,
+            2.35,
+            8.3
+          ],
+          [
+            4.456,
+            2.664,
+            8.3
+          ],
+          [
+            4.5,
+            3.0,
+            8.3
+          ]
+        ],
+        "in": "resultat:arrondis-4",
+        "inFor": 16,
+        "out": "conclusion+10",
+        "outFor": 12
+      }
+    ],
+    "widgets": [
+      {
+        "kind": "badge",
+        "id": "date1952",
+        "in": "comet:1952-2",
+        "inFor": 8,
+        "out": "crash-6"
+      },
+      {
+        "kind": "badge",
+        "id": "date1954",
+        "in": "crash:1954-2",
+        "inFor": 8,
+        "out": "pression-4"
+      },
+      {
+        "kind": "badge",
+        "id": "cycles",
+        "in": "bassin:gonflent",
+        "inFor": 8,
+        "out": "coin",
+        "count": {
+          "from": 0,
+          "to": 3000,
+          "suffix": " cycles",
+          "until": "bassin:000"
+        }
+      }
+    ]
+  }
+}

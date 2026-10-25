@@ -1,0 +1,1688 @@
+{
+  "id": "fonds-marins",
+  "look": "A",
+  "finish": "crayonné",
+  "title": "Pourquoi connaît-on si mal le fond des océans ?",
+  "answer": "La pression écrasante, le noir complet et l'eau qui bloque les ondes radio obligent à cartographier au sonar, bande par bande : en avril 2026, seuls 28,7 % des fonds étaient cartographiés, alors que la Lune l'est entièrement.",
+  "hook": {
+    "title": "Pourquoi connaît-on si mal le fond des océans ?",
+    "highlight": "si mal"
+  },
+  "chapters": [
+    {
+      "cue": "pression",
+      "label": "Raison 1 · La pression"
+    },
+    {
+      "cue": "lumiere",
+      "label": "Raison 2 · Le noir"
+    },
+    {
+      "cue": "radio",
+      "label": "Raison 3 · Les ondes"
+    },
+    {
+      "cue": "resultat",
+      "label": "Le bilan"
+    }
+  ],
+  "narration": [
+    {
+      "id": "question",
+      "text": "Pourquoi connaît-on si mal le fond des océans ?",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 12,
+      "keywords": [
+        "si",
+        "mal"
+      ],
+      "audio": {
+        "src": "audio/5f666e486b29a6db.wav",
+        "seconds": 2.28,
+        "durationInFrames": 69,
+        "words": [
+          {
+            "text": "Pourquoi",
+            "startMs": 10,
+            "endMs": 360
+          },
+          {
+            "text": "connaît-on",
+            "startMs": 372,
+            "endMs": 822
+          },
+          {
+            "text": "si",
+            "startMs": 835,
+            "endMs": 998
+          },
+          {
+            "text": "mal",
+            "startMs": 1010,
+            "endMs": 1185
+          },
+          {
+            "text": "le",
+            "startMs": 1198,
+            "endMs": 1322
+          },
+          {
+            "text": "fond",
+            "startMs": 1335,
+            "endMs": 1472
+          },
+          {
+            "text": "des",
+            "startMs": 1485,
+            "endMs": 1598
+          },
+          {
+            "text": "océans ?",
+            "startMs": 1610,
+            "endMs": 2122
+          }
+        ]
+      }
+    },
+    {
+      "id": "pression",
+      "text": "Première raison : la pression. Tous les dix mètres, elle augmente d’environ une atmosphère.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 8,
+      "keywords": [
+        "pression",
+        "atmosphère"
+      ],
+      "audio": {
+        "src": "audio/71fd83d82aa25fb7.wav",
+        "seconds": 5.84,
+        "durationInFrames": 176,
+        "words": [
+          {
+            "text": "Première",
+            "startMs": 20,
+            "endMs": 408
+          },
+          {
+            "text": "raison :",
+            "startMs": 420,
+            "endMs": 808
+          },
+          {
+            "text": "la",
+            "startMs": 1095,
+            "endMs": 1208
+          },
+          {
+            "text": "pression.",
+            "startMs": 1220,
+            "endMs": 1745
+          },
+          {
+            "text": "Tous",
+            "startMs": 2608,
+            "endMs": 2745
+          },
+          {
+            "text": "les",
+            "startMs": 2758,
+            "endMs": 2882
+          },
+          {
+            "text": "dix",
+            "startMs": 2895,
+            "endMs": 3045
+          },
+          {
+            "text": "mètres,",
+            "startMs": 3058,
+            "endMs": 3382
+          },
+          {
+            "text": "elle",
+            "startMs": 3708,
+            "endMs": 3782
+          },
+          {
+            "text": "augmente",
+            "startMs": 3795,
+            "endMs": 4258
+          },
+          {
+            "text": "d’environ",
+            "startMs": 4270,
+            "endMs": 4732
+          },
+          {
+            "text": "une",
+            "startMs": 4745,
+            "endMs": 4858
+          },
+          {
+            "text": "atmosphère.",
+            "startMs": 4870,
+            "endMs": 5708
+          }
+        ]
+      }
+    },
+    {
+      "id": "fosse",
+      "text": "Au fond de la fosse des Mariannes, à près de 11 kilomètres, elle dépasse 1 000 fois celle de la surface.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 12,
+      "keywords": [
+        "000"
+      ],
+      "audio": {
+        "src": "audio/120c0a924a40d85d.wav",
+        "seconds": 5.54,
+        "durationInFrames": 167,
+        "words": [
+          {
+            "text": "Au",
+            "startMs": 40,
+            "endMs": 128
+          },
+          {
+            "text": "fond",
+            "startMs": 140,
+            "endMs": 315
+          },
+          {
+            "text": "de",
+            "startMs": 328,
+            "endMs": 428
+          },
+          {
+            "text": "la",
+            "startMs": 440,
+            "endMs": 552
+          },
+          {
+            "text": "fosse",
+            "startMs": 565,
+            "endMs": 802
+          },
+          {
+            "text": "des",
+            "startMs": 815,
+            "endMs": 915
+          },
+          {
+            "text": "Mariannes,",
+            "startMs": 928,
+            "endMs": 1465
+          },
+          {
+            "text": "à",
+            "startMs": 1828,
+            "endMs": 1865
+          },
+          {
+            "text": "près",
+            "startMs": 1878,
+            "endMs": 2078
+          },
+          {
+            "text": "de",
+            "startMs": 2090,
+            "endMs": 2215
+          },
+          {
+            "text": "11",
+            "startMs": 2228,
+            "endMs": 2355
+          },
+          {
+            "text": "kilomètres,",
+            "startMs": 2355,
+            "endMs": 2990
+          },
+          {
+            "text": "elle",
+            "startMs": 3328,
+            "endMs": 3415
+          },
+          {
+            "text": "dépasse",
+            "startMs": 3428,
+            "endMs": 3815
+          },
+          {
+            "text": "1",
+            "startMs": 3828,
+            "endMs": 3876
+          },
+          {
+            "text": "000",
+            "startMs": 3876,
+            "endMs": 4021
+          },
+          {
+            "text": "fois",
+            "startMs": 4021,
+            "endMs": 4215
+          },
+          {
+            "text": "celle",
+            "startMs": 4228,
+            "endMs": 4452
+          },
+          {
+            "text": "de",
+            "startMs": 4465,
+            "endMs": 4552
+          },
+          {
+            "text": "la",
+            "startMs": 4565,
+            "endMs": 4665
+          },
+          {
+            "text": "surface.",
+            "startMs": 4678,
+            "endMs": 5352
+          }
+        ]
+      }
+    },
+    {
+      "id": "lumiere",
+      "text": "Deuxième raison : le noir. Au-delà de 200 mètres, il ne reste presque plus de lumière, et sous 1 000 mètres, plus du tout.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 12,
+      "keywords": [
+        "noir",
+        "200",
+        "000"
+      ],
+      "audio": {
+        "src": "audio/b8d8c244730ab83a.wav",
+        "seconds": 8,
+        "durationInFrames": 240,
+        "words": [
+          {
+            "text": "Deuxième",
+            "startMs": 60,
+            "endMs": 498
+          },
+          {
+            "text": "raison :",
+            "startMs": 510,
+            "endMs": 910
+          },
+          {
+            "text": "le",
+            "startMs": 1210,
+            "endMs": 1285
+          },
+          {
+            "text": "noir.",
+            "startMs": 1298,
+            "endMs": 1798
+          },
+          {
+            "text": "Au-delà",
+            "startMs": 2660,
+            "endMs": 2998
+          },
+          {
+            "text": "de",
+            "startMs": 3010,
+            "endMs": 3135
+          },
+          {
+            "text": "200",
+            "startMs": 3148,
+            "endMs": 3360
+          },
+          {
+            "text": "mètres,",
+            "startMs": 3360,
+            "endMs": 3785
+          },
+          {
+            "text": "il",
+            "startMs": 4110,
+            "endMs": 4198
+          },
+          {
+            "text": "ne",
+            "startMs": 4210,
+            "endMs": 4335
+          },
+          {
+            "text": "reste",
+            "startMs": 4348,
+            "endMs": 4710
+          },
+          {
+            "text": "presque",
+            "startMs": 4722,
+            "endMs": 5122
+          },
+          {
+            "text": "plus",
+            "startMs": 5135,
+            "endMs": 5310
+          },
+          {
+            "text": "de",
+            "startMs": 5322,
+            "endMs": 5448
+          },
+          {
+            "text": "lumière,",
+            "startMs": 5460,
+            "endMs": 5922
+          },
+          {
+            "text": "et",
+            "startMs": 6298,
+            "endMs": 6335
+          },
+          {
+            "text": "sous",
+            "startMs": 6348,
+            "endMs": 6510
+          },
+          {
+            "text": "1",
+            "startMs": 6522,
+            "endMs": 6571
+          },
+          {
+            "text": "000",
+            "startMs": 6571,
+            "endMs": 6718
+          },
+          {
+            "text": "mètres,",
+            "startMs": 6718,
+            "endMs": 7010
+          },
+          {
+            "text": "plus",
+            "startMs": 7248,
+            "endMs": 7410
+          },
+          {
+            "text": "du",
+            "startMs": 7422,
+            "endMs": 7560
+          },
+          {
+            "text": "tout.",
+            "startMs": 7572,
+            "endMs": 7798
+          }
+        ]
+      }
+    },
+    {
+      "id": "radio",
+      "text": "Troisième raison : les ondes radio ne traversent pas l’eau. Les satellites ne peuvent pas voir le fond en détail.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 8,
+      "keywords": [
+        "ondes",
+        "radio"
+      ],
+      "audio": {
+        "src": "audio/b5a375e14e8addf9.wav",
+        "seconds": 6.62,
+        "durationInFrames": 199,
+        "words": [
+          {
+            "text": "Troisième",
+            "startMs": 20,
+            "endMs": 470
+          },
+          {
+            "text": "raison :",
+            "startMs": 482,
+            "endMs": 882
+          },
+          {
+            "text": "les",
+            "startMs": 1232,
+            "endMs": 1345
+          },
+          {
+            "text": "ondes",
+            "startMs": 1358,
+            "endMs": 1632
+          },
+          {
+            "text": "radio",
+            "startMs": 1645,
+            "endMs": 1982
+          },
+          {
+            "text": "ne",
+            "startMs": 1995,
+            "endMs": 2120
+          },
+          {
+            "text": "traversent",
+            "startMs": 2132,
+            "endMs": 2570
+          },
+          {
+            "text": "pas",
+            "startMs": 2582,
+            "endMs": 2720
+          },
+          {
+            "text": "l’eau.",
+            "startMs": 2732,
+            "endMs": 2970
+          },
+          {
+            "text": "Les",
+            "startMs": 3832,
+            "endMs": 4045
+          },
+          {
+            "text": "satellites",
+            "startMs": 4058,
+            "endMs": 4695
+          },
+          {
+            "text": "ne",
+            "startMs": 4708,
+            "endMs": 4895
+          },
+          {
+            "text": "peuvent",
+            "startMs": 4908,
+            "endMs": 5108
+          },
+          {
+            "text": "pas",
+            "startMs": 5120,
+            "endMs": 5245
+          },
+          {
+            "text": "voir",
+            "startMs": 5258,
+            "endMs": 5470
+          },
+          {
+            "text": "le",
+            "startMs": 5482,
+            "endMs": 5595
+          },
+          {
+            "text": "fond",
+            "startMs": 5608,
+            "endMs": 5758
+          },
+          {
+            "text": "en",
+            "startMs": 5770,
+            "endMs": 5870
+          },
+          {
+            "text": "détail.",
+            "startMs": 5882,
+            "endMs": 6445
+          }
+        ]
+      }
+    },
+    {
+      "id": "sonar",
+      "text": "Alors on le cartographie au son, avec un sonar, navire par navire, bande par bande.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 12,
+      "keywords": [
+        "sonar",
+        "bande"
+      ],
+      "audio": {
+        "src": "audio/fbb6394b35b9bfe2.wav",
+        "seconds": 5.56,
+        "durationInFrames": 167,
+        "words": [
+          {
+            "text": "Alors",
+            "startMs": 20,
+            "endMs": 382
+          },
+          {
+            "text": "on",
+            "startMs": 395,
+            "endMs": 458
+          },
+          {
+            "text": "le",
+            "startMs": 470,
+            "endMs": 558
+          },
+          {
+            "text": "cartographie",
+            "startMs": 570,
+            "endMs": 1295
+          },
+          {
+            "text": "au",
+            "startMs": 1308,
+            "endMs": 1395
+          },
+          {
+            "text": "son,",
+            "startMs": 1408,
+            "endMs": 1695
+          },
+          {
+            "text": "avec",
+            "startMs": 1995,
+            "endMs": 2220
+          },
+          {
+            "text": "un",
+            "startMs": 2232,
+            "endMs": 2308
+          },
+          {
+            "text": "sonar,",
+            "startMs": 2320,
+            "endMs": 2808
+          },
+          {
+            "text": "navire",
+            "startMs": 3158,
+            "endMs": 3520
+          },
+          {
+            "text": "par",
+            "startMs": 3532,
+            "endMs": 3732
+          },
+          {
+            "text": "navire,",
+            "startMs": 3745,
+            "endMs": 4245
+          },
+          {
+            "text": "bande",
+            "startMs": 4495,
+            "endMs": 4745
+          },
+          {
+            "text": "par",
+            "startMs": 4758,
+            "endMs": 4958
+          },
+          {
+            "text": "bande.",
+            "startMs": 4970,
+            "endMs": 5432
+          }
+        ]
+      }
+    },
+    {
+      "id": "resultat",
+      "text": "Résultat : en avril 2026, seulement 28,7 % des fonds marins étaient cartographiés.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 10,
+      "keywords": [
+        "28,7"
+      ],
+      "audio": {
+        "src": "audio/74c54a95f51969e8.wav",
+        "seconds": 6.35,
+        "durationInFrames": 191,
+        "words": [
+          {
+            "text": "Résultat :",
+            "startMs": 20,
+            "endMs": 770
+          },
+          {
+            "text": "en",
+            "startMs": 1132,
+            "endMs": 1182
+          },
+          {
+            "text": "avril",
+            "startMs": 1195,
+            "endMs": 1924
+          },
+          {
+            "text": "2026,",
+            "startMs": 1924,
+            "endMs": 2508
+          },
+          {
+            "text": "seulement",
+            "startMs": 2820,
+            "endMs": 3182
+          },
+          {
+            "text": "28,7 %",
+            "startMs": 3195,
+            "endMs": 4558
+          },
+          {
+            "text": "des",
+            "startMs": 4570,
+            "endMs": 4695
+          },
+          {
+            "text": "fonds",
+            "startMs": 4708,
+            "endMs": 4858
+          },
+          {
+            "text": "marins",
+            "startMs": 4870,
+            "endMs": 5158
+          },
+          {
+            "text": "étaient",
+            "startMs": 5170,
+            "endMs": 5358
+          },
+          {
+            "text": "cartographiés.",
+            "startMs": 5370,
+            "endMs": 6245
+          }
+        ]
+      }
+    },
+    {
+      "id": "lune",
+      "text": "La Lune, elle, est entièrement cartographiée, avec une précision d’environ 100 mètres.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 12,
+      "keywords": [
+        "Lune",
+        "entièrement"
+      ],
+      "audio": {
+        "src": "audio/e711a2a29d2b254e.wav",
+        "seconds": 5.13,
+        "durationInFrames": 154,
+        "words": [
+          {
+            "text": "La",
+            "startMs": 60,
+            "endMs": 235
+          },
+          {
+            "text": "Lune,",
+            "startMs": 248,
+            "endMs": 548
+          },
+          {
+            "text": "elle,",
+            "startMs": 848,
+            "endMs": 1022
+          },
+          {
+            "text": "est",
+            "startMs": 1322,
+            "endMs": 1348
+          },
+          {
+            "text": "entièrement",
+            "startMs": 1360,
+            "endMs": 1860
+          },
+          {
+            "text": "cartographiée,",
+            "startMs": 1872,
+            "endMs": 2672
+          },
+          {
+            "text": "avec",
+            "startMs": 2998,
+            "endMs": 3272
+          },
+          {
+            "text": "une",
+            "startMs": 3285,
+            "endMs": 3372
+          },
+          {
+            "text": "précision",
+            "startMs": 3385,
+            "endMs": 3910
+          },
+          {
+            "text": "d’environ",
+            "startMs": 3922,
+            "endMs": 4360
+          },
+          {
+            "text": "100",
+            "startMs": 4372,
+            "endMs": 4572
+          },
+          {
+            "text": "mètres.",
+            "startMs": 4572,
+            "endMs": 4972
+          }
+        ]
+      }
+    },
+    {
+      "id": "conclusion",
+      "text": "Voilà pourquoi la Lune est mieux cartographiée que le fond de nos océans !",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 10,
+      "keywords": [
+        "Lune",
+        "océans"
+      ],
+      "audio": {
+        "src": "audio/665a3d2858f0ada0.wav",
+        "seconds": 3.34,
+        "durationInFrames": 101,
+        "words": [
+          {
+            "text": "Voilà",
+            "startMs": 10,
+            "endMs": 398
+          },
+          {
+            "text": "pourquoi",
+            "startMs": 410,
+            "endMs": 760
+          },
+          {
+            "text": "la",
+            "startMs": 772,
+            "endMs": 885
+          },
+          {
+            "text": "Lune",
+            "startMs": 898,
+            "endMs": 1098
+          },
+          {
+            "text": "est",
+            "startMs": 1110,
+            "endMs": 1148
+          },
+          {
+            "text": "mieux",
+            "startMs": 1160,
+            "endMs": 1322
+          },
+          {
+            "text": "cartographiée",
+            "startMs": 1335,
+            "endMs": 2048
+          },
+          {
+            "text": "que",
+            "startMs": 2060,
+            "endMs": 2172
+          },
+          {
+            "text": "le",
+            "startMs": 2185,
+            "endMs": 2298
+          },
+          {
+            "text": "fond",
+            "startMs": 2310,
+            "endMs": 2448
+          },
+          {
+            "text": "de",
+            "startMs": 2460,
+            "endMs": 2548
+          },
+          {
+            "text": "nos",
+            "startMs": 2560,
+            "endMs": 2672
+          },
+          {
+            "text": "océans !",
+            "startMs": 2685,
+            "endMs": 3198
+          }
+        ]
+      }
+    },
+    {
+      "id": "abonne",
+      "text": "Abonne-toi pour d’autres plongées dans l’inconnu.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 20,
+      "keywords": [
+        "plongées"
+      ],
+      "audio": {
+        "src": "audio/1adf6115240aa5d2.wav",
+        "seconds": 2.5,
+        "durationInFrames": 75,
+        "words": [
+          {
+            "text": "Abonne-toi",
+            "startMs": 10,
+            "endMs": 648
+          },
+          {
+            "text": "pour",
+            "startMs": 660,
+            "endMs": 885
+          },
+          {
+            "text": "d’autres",
+            "startMs": 898,
+            "endMs": 1210
+          },
+          {
+            "text": "plongées",
+            "startMs": 1222,
+            "endMs": 1585
+          },
+          {
+            "text": "dans",
+            "startMs": 1598,
+            "endMs": 1722
+          },
+          {
+            "text": "l’inconnu.",
+            "startMs": 1735,
+            "endMs": 2298
+          }
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "pression",
+      "type": "compteur",
+      "label": "+1 atm / 10 m",
+      "cue": "pression",
+      "word": "atmosphère",
+      "occurrence": 1
+    },
+    {
+      "id": "fosse",
+      "type": "compteur",
+      "label": "≈ 1 100 atm",
+      "cue": "fosse",
+      "word": "000",
+      "occurrence": 1
+    },
+    {
+      "id": "lumiere200",
+      "type": "repere",
+      "label": "200 m",
+      "cue": "lumiere",
+      "word": "200",
+      "occurrence": 1
+    },
+    {
+      "id": "lumiere1000",
+      "type": "repere",
+      "label": "1 000 m",
+      "cue": "lumiere",
+      "word": "000",
+      "occurrence": 1
+    },
+    {
+      "id": "carte",
+      "type": "compteur",
+      "label": "28,7 %",
+      "cue": "resultat",
+      "word": "28,7",
+      "occurrence": 1
+    },
+    {
+      "id": "lune",
+      "type": "repere",
+      "label": "100 m",
+      "cue": "lune",
+      "word": "100",
+      "occurrence": 1
+    }
+  ],
+  "sources": [
+    {
+      "fact": "La pression augmente d'environ une atmosphère tous les 10 m ; la fosse des Mariannes est profonde d'environ 11 km et la pression y atteint environ 1 080 atmosphères.",
+      "title": "NOAA, JetStream « Fast Facts »",
+      "url": "https://www.noaa.gov/jetstream/ll-engagement",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "La pression augmente d'une atmosphère tous les 10 m de profondeur.",
+      "title": "NOAA PMEL, « Water Pressures at Ocean Depths »",
+      "url": "https://pmel.noaa.gov/eoi/nemo1998/education/pressure.html",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Au fond du Challenger Deep, la pression est d'environ 1 100 atmosphères.",
+      "title": "Acoustical Society of America, communiqué (159e congrès), M. Buckingham",
+      "url": "https://acoustics.org/pressroom/httpdocs/159th/buckingham.htm",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Très peu de lumière pénètre au-delà de 200 m ; la lumière du soleil peut aller jusqu'à environ 1 000 m dans de bonnes conditions, rarement de façon significative au-delà de 200 m.",
+      "title": "NOAA Ocean Service, « How far does light travel in the ocean? »",
+      "url": "https://oceanservice.noaa.gov/facts/light_travel.html",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Zone euphotique : 200 m supérieurs ; sous 1 000 m, la lumière du soleil n'arrive pas, la seule lumière vient des organismes.",
+      "title": "NOAA Ocean Exploration, « How far does light travel in the ocean? »",
+      "url": "https://oceanexplorer.noaa.gov/facts/light-distributed.html",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "L'eau de mer bloque les ondes radio : les satellites ne déduisent le relief qu'à environ 5 km de résolution ; les navires équipés de sonar cartographient à environ 100 m une bande étroite sous eux ; la Lune est entièrement cartographiée à environ 100 m.",
+      "title": "Scientific American, « Just How Little Do We Know about the Ocean Floor? »",
+      "url": "https://www.scientificamerican.com/article/just-how-little-do-we-know-about-the-ocean-floor/",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Nous avons de meilleures cartes de la Lune, de Mars et de Vénus que du fond marin ; l'eau empêche les signaux des satellites d'atteindre le fond ; les navires mesurent la profondeur avec un sondeur acoustique.",
+      "title": "Frontiers for Young Minds, « Mapping the Ocean Floor », 2019",
+      "url": "https://kids.frontiersin.org/articles/10.3389/frym.2019.00025",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Les signaux radio ne se propagent pas sous l'eau : un sous-marin communique par le son.",
+      "title": "DOSITS (Discovery of Sound in the Sea), « How is sound used to transmit data underwater? »",
+      "url": "https://dosits.org/people-and-sound/communication/how-is-sounds-used-to-transmit-data-underwater/",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "20 avril 2026 : 28,7 % des fonds océaniques mondiaux sont désormais cartographiés.",
+      "title": "Seabed 2030, « Global seabed mapping reaches new milestone as five million square kilometres added in a year »",
+      "url": "https://seabed2030.org/2026/04/20/global-seabed-mapping-reaches-new-milestone-as-five-million-square-kilometres-added-in-a-year/",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Avril 2026 : 28,7 % des fonds océaniques cartographiés (annonce à l'Assemblée de l'OHI à Monaco).",
+      "title": "Organisation hydrographique internationale (OHI), même annonce",
+      "url": "https://iho.int/en/global-seabed-mapping-reaches-new-milestone-as-five-million-square-kilometres-added-in-a-year",
+      "consulted": "2026-10-25"
+    }
+  ],
+  "staging": {
+    "composition": "FondsMarins",
+    "decor": "ocean",
+    "objects": [
+      {
+        "id": "ship",
+        "position": [
+          -24,
+          0.6,
+          11.2
+        ],
+        "move": [
+          {
+            "at": "sonar+6",
+            "v": [
+              -24,
+              null,
+              null
+            ]
+          },
+          {
+            "at": "sonar+6..resultat+46@0.5",
+            "v": [
+              26,
+              null,
+              11.2
+            ]
+          },
+          {
+            "at": "sonar+6..resultat+46@0.56",
+            "v": [
+              null,
+              null,
+              4.8
+            ]
+          },
+          {
+            "at": "sonar+6..resultat+46@1",
+            "v": [
+              -24,
+              null,
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "id": "strip1",
+        "reveal": [
+          {
+            "at": "sonar+6",
+            "v": 0
+          },
+          {
+            "at": "sonar+6..resultat+46@0.5",
+            "v": 1
+          }
+        ]
+      },
+      {
+        "id": "strip2",
+        "reveal": [
+          {
+            "at": "sonar+6..resultat+46@0.5",
+            "v": 0
+          },
+          {
+            "at": "sonar+6..resultat+46@1",
+            "v": 1
+          }
+        ]
+      },
+      {
+        "id": "sub",
+        "from": "pression+6",
+        "position": [
+          0,
+          0,
+          "MID_Z"
+        ],
+        "rotation": [
+          0.25,
+          0,
+          0
+        ],
+        "path": {
+          "axes": "xy",
+          "points": [
+            [
+              -26,
+              -1
+            ],
+            [
+              -18,
+              -4
+            ],
+            [
+              -11,
+              -13
+            ],
+            [
+              -4,
+              -29
+            ],
+            [
+              4,
+              -43
+            ],
+            [
+              11,
+              -49
+            ],
+            [
+              15,
+              -68
+            ],
+            [
+              "TRENCH_X",
+              "depthToY(TRENCH_DEPTH) + 2.6"
+            ]
+          ],
+          "progress": [
+            {
+              "at": "pression+20",
+              "v": 0
+            },
+            {
+              "at": "fosse",
+              "v": 0.24,
+              "ease": "quad"
+            },
+            {
+              "at": "fosse+4",
+              "v": 0.24
+            },
+            {
+              "at": "fosse:000-2",
+              "v": 1
+            }
+          ]
+        },
+        "waves": [
+          {
+            "axis": "y",
+            "amp": 0.15,
+            "period": 18
+          }
+        ],
+        "scale": [
+          {
+            "at": "pression+6",
+            "v": 0.2
+          },
+          {
+            "at": "pression+14",
+            "v": 1,
+            "ease": "linear"
+          }
+        ]
+      },
+      {
+        "id": "satellite",
+        "position": [
+          -6,
+          30,
+          "MID_Z"
+        ],
+        "rotation": [
+          0,
+          0,
+          0.3
+        ],
+        "spin": {
+          "axis": "y",
+          "period": 90
+        }
+      },
+      {
+        "id": "moon",
+        "position": [
+          15,
+          44,
+          "MID_Z"
+        ],
+        "rotation": [
+          0.3,
+          0,
+          0
+        ],
+        "spin": {
+          "axis": "y",
+          "period": 160
+        }
+      },
+      {
+        "id": "fish1",
+        "part": "fish",
+        "position": [
+          -18,
+          -6,
+          12
+        ],
+        "loop": {
+          "axis": "x",
+          "speed": 0.05,
+          "length": 30
+        }
+      },
+      {
+        "id": "fish2",
+        "part": "fish",
+        "position": [
+          -8,
+          -9,
+          6
+        ],
+        "rotation": [
+          0,
+          "PI",
+          0
+        ],
+        "loop": {
+          "axis": "x",
+          "speed": -0.04,
+          "length": 20
+        }
+      },
+      {
+        "id": "jelly",
+        "part": "jellyfish",
+        "position": [
+          -2,
+          -24,
+          10
+        ],
+        "waves": [
+          {
+            "axis": "y",
+            "amp": 0.6,
+            "period": 30
+          }
+        ]
+      },
+      {
+        "id": "angler",
+        "part": "anglerfish",
+        "position": [
+          10,
+          -86,
+          9
+        ],
+        "waves": [
+          {
+            "axis": "x",
+            "amp": 1.5,
+            "period": 40
+          }
+        ]
+      }
+    ],
+    "camera": [
+      {
+        "at": "start",
+        "shot": {
+          "target": [
+            -15,
+            -9,
+            "MID_Z"
+          ],
+          "yaw": 20,
+          "pitch": 12,
+          "distance": 92,
+          "centerY": 1000
+        },
+        "sway": {
+          "yaw": 2,
+          "period": 60
+        }
+      },
+      {
+        "at": "pression+8",
+        "duration": 30,
+        "shot": {
+          "target": [
+            "sub.x",
+            "sub.y + 1",
+            "sub.z"
+          ],
+          "yaw": 18,
+          "pitch": 6,
+          "distance": 32,
+          "centerY": 980
+        }
+      },
+      {
+        "at": "lumiere-4",
+        "duration": 34,
+        "shot": {
+          "target": [
+            -2,
+            -52,
+            "MID_Z"
+          ],
+          "yaw": 10,
+          "pitch": 2,
+          "distance": 252,
+          "centerY": 980
+        }
+      },
+      {
+        "at": "radio-4",
+        "duration": 30,
+        "shot": {
+          "target": [
+            -8,
+            13,
+            "MID_Z"
+          ],
+          "yaw": 14,
+          "pitch": 4,
+          "distance": 112,
+          "centerY": 1000
+        }
+      },
+      {
+        "at": "sonar-6",
+        "duration": 30,
+        "shot": {
+          "target": [
+            "ship.x",
+            -30,
+            "MID_Z"
+          ],
+          "yaw": 22,
+          "pitch": 16,
+          "distance": 155,
+          "centerY": 980
+        }
+      },
+      {
+        "at": "resultat+10",
+        "duration": 34,
+        "shot": {
+          "target": [
+            0,
+            -62,
+            "MID_Z"
+          ],
+          "yaw": 4,
+          "pitch": 58,
+          "distance": 118,
+          "centerY": 960
+        }
+      },
+      {
+        "at": "lune-6",
+        "duration": 34,
+        "shot": {
+          "target": [
+            13,
+            40,
+            "MID_Z"
+          ],
+          "yaw": 16,
+          "pitch": 4,
+          "distance": 96,
+          "centerY": 940
+        },
+        "travel": {
+          "from": "lune",
+          "to": "conclusion",
+          "yaw": 8
+        }
+      },
+      {
+        "at": "conclusion-4",
+        "duration": 34,
+        "shot": {
+          "target": [
+            2,
+            -24,
+            "MID_Z"
+          ],
+          "yaw": 8,
+          "pitch": 3,
+          "distance": 365,
+          "centerY": 1000
+        }
+      },
+      {
+        "at": "abonne-4",
+        "duration": 32,
+        "shot": {
+          "target": [
+            "owl.x",
+            "owl.y + 1",
+            "owl.z"
+          ],
+          "yaw": 22,
+          "pitch": 8,
+          "distance": 26,
+          "centerY": 1040
+        }
+      }
+    ],
+    "owl": {
+      "spots": [
+        {
+          "at": "start",
+          "position": [
+            "ship.x - 2.2",
+            1.25,
+            "ship.z + 0.4"
+          ],
+          "height": 2.4
+        },
+        {
+          "at": "pression+10",
+          "position": [
+            "sub.x",
+            "sub.y + 2.2",
+            "sub.z"
+          ],
+          "height": 1.6
+        },
+        {
+          "at": "sonar+2",
+          "position": [
+            "ship.x - 2.2",
+            1.25,
+            "ship.z + 0.4"
+          ],
+          "height": 2.4
+        }
+      ],
+      "poses": [
+        [
+          "start",
+          "wonder",
+          0
+        ],
+        [
+          "pression+14",
+          "pointLeft",
+          -1
+        ],
+        [
+          "fosse+20",
+          "wonder",
+          0
+        ],
+        [
+          "lumiere+30",
+          "pointRight",
+          1
+        ],
+        [
+          "radio+10",
+          "wonder",
+          0
+        ],
+        [
+          "sonar+12",
+          "pointLeft",
+          -1
+        ],
+        [
+          "resultat+20",
+          "idle",
+          0
+        ],
+        [
+          "lune+4",
+          "pointRight",
+          1
+        ],
+        [
+          "conclusion+50",
+          "wonder",
+          0
+        ],
+        [
+          "abonne",
+          "wave",
+          0
+        ]
+      ],
+      "hops": [
+        "pression:atmosphère",
+        "fosse:000",
+        "lumiere:200",
+        "lumiere:000",
+        "radio:satellites",
+        "sonar:sonar",
+        "resultat:28,7",
+        "lune:100"
+      ]
+    },
+    "annotations": [
+      {
+        "kind": "line",
+        "id": "lumiere200",
+        "from": [
+          "-HALF",
+          "depthToY(200)",
+          "SLAB + 0.2"
+        ],
+        "to": [
+          "HALF",
+          "depthToY(200)",
+          "SLAB + 0.2"
+        ],
+        "dashed": true,
+        "hot": true,
+        "in": "lumiere:200-2",
+        "inFor": 16,
+        "out": "radio"
+      },
+      {
+        "kind": "line",
+        "id": "lumiere1000",
+        "from": [
+          "-HALF",
+          "depthToY(1000)",
+          "SLAB + 0.2"
+        ],
+        "to": [
+          "HALF",
+          "depthToY(1000)",
+          "SLAB + 0.2"
+        ],
+        "dashed": true,
+        "hot": true,
+        "in": "lumiere:000-2",
+        "inFor": 16,
+        "out": "radio"
+      },
+      {
+        "kind": "tags",
+        "tags": [
+          {
+            "id": "lune",
+            "at": [
+              9,
+              34.5,
+              "MID_Z"
+            ],
+            "hot": true,
+            "in": "lune:100-2",
+            "inFor": 10,
+            "out": "conclusion+6"
+          }
+        ]
+      }
+    ],
+    "widgets": [
+      {
+        "kind": "gauge",
+        "in": "pression+16",
+        "out": "lumiere+20",
+        "outFor": 14,
+        "value": "yToDepth(sub.y)",
+        "max": "TRENCH_DEPTH",
+        "scale": "sqrt",
+        "unit": " m",
+        "ticks": [
+          [
+            0,
+            "0 m"
+          ],
+          [
+            200,
+            "200 m"
+          ],
+          [
+            1000,
+            "1 000 m"
+          ],
+          [
+            "TRENCH_DEPTH",
+            "≈ 11 km"
+          ]
+        ],
+        "second": {
+          "value": "1 + v / 10",
+          "unit": " atm",
+          "hotAt": "fosse:000-4"
+        },
+        "note": {
+          "id": "pression",
+          "in": "pression:atmosphère-2",
+          "out": "fosse+10"
+        }
+      },
+      {
+        "kind": "badge",
+        "id": "fosse",
+        "in": "fosse:000-2",
+        "inFor": 8,
+        "out": "lumiere+6"
+      },
+      {
+        "kind": "bar",
+        "id": "carte",
+        "value": 0.287,
+        "in": "resultat:28,7-6",
+        "inFor": 30,
+        "out": "lune"
+      }
+    ],
+    "effects": [
+      {
+        "kind": "darkness",
+        "role": "waterDeep",
+        "hole": [
+          "sub.x",
+          "sub.y",
+          "sub.z"
+        ],
+        "amount": "min(0.78, ramp(sqrt(yToDepth(cam.y)), 12.25, 31.62, 0, 0.45) + ramp(sqrt(yToDepth(cam.y)), 31.62, 77.46, 0, 0.33)) * (0.25 + 0.75 * step(120 - cam.distance))"
+      },
+      {
+        "kind": "waves",
+        "from": [
+          -6,
+          30,
+          "MID_Z"
+        ],
+        "to": [
+          -6,
+          0,
+          "MID_Z"
+        ],
+        "in": "radio",
+        "inFor": 6,
+        "out": "sonar+10",
+        "outFor": 6
+      },
+      {
+        "kind": "beam",
+        "from": [
+          "ship.x",
+          -0.6,
+          "ship.z"
+        ],
+        "left": [
+          "ship.x - 3",
+          "seabedY(ship.x - 3)",
+          "ship.z"
+        ],
+        "right": [
+          "ship.x + 3",
+          "seabedY(ship.x + 3)",
+          "ship.z"
+        ],
+        "in": "sonar+6",
+        "inFor": 6,
+        "out": "resultat+44",
+        "outFor": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,327 @@
+{
+  "id": "essai-styles-paris",
+  "kind": "essai",
+  "purpose": "Comparer les directions de style A, B et D sur la même scène. Ce n'est pas un épisode : pas de révélation ni de conclusion, rien à publier.",
+  "looks": [
+    "A",
+    "B",
+    "D"
+  ],
+  "hook": {
+    "title": "Pourquoi les immeubles parisiens se ressemblent-ils ?",
+    "highlight": "se ressemblent"
+  },
+  "chapter": {
+    "label": "Niveau 1 · 1859",
+    "rule": [
+      "rue > 20 m",
+      "façade ≤ 20 m"
+    ]
+  },
+  "narration": [
+    {
+      "id": "question",
+      "text": "Pourquoi les immeubles parisiens se ressemblent-ils ?",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 12,
+      "keywords": [
+        "ressemblent-ils"
+      ],
+      "audio": {
+        "src": "audio/c3c4bd5b4c3c7a3d.wav",
+        "seconds": 2.45,
+        "durationInFrames": 74,
+        "words": [
+          {
+            "text": "Pourquoi",
+            "startMs": 0,
+            "endMs": 325
+          },
+          {
+            "text": "les",
+            "startMs": 338,
+            "endMs": 450
+          },
+          {
+            "text": "immeubles",
+            "startMs": 462,
+            "endMs": 850
+          },
+          {
+            "text": "parisiens",
+            "startMs": 862,
+            "endMs": 1338
+          },
+          {
+            "text": "se",
+            "startMs": 1350,
+            "endMs": 1475
+          },
+          {
+            "text": "ressemblent-ils ?",
+            "startMs": 1488,
+            "endMs": 2300
+          }
+        ]
+      }
+    },
+    {
+      "id": "regle",
+      "text": "En 1859, un décret fixe la règle : dans les rues de plus de 20 mètres de large, les façades peuvent monter jusqu’à 20 mètres.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 10,
+      "keywords": [
+        "1859",
+        "règle",
+        "façades"
+      ],
+      "audio": {
+        "src": "audio/d6f3205172663720.wav",
+        "seconds": 7.64,
+        "durationInFrames": 230,
+        "words": [
+          {
+            "text": "En",
+            "startMs": 20,
+            "endMs": 170
+          },
+          {
+            "text": "1859,",
+            "startMs": 182,
+            "endMs": 1358
+          },
+          {
+            "text": "un",
+            "startMs": 1608,
+            "endMs": 1670
+          },
+          {
+            "text": "décret",
+            "startMs": 1682,
+            "endMs": 2020
+          },
+          {
+            "text": "fixe",
+            "startMs": 2032,
+            "endMs": 2320
+          },
+          {
+            "text": "la",
+            "startMs": 2332,
+            "endMs": 2458
+          },
+          {
+            "text": "règle :",
+            "startMs": 2470,
+            "endMs": 2795
+          },
+          {
+            "text": "dans",
+            "startMs": 3170,
+            "endMs": 3282
+          },
+          {
+            "text": "les",
+            "startMs": 3295,
+            "endMs": 3420
+          },
+          {
+            "text": "rues",
+            "startMs": 3432,
+            "endMs": 3595
+          },
+          {
+            "text": "de",
+            "startMs": 3608,
+            "endMs": 3720
+          },
+          {
+            "text": "plus",
+            "startMs": 3732,
+            "endMs": 3920
+          },
+          {
+            "text": "de",
+            "startMs": 3932,
+            "endMs": 4032
+          },
+          {
+            "text": "20",
+            "startMs": 4045,
+            "endMs": 4154
+          },
+          {
+            "text": "mètres",
+            "startMs": 4154,
+            "endMs": 4482
+          },
+          {
+            "text": "de",
+            "startMs": 4495,
+            "endMs": 4595
+          },
+          {
+            "text": "large,",
+            "startMs": 4608,
+            "endMs": 4982
+          },
+          {
+            "text": "les",
+            "startMs": 5358,
+            "endMs": 5470
+          },
+          {
+            "text": "façades",
+            "startMs": 5482,
+            "endMs": 5945
+          },
+          {
+            "text": "peuvent",
+            "startMs": 5958,
+            "endMs": 6170
+          },
+          {
+            "text": "monter",
+            "startMs": 6182,
+            "endMs": 6508
+          },
+          {
+            "text": "jusqu’à",
+            "startMs": 6520,
+            "endMs": 6870
+          },
+          {
+            "text": "20",
+            "startMs": 6882,
+            "endMs": 7032
+          },
+          {
+            "text": "mètres.",
+            "startMs": 7032,
+            "endMs": 7482
+          }
+        ]
+      }
+    },
+    {
+      "id": "toit",
+      "text": "Au-dessus, le toit doit rester sous une pente de 45 degrés.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 24,
+      "keywords": [
+        "45"
+      ],
+      "audio": {
+        "src": "audio/4399509c3ded68d4.wav",
+        "seconds": 3.79,
+        "durationInFrames": 114,
+        "words": [
+          {
+            "text": "Au-dessus,",
+            "startMs": 20,
+            "endMs": 582
+          },
+          {
+            "text": "le",
+            "startMs": 908,
+            "endMs": 1008
+          },
+          {
+            "text": "toit",
+            "startMs": 1020,
+            "endMs": 1220
+          },
+          {
+            "text": "doit",
+            "startMs": 1232,
+            "endMs": 1408
+          },
+          {
+            "text": "rester",
+            "startMs": 1420,
+            "endMs": 1782
+          },
+          {
+            "text": "sous",
+            "startMs": 1795,
+            "endMs": 1945
+          },
+          {
+            "text": "une",
+            "startMs": 1958,
+            "endMs": 2145
+          },
+          {
+            "text": "pente",
+            "startMs": 2158,
+            "endMs": 2508
+          },
+          {
+            "text": "de",
+            "startMs": 2520,
+            "endMs": 2632
+          },
+          {
+            "text": "45",
+            "startMs": 2645,
+            "endMs": 2901
+          },
+          {
+            "text": "degrés.",
+            "startMs": 2901,
+            "endMs": 3670
+          }
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "largeur",
+      "type": "cote",
+      "label": "> 20 m",
+      "cue": "regle",
+      "word": "20",
+      "occurrence": 1
+    },
+    {
+      "id": "hauteur",
+      "type": "cote",
+      "label": "20 m",
+      "cue": "regle",
+      "word": "20",
+      "occurrence": 2
+    },
+    {
+      "id": "pente",
+      "type": "angle",
+      "label": "45°",
+      "cue": "toit",
+      "word": "45",
+      "occurrence": 1
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Décret du 27 juillet 1859 : dans les rues de plus de 20 m de largeur, la hauteur des façades peut être portée à 20 m (sans dépasser 5 étages carrés au-dessus du rez-de-chaussée) ; couvertures inclinées à 45°.",
+      "title": "Règlement et tissus urbains de Paris (applan 71), APUR, 1971, p. 3 et p. 8",
+      "url": "https://50ans.apur.org/data/b4s3_home/fiche/75/03_reglement_tissus_urbains_paris_applan71_fd3ab.pdf",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Règlement du 27 juillet 1859 : « Dans les rues de plus de 20 mètres de largeur, les façades peuvent désormais atteindre 20 mètres de hauteur. Les combles restent limités par une diagonale à 45 degrés. »",
+      "title": "Règlements d'urbanisme de Paris, Wikipédia (français)",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A8glements_d%27urbanisme_de_Paris",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Le règlement de 1859 autorise un cinquième étage carré sur les voies larges de plus de vingt mètres (gabarit : soubassement, cinq étages, comble brisé).",
+      "title": "Anne Richard-Bazire, « Les immeubles », Livraisons de l'histoire de l'architecture, 36, 2018, p. 103-121",
+      "url": "https://journals.openedition.org/lha/1036",
+      "consulted": "2026-10-25"
+    }
+  ]
+}

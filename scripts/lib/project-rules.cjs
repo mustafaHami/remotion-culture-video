@@ -90,6 +90,17 @@ function trackedFileProblems(files, sizeOf) {
   return problems;
 }
 
+// Décors et scènes sont propres à un sujet : leurs couleurs passent par les rôles des styles.
+function hardcodedColorProblems(file, code) {
+  const problems = [];
+  stripComments(code).split('\n').forEach((line, index) => {
+    if (/#[0-9a-fA-F]{6}(?![0-9a-fA-F])|#[0-9a-fA-F]{3}(?![0-9a-fA-F])/.test(line)) {
+      problems.push(`${file}:${index + 1} : code couleur en dur dans un décor ou une scène (utiliser un rôle du style)`);
+    }
+  });
+  return problems;
+}
+
 function claudeImportProblems(text) {
   const first = text.split(/\r?\n/).find((line) => line.trim());
   return first && first.trim() === '@AGENTS.md' ? [] : ['CLAUDE.md doit commencer par la ligne « @AGENTS.md »'];
@@ -109,5 +120,6 @@ module.exports = {
   fontLicenceProblems,
   trackedFileProblems,
   claudeImportProblems,
+  hardcodedColorProblems,
   listFiles,
 };

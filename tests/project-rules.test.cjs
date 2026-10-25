@@ -68,3 +68,8 @@ test('CLAUDE.md doit importer AGENTS.md en première ligne', () => {
   assert.deepEqual(rules.claudeImportProblems('@AGENTS.md\n\nPrécisions Claude.'), []);
   assert.equal(rules.claudeImportProblems('# Claude\n@AGENTS.md').length, 1);
 });
+
+test('un décor ne contient aucun code couleur en dur', () => {
+  assert.deepEqual(rules.hardcodedColorProblems('src/voxel/decor/x.ts', "grid.set(0, 0, 0, 'structure'); // pas de #A9693D ici"), []);
+  assert.equal(rules.hardcodedColorProblems('src/voxel/decor/x.ts', "grid.set(0, 0, 0, '#A9693D');").length, 1);
+});

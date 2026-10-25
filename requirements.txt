@@ -2,3 +2,5 @@
 edge-tts==7.3.1
 # Contrôle vidéo (planches de captures, mesures d'images)
 Pillow==13.0.0
+# Contrôle des polices (caractères français)
+fonttools==4.60.1

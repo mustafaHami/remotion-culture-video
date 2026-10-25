@@ -1,0 +1,1621 @@
+{
+  "id": "immeubles-paris",
+  "look": "A",
+  "finish": "crayonné",
+  "title": "Pourquoi les immeubles parisiens se ressemblent-ils ?",
+  "answer": "Une règle de 1859 lie la hauteur des façades à la largeur des rues et limite toits et étages, et Haussmann exige les mêmes lignes de façade d'un immeuble à l'autre.",
+  "hook": {
+    "title": "Pourquoi les immeubles parisiens se ressemblent-ils ?",
+    "highlight": "se ressemblent"
+  },
+  "chapters": [
+    {
+      "cue": "regle",
+      "label": "Niveau 1 · 1859",
+      "rule": [
+        "rue > 20 m",
+        "façade ≤ 20 m"
+      ],
+      "ruleAt": [
+        "regle:rues",
+        "regle:façades"
+      ]
+    },
+    {
+      "cue": "haussmann",
+      "label": "Niveau 2 · Haussmann",
+      "rule": [
+        "mêmes étages",
+        "mêmes lignes"
+      ],
+      "ruleAt": [
+        "lignes:hauteurs",
+        "lignes:lignes"
+      ]
+    },
+    {
+      "cue": "resultat",
+      "label": "Niveau 3 · La rue"
+    }
+  ],
+  "narration": [
+    {
+      "id": "question",
+      "text": "Pourquoi les immeubles parisiens se ressemblent-ils ?",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 12,
+      "keywords": [
+        "ressemblent-ils"
+      ],
+      "audio": {
+        "src": "audio/c3c4bd5b4c3c7a3d.wav",
+        "seconds": 2.45,
+        "durationInFrames": 74,
+        "words": [
+          {
+            "text": "Pourquoi",
+            "startMs": 0,
+            "endMs": 325
+          },
+          {
+            "text": "les",
+            "startMs": 338,
+            "endMs": 450
+          },
+          {
+            "text": "immeubles",
+            "startMs": 462,
+            "endMs": 850
+          },
+          {
+            "text": "parisiens",
+            "startMs": 862,
+            "endMs": 1338
+          },
+          {
+            "text": "se",
+            "startMs": 1350,
+            "endMs": 1475
+          },
+          {
+            "text": "ressemblent-ils ?",
+            "startMs": 1488,
+            "endMs": 2300
+          }
+        ]
+      }
+    },
+    {
+      "id": "regle",
+      "text": "En 1859, un décret fixe la règle : dans les rues de plus de 20 mètres de large, les façades peuvent monter jusqu’à 20 mètres.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 10,
+      "keywords": [
+        "1859",
+        "règle",
+        "façades"
+      ],
+      "audio": {
+        "src": "audio/d6f3205172663720.wav",
+        "seconds": 7.64,
+        "durationInFrames": 230,
+        "words": [
+          {
+            "text": "En",
+            "startMs": 20,
+            "endMs": 170
+          },
+          {
+            "text": "1859,",
+            "startMs": 182,
+            "endMs": 1358
+          },
+          {
+            "text": "un",
+            "startMs": 1608,
+            "endMs": 1670
+          },
+          {
+            "text": "décret",
+            "startMs": 1682,
+            "endMs": 2020
+          },
+          {
+            "text": "fixe",
+            "startMs": 2032,
+            "endMs": 2320
+          },
+          {
+            "text": "la",
+            "startMs": 2332,
+            "endMs": 2458
+          },
+          {
+            "text": "règle :",
+            "startMs": 2470,
+            "endMs": 2795
+          },
+          {
+            "text": "dans",
+            "startMs": 3170,
+            "endMs": 3282
+          },
+          {
+            "text": "les",
+            "startMs": 3295,
+            "endMs": 3420
+          },
+          {
+            "text": "rues",
+            "startMs": 3432,
+            "endMs": 3595
+          },
+          {
+            "text": "de",
+            "startMs": 3608,
+            "endMs": 3720
+          },
+          {
+            "text": "plus",
+            "startMs": 3732,
+            "endMs": 3920
+          },
+          {
+            "text": "de",
+            "startMs": 3932,
+            "endMs": 4032
+          },
+          {
+            "text": "20",
+            "startMs": 4045,
+            "endMs": 4154
+          },
+          {
+            "text": "mètres",
+            "startMs": 4154,
+            "endMs": 4482
+          },
+          {
+            "text": "de",
+            "startMs": 4495,
+            "endMs": 4595
+          },
+          {
+            "text": "large,",
+            "startMs": 4608,
+            "endMs": 4982
+          },
+          {
+            "text": "les",
+            "startMs": 5358,
+            "endMs": 5470
+          },
+          {
+            "text": "façades",
+            "startMs": 5482,
+            "endMs": 5945
+          },
+          {
+            "text": "peuvent",
+            "startMs": 5958,
+            "endMs": 6170
+          },
+          {
+            "text": "monter",
+            "startMs": 6182,
+            "endMs": 6508
+          },
+          {
+            "text": "jusqu’à",
+            "startMs": 6520,
+            "endMs": 6870
+          },
+          {
+            "text": "20",
+            "startMs": 6882,
+            "endMs": 7032
+          },
+          {
+            "text": "mètres.",
+            "startMs": 7032,
+            "endMs": 7482
+          }
+        ]
+      }
+    },
+    {
+      "id": "toit",
+      "text": "Au-dessus, le toit doit rester sous une pente de 45 degrés.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 24,
+      "keywords": [
+        "45"
+      ],
+      "audio": {
+        "src": "audio/4399509c3ded68d4.wav",
+        "seconds": 3.79,
+        "durationInFrames": 114,
+        "words": [
+          {
+            "text": "Au-dessus,",
+            "startMs": 20,
+            "endMs": 582
+          },
+          {
+            "text": "le",
+            "startMs": 908,
+            "endMs": 1008
+          },
+          {
+            "text": "toit",
+            "startMs": 1020,
+            "endMs": 1220
+          },
+          {
+            "text": "doit",
+            "startMs": 1232,
+            "endMs": 1408
+          },
+          {
+            "text": "rester",
+            "startMs": 1420,
+            "endMs": 1782
+          },
+          {
+            "text": "sous",
+            "startMs": 1795,
+            "endMs": 1945
+          },
+          {
+            "text": "une",
+            "startMs": 1958,
+            "endMs": 2145
+          },
+          {
+            "text": "pente",
+            "startMs": 2158,
+            "endMs": 2508
+          },
+          {
+            "text": "de",
+            "startMs": 2520,
+            "endMs": 2632
+          },
+          {
+            "text": "45",
+            "startMs": 2645,
+            "endMs": 2901
+          },
+          {
+            "text": "degrés.",
+            "startMs": 2901,
+            "endMs": 3670
+          }
+        ]
+      }
+    },
+    {
+      "id": "etages",
+      "text": "Et pas plus de cinq étages au-dessus du rez-de-chaussée.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 10,
+      "keywords": [
+        "cinq"
+      ],
+      "audio": {
+        "src": "audio/ceeb8f860f8af0a3.wav",
+        "seconds": 2.59,
+        "durationInFrames": 78,
+        "words": [
+          {
+            "text": "Et",
+            "startMs": 30,
+            "endMs": 130
+          },
+          {
+            "text": "pas",
+            "startMs": 142,
+            "endMs": 280
+          },
+          {
+            "text": "plus",
+            "startMs": 292,
+            "endMs": 505
+          },
+          {
+            "text": "de",
+            "startMs": 518,
+            "endMs": 642
+          },
+          {
+            "text": "cinq",
+            "startMs": 655,
+            "endMs": 905
+          },
+          {
+            "text": "étages",
+            "startMs": 918,
+            "endMs": 1268
+          },
+          {
+            "text": "au-dessus",
+            "startMs": 1280,
+            "endMs": 1642
+          },
+          {
+            "text": "du",
+            "startMs": 1655,
+            "endMs": 1780
+          },
+          {
+            "text": "rez-de-chaussée.",
+            "startMs": 1792,
+            "endMs": 2492
+          }
+        ]
+      }
+    },
+    {
+      "id": "haussmann",
+      "text": "Le préfet Haussmann ajoute ses propres exigences.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 6,
+      "keywords": [
+        "Haussmann"
+      ],
+      "audio": {
+        "src": "audio/5af405acc312e756.wav",
+        "seconds": 2.78,
+        "durationInFrames": 84,
+        "words": [
+          {
+            "text": "Le",
+            "startMs": 50,
+            "endMs": 188
+          },
+          {
+            "text": "préfet",
+            "startMs": 200,
+            "endMs": 575
+          },
+          {
+            "text": "Haussmann",
+            "startMs": 588,
+            "endMs": 1012
+          },
+          {
+            "text": "ajoute",
+            "startMs": 1025,
+            "endMs": 1375
+          },
+          {
+            "text": "ses",
+            "startMs": 1388,
+            "endMs": 1525
+          },
+          {
+            "text": "propres",
+            "startMs": 1538,
+            "endMs": 1862
+          },
+          {
+            "text": "exigences.",
+            "startMs": 1875,
+            "endMs": 2612
+          }
+        ]
+      }
+    },
+    {
+      "id": "lignes",
+      "text": "Quand il vend les terrains, il demande les mêmes hauteurs d’étage et les mêmes lignes de façade.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 8,
+      "keywords": [
+        "hauteurs",
+        "lignes"
+      ],
+      "audio": {
+        "src": "audio/cfdd64cbdc6fea29.wav",
+        "seconds": 4.58,
+        "durationInFrames": 138,
+        "words": [
+          {
+            "text": "Quand",
+            "startMs": 30,
+            "endMs": 192
+          },
+          {
+            "text": "il",
+            "startMs": 205,
+            "endMs": 418
+          },
+          {
+            "text": "vend",
+            "startMs": 430,
+            "endMs": 580
+          },
+          {
+            "text": "les",
+            "startMs": 592,
+            "endMs": 705
+          },
+          {
+            "text": "terrains,",
+            "startMs": 718,
+            "endMs": 1105
+          },
+          {
+            "text": "il",
+            "startMs": 1442,
+            "endMs": 1542
+          },
+          {
+            "text": "demande",
+            "startMs": 1555,
+            "endMs": 1930
+          },
+          {
+            "text": "les",
+            "startMs": 1942,
+            "endMs": 2068
+          },
+          {
+            "text": "mêmes",
+            "startMs": 2080,
+            "endMs": 2292
+          },
+          {
+            "text": "hauteurs",
+            "startMs": 2305,
+            "endMs": 2618
+          },
+          {
+            "text": "d’étage",
+            "startMs": 2630,
+            "endMs": 3055
+          },
+          {
+            "text": "et",
+            "startMs": 3068,
+            "endMs": 3092
+          },
+          {
+            "text": "les",
+            "startMs": 3105,
+            "endMs": 3205
+          },
+          {
+            "text": "mêmes",
+            "startMs": 3218,
+            "endMs": 3442
+          },
+          {
+            "text": "lignes",
+            "startMs": 3455,
+            "endMs": 3705
+          },
+          {
+            "text": "de",
+            "startMs": 3718,
+            "endMs": 3830
+          },
+          {
+            "text": "façade.",
+            "startMs": 3842,
+            "endMs": 4442
+          }
+        ]
+      }
+    },
+    {
+      "id": "prolongent",
+      "text": "Les balcons et les corniches se prolongent alors d’un immeuble à l’autre.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 10,
+      "keywords": [
+        "balcons",
+        "corniches"
+      ],
+      "audio": {
+        "src": "audio/13a94809d6c30376.wav",
+        "seconds": 3.63,
+        "durationInFrames": 109,
+        "words": [
+          {
+            "text": "Les",
+            "startMs": 60,
+            "endMs": 235
+          },
+          {
+            "text": "balcons",
+            "startMs": 248,
+            "endMs": 698
+          },
+          {
+            "text": "et",
+            "startMs": 710,
+            "endMs": 785
+          },
+          {
+            "text": "les",
+            "startMs": 798,
+            "endMs": 898
+          },
+          {
+            "text": "corniches",
+            "startMs": 910,
+            "endMs": 1435
+          },
+          {
+            "text": "se",
+            "startMs": 1448,
+            "endMs": 1648
+          },
+          {
+            "text": "prolongent",
+            "startMs": 1660,
+            "endMs": 2135
+          },
+          {
+            "text": "alors",
+            "startMs": 2148,
+            "endMs": 2448
+          },
+          {
+            "text": "d’un",
+            "startMs": 2460,
+            "endMs": 2598
+          },
+          {
+            "text": "immeuble",
+            "startMs": 2610,
+            "endMs": 2972
+          },
+          {
+            "text": "à",
+            "startMs": 2985,
+            "endMs": 3035
+          },
+          {
+            "text": "l’autre.",
+            "startMs": 3048,
+            "endMs": 3485
+          }
+        ]
+      }
+    },
+    {
+      "id": "resultat",
+      "text": "Résultat : toute la rue ressemble à un seul grand immeuble.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 14,
+      "keywords": [
+        "seul"
+      ],
+      "audio": {
+        "src": "audio/9be9241a99d75637.wav",
+        "seconds": 3.41,
+        "durationInFrames": 103,
+        "words": [
+          {
+            "text": "Résultat :",
+            "startMs": 20,
+            "endMs": 758
+          },
+          {
+            "text": "toute",
+            "startMs": 1070,
+            "endMs": 1282
+          },
+          {
+            "text": "la",
+            "startMs": 1295,
+            "endMs": 1432
+          },
+          {
+            "text": "rue",
+            "startMs": 1445,
+            "endMs": 1582
+          },
+          {
+            "text": "ressemble",
+            "startMs": 1595,
+            "endMs": 2058
+          },
+          {
+            "text": "à",
+            "startMs": 2070,
+            "endMs": 2132
+          },
+          {
+            "text": "un",
+            "startMs": 2145,
+            "endMs": 2245
+          },
+          {
+            "text": "seul",
+            "startMs": 2258,
+            "endMs": 2482
+          },
+          {
+            "text": "grand",
+            "startMs": 2495,
+            "endMs": 2695
+          },
+          {
+            "text": "immeuble.",
+            "startMs": 2708,
+            "endMs": 3295
+          }
+        ]
+      }
+    },
+    {
+      "id": "conclusion",
+      "text": "Voilà pourquoi les immeubles parisiens se ressemblent autant !",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 10,
+      "keywords": [
+        "ressemblent"
+      ],
+      "audio": {
+        "src": "audio/444c9b5a73ec96c8.wav",
+        "seconds": 2.94,
+        "durationInFrames": 89,
+        "words": [
+          {
+            "text": "Voilà",
+            "startMs": 10,
+            "endMs": 385
+          },
+          {
+            "text": "pourquoi",
+            "startMs": 398,
+            "endMs": 748
+          },
+          {
+            "text": "les",
+            "startMs": 760,
+            "endMs": 885
+          },
+          {
+            "text": "immeubles",
+            "startMs": 898,
+            "endMs": 1335
+          },
+          {
+            "text": "parisiens",
+            "startMs": 1348,
+            "endMs": 1835
+          },
+          {
+            "text": "se",
+            "startMs": 1848,
+            "endMs": 1972
+          },
+          {
+            "text": "ressemblent",
+            "startMs": 1985,
+            "endMs": 2385
+          },
+          {
+            "text": "autant !",
+            "startMs": 2398,
+            "endMs": 2785
+          }
+        ]
+      }
+    },
+    {
+      "id": "abonne",
+      "text": "Abonne-toi pour découvrir d’autres secrets de Paris.",
+      "voice": "fr-FR-DeniseNeural",
+      "rate": "+0%",
+      "pauseAfterFrames": 20,
+      "keywords": [
+        "secrets"
+      ],
+      "audio": {
+        "src": "audio/28d5ab51cd90d617.wav",
+        "seconds": 2.79,
+        "durationInFrames": 84,
+        "words": [
+          {
+            "text": "Abonne-toi",
+            "startMs": 30,
+            "endMs": 605
+          },
+          {
+            "text": "pour",
+            "startMs": 618,
+            "endMs": 805
+          },
+          {
+            "text": "découvrir",
+            "startMs": 818,
+            "endMs": 1405
+          },
+          {
+            "text": "d’autres",
+            "startMs": 1418,
+            "endMs": 1755
+          },
+          {
+            "text": "secrets",
+            "startMs": 1768,
+            "endMs": 2068
+          },
+          {
+            "text": "de",
+            "startMs": 2080,
+            "endMs": 2180
+          },
+          {
+            "text": "Paris.",
+            "startMs": 2192,
+            "endMs": 2642
+          }
+        ]
+      }
+    }
+  ],
+  "annotations": [
+    {
+      "id": "largeur",
+      "type": "cote",
+      "label": "> 20 m",
+      "cue": "regle",
+      "word": "20",
+      "occurrence": 1
+    },
+    {
+      "id": "hauteur",
+      "type": "cote",
+      "label": "20 m",
+      "cue": "regle",
+      "word": "20",
+      "occurrence": 2
+    },
+    {
+      "id": "pente",
+      "type": "angle",
+      "label": "45°",
+      "cue": "toit",
+      "word": "45",
+      "occurrence": 1
+    },
+    {
+      "id": "etages",
+      "type": "compteur",
+      "label": "5 étages",
+      "cue": "etages",
+      "word": "cinq",
+      "occurrence": 1
+    },
+    {
+      "id": "hauteurs",
+      "type": "lignes",
+      "label": "mêmes étages",
+      "cue": "lignes",
+      "word": "hauteurs",
+      "occurrence": 1
+    },
+    {
+      "id": "facade",
+      "type": "lignes",
+      "label": "mêmes lignes",
+      "cue": "lignes",
+      "word": "lignes",
+      "occurrence": 1
+    }
+  ],
+  "sources": [
+    {
+      "fact": "Décret du 27 juillet 1859 : dans les rues de plus de 20 m de largeur, la hauteur des façades peut être portée à 20 m (sans dépasser 5 étages carrés au-dessus du rez-de-chaussée) ; couvertures inclinées à 45°.",
+      "title": "Règlement et tissus urbains de Paris (applan 71), APUR, 1971, p. 3 et p. 8",
+      "url": "https://50ans.apur.org/data/b4s3_home/fiche/75/03_reglement_tissus_urbains_paris_applan71_fd3ab.pdf",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Règlement du 27 juillet 1859 : « Dans les rues de plus de 20 mètres de largeur, les façades peuvent désormais atteindre 20 mètres de hauteur. Les combles restent limités par une diagonale à 45 degrés. »",
+      "title": "Règlements d'urbanisme de Paris, Wikipédia (français)",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A8glements_d%27urbanisme_de_Paris",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Le règlement de 1859 autorise un cinquième étage carré sur les voies larges de plus de vingt mètres (gabarit : soubassement, cinq étages, comble brisé).",
+      "title": "Anne Richard-Bazire, « Les immeubles », Livraisons de l'histoire de l'architecture, 36, 2018, p. 103-121",
+      "url": "https://journals.openedition.org/lha/1036",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Lors de la vente des terrains, Haussmann impose par cahier des charges, pour chaque îlot, les mêmes hauteurs d'étage et les mêmes lignes principales de façade, avec balcons, corniches et moulures ; il n'existe pas de règlement plus précis de l'immeuble « haussmannien ».",
+      "title": "« Haussmann Georges Eugène, baron (1809-1891) », Encyclopædia Universalis, partie 4 « L'œuvre accomplie »",
+      "url": "https://www.universalis.fr/encyclopedie/georges-eugene-haussmann/4-l-oeuvre-accomplie/",
+      "consulted": "2026-10-25"
+    },
+    {
+      "fact": "Haussmann recommande qu'au sein d'un même îlot, les lignes des balcons et des séparations d'étages forment des lignes continues d'un immeuble à l'autre.",
+      "title": "Règlements d'urbanisme de Paris, Wikipédia (français)",
+      "url": "https://fr.wikipedia.org/wiki/R%C3%A8glements_d%27urbanisme_de_Paris",
+      "consulted": "2026-10-25"
+    }
+  ],
+  "staging": {
+    "composition": "ImmeublesParis",
+    "decor": "rue-haussmannienne",
+    "objects": [
+      {
+        "id": "wall",
+        "pivot": [
+          "CUT_FACE - 0.3",
+          0,
+          5
+        ],
+        "move": [
+          {
+            "at": "regle+6",
+            "v": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": "regle+40",
+            "v": [
+              3,
+              46,
+              0
+            ]
+          }
+        ],
+        "rotate": [
+          {
+            "at": "regle+6",
+            "v": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "at": "regle+40",
+            "v": [
+              0,
+              0,
+              -0.22
+            ]
+          }
+        ],
+        "opacity": [
+          {
+            "at": "regle+26",
+            "v": 1
+          },
+          {
+            "at": "regle+40",
+            "v": 0,
+            "ease": "out"
+          }
+        ]
+      },
+      {
+        "id": "building1",
+        "scaleY": [
+          {
+            "at": "haussmann+10",
+            "v": 1
+          },
+          {
+            "at": "haussmann+24",
+            "v": 1.14,
+            "ease": "back:1.8"
+          },
+          {
+            "at": "lignes:hauteurs-4",
+            "v": 1.14
+          },
+          {
+            "at": "lignes:hauteurs+12",
+            "v": 1,
+            "ease": "back:2.4"
+          }
+        ]
+      },
+      {
+        "id": "building2",
+        "scaleY": [
+          {
+            "at": "haussmann+10",
+            "v": 1
+          },
+          {
+            "at": "haussmann+24",
+            "v": 0.87,
+            "ease": "back:1.8"
+          },
+          {
+            "at": "lignes:hauteurs-4",
+            "v": 0.87
+          },
+          {
+            "at": "lignes:hauteurs+12",
+            "v": 1,
+            "ease": "back:2.4"
+          }
+        ]
+      },
+      {
+        "id": "opposite",
+        "scaleY": [
+          {
+            "at": "regle:rues-16",
+            "v": 0
+          },
+          {
+            "at": "regle:rues+4",
+            "v": 1,
+            "ease": "back:1.6"
+          },
+          {
+            "at": "regle:façades+26",
+            "v": 1
+          },
+          {
+            "at": "regle:façades+40",
+            "v": 0,
+            "ease": "backIn:1.4"
+          }
+        ]
+      }
+    ],
+    "camera": [
+      {
+        "at": "start",
+        "shot": {
+          "target": [
+            37,
+            10,
+            10
+          ],
+          "yaw": 42,
+          "pitch": 24,
+          "distance": 175,
+          "centerY": 1000
+        },
+        "travel": {
+          "from": "start",
+          "to": "regle",
+          "yaw": 4
+        }
+      },
+      {
+        "at": "regle",
+        "duration": 45,
+        "shot": {
+          "target": [
+            41,
+            11,
+            8
+          ],
+          "yaw": 56,
+          "pitch": 18,
+          "distance": 134,
+          "centerY": 960
+        },
+        "travel": {
+          "from": "regle+45",
+          "to": "toit",
+          "yaw": 3
+        }
+      },
+      {
+        "at": "regle:rues-14",
+        "duration": 30,
+        "shot": {
+          "target": [
+            "CUT_FACE",
+            10,
+            "(FACADE + OPPOSITE) / 2 - 1.5"
+          ],
+          "yaw": 86,
+          "pitch": 9,
+          "distance": 172,
+          "centerY": 980
+        }
+      },
+      {
+        "at": "regle:façades-4",
+        "duration": 28,
+        "shot": {
+          "target": [
+            41,
+            11,
+            8
+          ],
+          "yaw": 56,
+          "pitch": 18,
+          "distance": 134,
+          "centerY": 960
+        },
+        "travel": {
+          "from": "regle+45",
+          "to": "toit",
+          "yaw": 3
+        }
+      },
+      {
+        "at": "toit",
+        "duration": 36,
+        "shot": {
+          "target": [
+            "CUT_FACE - 1",
+            20.5,
+            7
+          ],
+          "yaw": 84,
+          "pitch": 12,
+          "distance": 84,
+          "centerY": 1160
+        },
+        "travel": {
+          "from": "toit+36",
+          "to": "end",
+          "yaw": 2
+        }
+      },
+      {
+        "at": "etages-6",
+        "duration": 28,
+        "shot": {
+          "target": [
+            "CUT_FACE - 3",
+            12,
+            7
+          ],
+          "yaw": 80,
+          "pitch": 8,
+          "distance": 128,
+          "centerY": 1010
+        }
+      },
+      {
+        "at": "haussmann-8",
+        "duration": 34,
+        "shot": {
+          "target": [
+            27,
+            10.5,
+            10
+          ],
+          "yaw": 36,
+          "pitch": 7,
+          "distance": 150,
+          "centerY": 960
+        },
+        "travel": {
+          "from": "haussmann",
+          "to": "resultat",
+          "yaw": -8
+        }
+      },
+      {
+        "at": "resultat-6",
+        "duration": 40,
+        "shot": {
+          "target": [
+            26,
+            9,
+            13
+          ],
+          "yaw": 32,
+          "pitch": 20,
+          "distance": 205,
+          "centerY": 1000
+        },
+        "travel": {
+          "from": "resultat",
+          "to": "abonne",
+          "yaw": 6
+        }
+      },
+      {
+        "at": "abonne-6",
+        "duration": 34,
+        "shot": {
+          "target": [
+            41,
+            6,
+            12.6
+          ],
+          "yaw": 34,
+          "pitch": 9,
+          "distance": 78,
+          "centerY": 1000
+        }
+      }
+    ],
+    "owl": {
+      "spots": [
+        {
+          "at": "start",
+          "position": [
+            42,
+            0,
+            12.6
+          ],
+          "height": 8
+        },
+        {
+          "at": "toit+10",
+          "position": [
+            44.5,
+            24,
+            5
+          ],
+          "height": 5
+        },
+        {
+          "at": "haussmann+8",
+          "position": [
+            42,
+            0,
+            12.6
+          ],
+          "height": 8
+        }
+      ],
+      "poses": [
+        [
+          "start",
+          "wonder",
+          0
+        ],
+        [
+          "regle+18",
+          "pointRight",
+          1
+        ],
+        [
+          "regle:rues",
+          "pointLeft",
+          -1
+        ],
+        [
+          "regle:façades+4",
+          "pointRight",
+          1
+        ],
+        [
+          "toit+10",
+          "pointLeft",
+          -1
+        ],
+        [
+          "haussmann+8",
+          "wonder",
+          0
+        ],
+        [
+          "lignes+30",
+          "pointLeft",
+          -1
+        ],
+        [
+          "resultat+24",
+          "wonder",
+          0
+        ],
+        [
+          "conclusion+10",
+          "idle",
+          0
+        ],
+        [
+          "abonne",
+          "wave",
+          0
+        ]
+      ],
+      "hops": [
+        "regle:20",
+        "regle:20#2",
+        "toit:45",
+        "etages:cinq",
+        "lignes:hauteurs",
+        "lignes:lignes",
+        "prolongent:balcons",
+        "resultat:seul"
+      ]
+    },
+    "annotations": [
+      {
+        "kind": "clue",
+        "from": [
+          0,
+          "TOP",
+          "CORNICE"
+        ],
+        "to": [
+          "CUT_FACE",
+          "TOP",
+          "CORNICE"
+        ],
+        "badgeAt": [
+          "CUT_FACE / 2",
+          "TOP",
+          "CORNICE"
+        ],
+        "badge": "?",
+        "out": "regle",
+        "outFor": 10
+      },
+      {
+        "kind": "cote",
+        "id": "largeur",
+        "from": [
+          "CUT_FACE + 0.3",
+          11,
+          "FACADE"
+        ],
+        "to": [
+          "CUT_FACE + 0.3",
+          11,
+          "OPPOSITE"
+        ],
+        "in": "regle:rues+6",
+        "inFor": 18,
+        "ease": "smooth",
+        "out": "regle:façades+8"
+      },
+      {
+        "kind": "cote",
+        "id": "hauteur",
+        "from": [
+          "CUT_FACE",
+          0,
+          "FACADE + 0.4"
+        ],
+        "to": [
+          "CUT_FACE",
+          "TOP",
+          "FACADE + 0.4"
+        ],
+        "offset": 60,
+        "in": "regle:20#2-18",
+        "inFor": 20,
+        "ease": "quad",
+        "out": "toit",
+        "count": {
+          "to": 20,
+          "suffix": " m"
+        },
+        "marks": [
+          "4 / TOP",
+          "6.5 / TOP",
+          "10 / TOP",
+          "13 / TOP",
+          "15.75 / TOP"
+        ]
+      },
+      {
+        "kind": "angle",
+        "id": "pente",
+        "corner": [
+          "CUT_FACE + 0.8",
+          "TOP",
+          "CORNICE"
+        ],
+        "along": [
+          "CUT_FACE + 0.8",
+          "TOP + 8",
+          "CORNICE - 8"
+        ],
+        "level": [
+          "CUT_FACE + 0.8",
+          "TOP",
+          "CORNICE - 6"
+        ],
+        "in": "toit:45-4",
+        "out": "etages+4"
+      },
+      {
+        "kind": "tags",
+        "out": "haussmann",
+        "tags": [
+          {
+            "at": [
+              "CUT_FACE + 0.4",
+              5.25,
+              5
+            ],
+            "text": "1",
+            "in": "etages:cinq-16",
+            "inFor": 8
+          },
+          {
+            "at": [
+              "CUT_FACE + 0.4",
+              8.25,
+              5
+            ],
+            "text": "2",
+            "in": "etages:cinq-12",
+            "inFor": 8
+          },
+          {
+            "at": [
+              "CUT_FACE + 0.4",
+              11.5,
+              5
+            ],
+            "text": "3",
+            "in": "etages:cinq-8",
+            "inFor": 8
+          },
+          {
+            "at": [
+              "CUT_FACE + 0.4",
+              14.4,
+              5
+            ],
+            "text": "4",
+            "in": "etages:cinq-4",
+            "inFor": 8
+          },
+          {
+            "at": [
+              "CUT_FACE + 0.4",
+              17.1,
+              5
+            ],
+            "text": "5",
+            "in": "etages:cinq+0",
+            "inFor": 8
+          }
+        ]
+      },
+      {
+        "kind": "cote",
+        "id": "etages",
+        "from": [
+          "CUT_FACE + 0.3",
+          4,
+          "FACADE + 0.6"
+        ],
+        "to": [
+          "CUT_FACE + 0.3",
+          18.5,
+          "FACADE + 0.6"
+        ],
+        "offset": -70,
+        "in": "etages:cinq-4",
+        "inFor": 16,
+        "out": "haussmann"
+      },
+      {
+        "kind": "line",
+        "from": [
+          0,
+          "4",
+          "FACADE + 1.1"
+        ],
+        "to": [
+          "CUT_FACE",
+          "4",
+          "FACADE + 1.1"
+        ],
+        "dashed": true,
+        "in": "lignes:hauteurs+4",
+        "inFor": 20,
+        "out": "prolongent+10",
+        "outFor": 14
+      },
+      {
+        "kind": "line",
+        "from": [
+          0,
+          "6.5",
+          "FACADE + 1.1"
+        ],
+        "to": [
+          "CUT_FACE",
+          "6.5",
+          "FACADE + 1.1"
+        ],
+        "dashed": true,
+        "in": "lignes:hauteurs+7",
+        "inFor": 20,
+        "out": "prolongent+10",
+        "outFor": 14
+      },
+      {
+        "kind": "line",
+        "from": [
+          0,
+          "10",
+          "FACADE + 1.1"
+        ],
+        "to": [
+          "CUT_FACE",
+          "10",
+          "FACADE + 1.1"
+        ],
+        "dashed": true,
+        "in": "lignes:hauteurs+10",
+        "inFor": 20,
+        "out": "prolongent+10",
+        "outFor": 14,
+        "id": "hauteurs"
+      },
+      {
+        "kind": "line",
+        "from": [
+          0,
+          "13",
+          "FACADE + 1.1"
+        ],
+        "to": [
+          "CUT_FACE",
+          "13",
+          "FACADE + 1.1"
+        ],
+        "dashed": true,
+        "in": "lignes:hauteurs+13",
+        "inFor": 20,
+        "out": "prolongent+10",
+        "outFor": 14
+      },
+      {
+        "kind": "line",
+        "from": [
+          0,
+          "15.75",
+          "FACADE + 1.1"
+        ],
+        "to": [
+          "CUT_FACE",
+          "15.75",
+          "FACADE + 1.1"
+        ],
+        "dashed": true,
+        "in": "lignes:hauteurs+16",
+        "inFor": 20,
+        "out": "prolongent+10",
+        "outFor": 14
+      },
+      {
+        "kind": "line",
+        "from": [
+          0,
+          6.75,
+          "FACADE + 1.1"
+        ],
+        "to": [
+          "CUT_FACE",
+          6.75,
+          "FACADE + 1.1"
+        ],
+        "hot": true,
+        "windows": [
+          {
+            "in": "lignes:lignes+0",
+            "inFor": 18,
+            "out": "prolongent-2",
+            "outFor": 6
+          },
+          {
+            "in": "prolongent:balcons+0",
+            "inFor": 16
+          }
+        ],
+        "out": "conclusion+20",
+        "outFor": 14
+      },
+      {
+        "kind": "line",
+        "from": [
+          0,
+          16,
+          "FACADE + 1.1"
+        ],
+        "to": [
+          "CUT_FACE",
+          16,
+          "FACADE + 1.1"
+        ],
+        "hot": true,
+        "windows": [
+          {
+            "in": "lignes:lignes+4",
+            "inFor": 18,
+            "out": "prolongent-2",
+            "outFor": 6
+          },
+          {
+            "in": "prolongent:balcons+4",
+            "inFor": 16
+          }
+        ],
+        "out": "conclusion+20",
+        "outFor": 14
+      },
+      {
+        "kind": "line",
+        "id": "facade",
+        "from": [
+          0,
+          "TOP - 0.2",
+          "CORNICE + 0.3"
+        ],
+        "to": [
+          "CUT_FACE",
+          "TOP - 0.2",
+          "CORNICE + 0.3"
+        ],
+        "hot": true,
+        "windows": [
+          {
+            "in": "lignes:lignes+8",
+            "inFor": 18,
+            "out": "prolongent-2",
+            "outFor": 6
+          },
+          {
+            "in": "prolongent:corniches",
+            "inFor": 16
+          }
+        ],
+        "out": "conclusion+20",
+        "outFor": 14
+      },
+      {
+        "kind": "line",
+        "from": [
+          0,
+          "TOP",
+          "CORNICE"
+        ],
+        "to": [
+          0,
+          "TOP + 7",
+          "CORNICE - 7"
+        ],
+        "dashed": true,
+        "in": "resultat:seul-10",
+        "inFor": 16,
+        "out": "conclusion+20",
+        "outFor": 14
+      },
+      {
+        "kind": "line",
+        "from": [
+          "CUT_FACE",
+          "TOP",
+          "CORNICE"
+        ],
+        "to": [
+          "CUT_FACE",
+          "TOP + 7",
+          "CORNICE - 7"
+        ],
+        "dashed": true,
+        "in": "resultat:seul-10",
+        "inFor": 16,
+        "out": "conclusion+20",
+        "outFor": 14
+      }
+    ]
+  }
+}
