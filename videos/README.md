@@ -1,6 +1,6 @@
 # videos
 
-Vidéos **finales validées** par l'utilisateur, prêtes à être partagées. Versionnées par **Git LFS** (`.gitattributes` : `videos/*.mp4`) : le dépôt ne garde qu'un pointeur, le fichier est stocké à part par GitHub. Après un clonage : `git lfs install` puis `git lfs pull`.
+Vidéos **finales validées** par l'utilisateur, prêtes à être partagées. Versionnées par **Git LFS** (`.gitattributes` : `videos/*.mp4`) : le dépôt ne garde qu'un pointeur, le fichier est stocké à part par GitHub. Après un clonage : `git lfs install` puis `git lfs pull`. Avec Git 2.45.1, le clonage affiche « active `post-checkout` hook found » : c'est un bogue connu de cette version avec Git LFS, sans perte (les fichiers sont bien là) ; mettre Git à jour (2.45.2 ou plus récent) le supprime.
 
 Aucune n'est publiée tant que l'utilisateur ne l'a pas confirmé (`AGENTS.md`).
 
