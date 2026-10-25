@@ -12,6 +12,8 @@ out/
 .runtime/
 .cache/
 *.mp4
+# Exception : les vidéos finales validées, versionnées par Git LFS (.gitattributes, videos/README.md).
+!videos/*.mp4
 *.mov
 *.webm
 *.mkv
