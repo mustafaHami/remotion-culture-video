@@ -1,5 +1,10 @@
 # src/design
 
-Système visuel commun : palette (tokens de couleur), typographie, espacements, courbes d'animation (easings), constantes de format (1080 × 1920, 30 i/s) et chargement des polices locales de `public/fonts`.
+Design **global**, commun à toutes les vidéos (spécification : `docs/design-system.md`) :
 
-La palette n'est pas encore choisie : voir les deux pistes dans `docs/vision.md`. Toutes les couleurs passent par des tokens définis ici ; aucun code couleur en dur dans les scènes.
+- `looks.ts` : les trois styles officiels A, B, D (palettes, rôles de couleur des blocs voxel, polices, habillage, couleurs du hibou) ;
+- `fonts.ts` : chargement des polices locales de chaque style ;
+- `format.ts` : 1080 × 1920, 30 i/s, zones sûres ;
+- `color.ts` : mélanges de couleurs.
+
+Règle : rien ici n'est propre à un décor (immeuble, rue…). Les décors utilisent les rôles génériques.

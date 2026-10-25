@@ -4,7 +4,7 @@ Nom de travail du projet : `remotion-culture-video` (nom définitif à choisir).
 
 Vidéos verticales de 40 s à 1 min 30, destinées à Instagram Reels, TikTok et YouTube Shorts. Chaque vidéo répond à **une** question de culture générale (pourquoi on appelle une chose ainsi, pourquoi une ville a cette forme, pourquoi un mot s'écrit comme ça…) dans un univers en voxels, guidée par une mascotte : le hibou explorateur. Le décor est vu en coupe, la caméra passe d'une pièce à l'autre et des annotations techniques apparaissent au rythme de la voix.
 
-État actuel : **projet initialisé, aucune vidéo, scène ni mascotte construite.** Vision et direction artistique : [docs/vision.md](docs/vision.md).
+État actuel : moteur d'épisode générique (la mise en scène s'écrit en données dans le fichier d'épisode, [docs/moteur.md](docs/moteur.md)) et trois épisodes en style A crayonné : **ImmeublesParis** (« Pourquoi les immeubles parisiens se ressemblent-ils ? », 41 s), **FondsMarins** (« Pourquoi connaît-on si mal le fond des océans ? », 55 s) et **HublotsRonds** (« Pourquoi les hublots des avions sont-ils ronds ? », 52 s), plus les essais de style (voir [content/essais/README.md](content/essais/README.md)). Hibou version C. Aucun épisode n'est publié. Vision et direction artistique : [docs/vision.md](docs/vision.md). Produire une vidéo : skill [produire-episode](.agents/skills/produire-episode/SKILL.md).
 
 ## Prérequis
 
@@ -37,26 +37,41 @@ npm run browser
 | `npm run verify` | Contrôle statique du dépôt et synchronisation des skills |
 | `npm run browser` | Installe ou vérifie le navigateur de Remotion |
 | `npm run skills:sync` | Copie `.agents/skills` vers `.claude/skills` |
+| `npm run render -- --compositions=Id --out=output/...` | Rend des compositions en MP4 |
+| `npm run stills -- --compositions=Id --frames=0,120` | Rend des images fixes pour régler un cadrage |
+| `npm run essai:render` | Rend les trois versions de l'essai de styles dans `output/essais` |
 
-Les commandes de préparation audio, de rendu et de contrôle vidéo seront ajoutées avec le premier flux de création. Aucun rendu n'est versionné.
+Préparation audio et contrôle vidéo (Python, dans `.venv`) :
+
+```sh
+.venv/Scripts/python scripts/prepare-audio.py --content content/essais/styles-paris.json
+.venv/Scripts/python scripts/inspect-video.py --content content/essais/styles-paris.json --videos output/essais/EssaiStyleA.mp4 --board output/essais/planche.jpg
+.venv/Scripts/python scripts/check-fonts.py
+```
+
+Aucun rendu n'est versionné.
 
 ## Organisation
 
 | Chemin | Rôle |
 |---|---|
-| `src/index.ts`, `src/Root.tsx` | Point d'entrée Remotion (aucune composition pour l'instant) |
+| `src/index.ts`, `src/Root.tsx` | Point d'entrée Remotion et liste des compositions |
 | `src/design` | Palette, typographie, easings, formats |
 | `src/voxel` | Briques 3D voxel construites en code |
 | `src/mascot` | Le hibou explorateur |
-| `src/scenes` | Types de scènes pilotés par les données |
-| `src/overlays` | Sous-titres, bandeau de chapitre, annotations |
-| `src/compositions` | Compositions Remotion génériques |
+| `src/voxel/decor` | Décors propres à chaque sujet (maquettes détaillées) |
+| `src/scenes` | Caméra (plans, projection des points 3D) |
+| `src/overlays` | Accroche, sous-titres, bandeau de chapitre, annotations |
+| `src/engine` | Moteur d'épisode : une composition pour toutes les vidéos, pilotée par `content/episodes/<id>.json` |
+| `src/compositions` | Rendu crayonné (`voxel-dessin/`, `dessin/Filters.tsx`), essais |
 | `content/episodes` | Un fichier JSON par vidéo |
+| `content/essais` | Contenus d'essais (tests de style, jamais publiés) |
+| `src/content` | Minutage de la narration (voix → images) |
 | `public/audio` | Narrations WAV figées et versionnées |
 | `public/fonts` | Polices OFL locales et leurs licences |
 | `scripts` | Contrôles du dépôt, synchronisation des skills, futurs scripts de production |
 | `tests` | Tests `node:test` |
-| `docs` | Vision et documentation |
+| `docs` | Vision, système de design, rendu, maquettes, mise en scène ([docs/README.md](docs/README.md)) |
 | `.agents/skills` | Skills partagés (source de vérité) |
 | `.claude/skills` | Copie générée pour Claude Code |
 | `output/` | Rendus locaux, exclus de Git |

@@ -33,49 +33,50 @@ Francophones curieux qui découvrent la vidéo en faisant défiler un fil : atte
 
 - **Matière** : tout est fait de blocs (voxels). Assez de détail pour être lisible et chaleureux, jamais de bruit visuel.
 - **Lumière** : douce et enveloppante, avec des ombres nettes qui donnent du volume aux blocs.
-- **Palette** : courte (5 à 7 couleurs) et cohérente sur toute la série. Deux pistes ci-dessous, non tranchées.
+- **Palette** : courte (5 à 7 couleurs) par style ; trois styles officiels (A, B, D), au choix de chaque vidéo.
 - **Décor en coupe** : le lieu de l'histoire (immeuble, maison, atelier, ville en miniature…) est vu en coupe comme une maison de poupée. Chaque pièce ou étage correspond à une étape de l'explication ; la caméra passe d'une pièce à l'autre ou d'un étage à l'autre.
 - **Annotations « mannequin technique »** : flèches, cotes, angles, dates, compteurs qui défilent et étiquettes apparaissent par-dessus la 3D, au moment exact où la voix les mentionne, puis s'effacent proprement.
 - **Bandeau de chapitre** en haut de l'écran (ex. « Niveau 1 · 1853 ») pour montrer la progression.
-- **Sous-titres mot à mot** synchronisés avec la voix, mot clé surligné. C'est la colonne vertébrale du rythme.
+- **Sous-titres mot à mot** synchronisés avec la voix, mot clé surligné, dans un encadré clair centré. C'est la colonne vertébrale du rythme.
 - **Rythme** : rien ne reste figé. Une scène change ou bouge toutes les 2 à 4 secondes environ (mouvement de caméra, geste du hibou, annotation, changement de pièce).
 - **Lisibilité** : le texte important reste dans la zone sûre, hors des interfaces des plateformes (boutons à droite, légende en bas, en-tête en haut). Les marges exactes seront fixées dans `src/design` à partir des gabarits des plateformes.
 
-### Pistes de palette (à choisir)
+### Les trois styles officiels (25 octobre 2026)
 
-Valeurs indicatives, à tester en rendu réel avant de trancher (contraste des sous-titres, lisibilité des annotations, rendu des ombres).
+Décision : les trois directions A, B et D sont **gardées toutes les trois** ; chaque vidéo choisit la sienne pour varier ce que voit le public. Spécification à jour : `docs/design-system.md` (elle prévaut sur le tableau historique ci-dessous).
 
-**Piste A — Bois chaud et crème** : chaleureuse, diurne, « atelier de l'explorateur ».
+#### Présélection d'origine
 
-| Rôle | Couleur |
-|---|---|
-| Fond, murs clairs | crème `#F6EBD9` |
-| Bois clair (sols, meubles) | `#D9A066` |
-| Bois foncé (structure, contours) | `#8A5A3B` |
-| Accent brique / terre cuite | `#C8553D` |
-| Accent végétal | sauge `#8FA98F` |
-| Texte et annotations | encre `#2E2420` |
-| Surlignage du mot clé, yeux du hibou | ambre `#F2A93B` |
+Claude Design a proposé quatre directions dans l'univers voxel, chacune avec une accroche, une démonstration, une révélation et une fiche de style (canevas : https://claude.ai/code/artifact/561adce7-fcb9-49f2-8364-3e174a4faccf). Trois ont été présélectionnées pour un essai vidéo comparatif (voir `content/essais/README.md`), puis toutes gardées.
 
-**Piste B — Nuit violette et cosy** : nocturne, intime, « bibliothèque à la lampe ».
+| | **A · Atelier** | **B · Veillée** | **D · Zinc & craie** |
+|---|---|---|---|
+| Ambiance | Maquette d'ébéniste au soleil de fin d'après-midi, livre illustré | Paris quand les fenêtres s'allument, intime | Affiche d'un matin clair sur les toits de zinc, graphique |
+| Palette | crème `#F4EAD8`, pierre `#E3C9A0`, bois `#A9693D`, encre `#3A2619`, zinc `#6E7B85`, terracotta `#C4553A`, ambre `#EFA733` | nuit `#1C1430`, prune `#46305F`, lavande `#9883C2`, lune `#FBEBD0`, ambre lampe `#FFB547`, rose `#EE7B8C` | craie `#F6F2EA`, ciel `#CADCE4`, pierre `#E8D8BC`, zinc `#74879A`, noir `#15171C`, tomate `#E8432D`, ambre `#F3A21E` |
+| Polices (OFL) | Fraunces (titres) + Atkinson Hyperlegible (texte) | Baloo 2 (titres) + Nunito (texte) | Anton (titres en capitales) + Inter (texte) |
+| Hibou | plumage bois, disque facial crème, sacoche terracotta | plumage prune, disque lavande, écharpe rose | plumage noir, masque craie, sacoche tomate |
+| Caméra | travelling latéral lent, passage d'étage en glissé | dérive flottante, rapprochement vers une fenêtre allumée | plans fixes cadrés comme des affiches, coupes franches, zooms rapides |
+| Point de vigilance | tons bois et pierre proches : les petits détails se fondent | grands aplats sombres sensibles à la compression vidéo | moins de profondeur ; capitales condensées criardes si on en abuse |
 
-| Rôle | Couleur |
-|---|---|
-| Fond, ciel | nuit `#1E1633` |
-| Murs, structure | violet `#4B3A7A` |
-| Surfaces éclairées | lavande `#9C8ADE` |
-| Lumière des lampes, surlignage | jaune chaud `#FFC56B` |
-| Accent | rose poudré `#E58FA6` |
-| Annotations techniques | cyan `#6FE3E1` |
-| Texte | crème `#FFF4E0` |
+**Écartée : C · Bleu d'archi** (plan technique bleu). Jugée la moins lisible sur téléphone et la plus froide. À retenir quand même : ses annotations « plan d'architecte » et une police à chasse fixe (JetBrains Mono) pour les cotes et compteurs peuvent inspirer les autres directions.
 
-Dans les deux cas, les yeux ambrés du hibou doivent ressortir sur tous les décors.
+Zones sûres reprises des planches : rien d'important dans les 200 px du haut, les 360 px du bas, les 140 px de droite ; marge gauche de 64 px.
+
+### Retours sur l'essai (25 octobre 2026)
+
+- **Validé** : la manière d'expliquer (coupe, mur qui se soulève, cote et angle au mot prononcé, petites animations).
+- **Validé** : les sous-titres dans un encadré clair, plus lisibles ; ils sont désormais centrés et encadrés dans les trois directions (la version B sans encadré est abandonnée).
+- **Validé** : l'accroche avec la question centrée sur le décor atténué, pour garder l'attention et servir de couverture.
+- **À refaire** : le hibou provisoire, jugé trop rectangulaire (« un Lego »). Nouvelle demande à Claude Design : `docs/prompts/claude-design-hibou.md`.
+- **Choisi** : le hibou **C « lisse stylisé »** (formes rondes, masque en cœur, ombrage doux), posé dans le décor voxel. Construit en code dans `src/mascot` et intégré à l'essai.
+- **Écarté** : HyperFrames, essayé sur l'essai de styles ; le projet reste sur Remotion.
+- Les trois styles sont gardés, au choix de chaque vidéo.
 
 ## Mascotte : le hibou explorateur
 
-Symbole du savoir, il guide la personne dans l'histoire. Il n'est **pas encore construit** ; cette description sert de cahier des charges.
+Symbole du savoir, il guide la personne dans l'histoire. Version retenue : **C « lisse stylisé »** des planches Claude Design (rondeurs, masque en cœur, ombrage doux), construite en code dans `src/mascot`.
 
-- **Construction** : entièrement en blocs, en code (Three.js), avec une silhouette lisible même en petit.
+- **Construction** : en code (Three.js), à partir de formes rondes simples, avec une silhouette lisible même en petit. Il contraste volontairement avec le décor en voxels.
 - **Signes distinctifs** : grands yeux ambrés très expressifs (paupières en blocs pour cligner, pupilles mobiles), aigrettes (petites plumes en pointe sur la tête), sacoche en bandoulière, petite loupe.
 - **Répertoire de gestes** : guider (avancer, se retourner vers la caméra), montrer avec une aile, s'étonner (yeux grands ouverts, aigrettes dressées), réfléchir (tête penchée, loupe levée), saluer.
 - **Mouvements** : rotation de la tête, clignement, battements et gestes d'ailes, marche, petits rebonds de réaction. Tout est calculé image par image depuis `useCurrentFrame()`, avec des easings doux et des poses tenues assez longtemps pour être lues.
@@ -87,6 +88,7 @@ Symbole du savoir, il guide la personne dans l'histoire. Il n'est **pas encore c
 Les 3 premières secondes décident si la personne reste.
 
 - La question ou l'énigme s'affiche en grand titre **dès la première image** (ex. « Pourquoi les immeubles parisiens se ressemblent-ils ? »).
+- Elle est centrée à l'écran, devant le décor visible mais atténué (voile et léger flou) ; le décor se dévoile quand la réponse commence.
 - Un visuel intrigant l'accompagne tout de suite : le hibou surpris devant un indice, un détail étrange du décor.
 - Pas de logo, pas de générique, pas d'introduction lente.
 - L'accroche promet une réponse claire et satisfaisante, que la vidéo tient.
@@ -115,25 +117,20 @@ S'inspirer des codes, ne **jamais** copier leurs personnages, leur univers ou le
 | https://www.instagram.com/reel/De4FT04DAdd/ | Mini-série, plans de cinéma |
 | https://www.instagram.com/reel/DeqdMQAJbHy/ | Particules et modèles 3D annotés |
 
-## Polices (proposition)
+## Polices
 
-Uniquement des polices locales sous licence OFL, licences incluses dans `public/fonts`.
+Uniquement des polices locales sous licence OFL, licences incluses dans `public/fonts`. Chaque style a son couple de polices (tableau ci-dessus) ; toutes sont installées et gardées.
 
-- **Baloo 2** (déjà présente) : titres et accroche ; ronde et chaleureuse, cohérente avec les blocs.
-- **Nunito** (déjà présente) : sous-titres et textes courants ; très lisible sur téléphone.
-- **À envisager pour les annotations techniques** : une police à chasse fixe ou technique sous OFL (par exemple JetBrains Mono, Space Mono ou IBM Plex Mono) pour les cotes, dates et compteurs. Non installée.
+- **À envisager pour les annotations techniques** : une police à chasse fixe sous OFL (par exemple JetBrains Mono) pour les cotes, dates et compteurs. Non installée.
 
 Avant de valider, contrôler en rendu les caractères français : accents majuscules (É, À, Ç), ligatures (œ, æ), guillemets « », apostrophe typographique ’ et espaces insécables.
 
 ## Ce qui reste à décider
 
-- La palette (piste A, piste B ou une variante).
-- Les polices définitives, dont celle des annotations.
+- La police des annotations.
 - Le nom définitif du projet et de la chaîne.
-- Le dessin précis du hibou (proportions, couleurs du plumage, de la sacoche et de la loupe).
-- Le schéma JSON des épisodes et le flux de création (préparation audio, rendu, contrôle).
 - Le débit de la voix et l'éventuelle ambiance sonore ou les bruitages (libres de droits, licence notée).
 - La formulation de l'appel à suivre.
 - Les premiers sujets.
 - La fréquence et le calendrier de publication, ainsi que les comptes et l'outil de publication.
-- Un dépôt distant et une intégration continue.
+- Une intégration continue (le dépôt distant existe : GitHub, `origin`).

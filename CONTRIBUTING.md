@@ -3,7 +3,7 @@
 ## Branche et dépôt
 
 - Branche de travail par défaut : `main`.
-- Aucun dépôt distant n'est configuré. On n'en crée pas et on ne pousse rien sans demande explicite de l'utilisateur. Le jour où un dépôt distant existe, ses protections (PR, contrôles obligatoires) s'appliquent et ne se contournent pas.
+- Dépôt distant `origin` : https://github.com/mustafaHami/remotion-culture-video (branche `main`). On ne pousse que sur demande explicite de l'utilisateur, et jamais en force. Les protections du dépôt (PR, contrôles obligatoires), si elles sont activées, s'appliquent et ne se contournent pas. Aucun autre dépôt distant n'est créé.
 
 ## Avant un commit
 

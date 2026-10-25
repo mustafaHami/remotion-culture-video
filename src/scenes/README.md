@@ -1,3 +1,9 @@
 # src/scenes
 
-Types de scènes génériques pilotés par les données d'un épisode : accroche, plongée dans le décor en coupe, pièce/étage de démonstration, révélation, conclusion. Une scène ne contient aucun texte propre à un épisode : tout vient de `content/episodes/<id>.json`.
+Caméra commune à toutes les vidéos :
+
+- `camera.ts` : le plan (`Shot` : cible, `yaw`, `pitch`, distance, `fov`, `centerY`), `mixShots` pour passer d'un plan à l'autre, `projectPoint` pour placer les annotations 2D sur la 3D ;
+- `CameraRig.tsx` : applique le plan à la caméra du `ThreeCanvas` à chaque image ;
+- `paris/` : rue de l'essai de styles (historique).
+
+Usage : `docs/mise-en-scene.md` § 3.

@@ -4,4 +4,6 @@ Chaque skill est un dossier `<nom>/SKILL.md` (en-tête YAML avec `name` identiqu
 
 On écrit et on modifie les skills **ici uniquement**, puis `npm run skills:sync` les copie dans `.claude/skills`. `npm run verify` échoue si les deux dossiers divergent.
 
-Aucun skill de production n'existe encore : ils seront rédigés quand le premier flux de création sera en place.
+| Skill | Rôle |
+|---|---|
+| `produire-episode` | Produire une vidéo complète sur une notion : sources, narration, voix, maquette, mise en scène, rendu, contrôles |
