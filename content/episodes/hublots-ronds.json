@@ -30,51 +30,51 @@
     {
       "id": "question",
       "text": "Pourquoi les hublots des avions sont-ils ronds ?",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 12,
       "keywords": [
         "ronds"
       ],
       "audio": {
-        "src": "audio/78cd704922af75ca.wav",
-        "seconds": 2.04,
+        "src": "audio/1abf4ded9a152b6d.wav",
+        "seconds": 2.043,
         "durationInFrames": 62,
         "words": [
           {
             "text": "Pourquoi",
-            "startMs": 10,
-            "endMs": 348
+            "startMs": 0,
+            "endMs": 337
           },
           {
             "text": "les",
-            "startMs": 360,
-            "endMs": 485
+            "startMs": 372,
+            "endMs": 464
           },
           {
             "text": "hublots",
-            "startMs": 498,
-            "endMs": 748
+            "startMs": 499,
+            "endMs": 836
           },
           {
             "text": "des",
-            "startMs": 760,
-            "endMs": 885
+            "startMs": 859,
+            "endMs": 964
           },
           {
             "text": "avions",
-            "startMs": 898,
-            "endMs": 1210
+            "startMs": 1022,
+            "endMs": 1312
           },
           {
             "text": "sont-ils",
-            "startMs": 1222,
-            "endMs": 1598
+            "startMs": 1335,
+            "endMs": 1683
           },
           {
             "text": "ronds ?",
-            "startMs": 1610,
-            "endMs": 1885
+            "startMs": 1718,
+            "endMs": 1916
           }
         ]
       }
@@ -82,7 +82,7 @@
     {
       "id": "comet",
       "text": "En 1952, le Comet devient le premier avion de ligne à réaction.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 8,
       "keywords": [
@@ -90,69 +90,69 @@
         "Comet"
       ],
       "audio": {
-        "src": "audio/ba93fb9c6f06cc72.wav",
-        "seconds": 4.36,
-        "durationInFrames": 131,
+        "src": "audio/9345741ece8089cf.wav",
+        "seconds": 4.087,
+        "durationInFrames": 123,
         "words": [
           {
             "text": "En",
-            "startMs": 20,
-            "endMs": 158
+            "startMs": 0,
+            "endMs": 163
           },
           {
             "text": "1952,",
-            "startMs": 170,
-            "endMs": 1220
+            "startMs": 186,
+            "endMs": 1091
           },
           {
             "text": "le",
-            "startMs": 1558,
-            "endMs": 1645
+            "startMs": 1300,
+            "endMs": 1416
           },
           {
             "text": "Comet",
-            "startMs": 1658,
-            "endMs": 2145
+            "startMs": 1474,
+            "endMs": 1834
           },
           {
             "text": "devient",
-            "startMs": 2158,
-            "endMs": 2482
+            "startMs": 1927,
+            "endMs": 2299
           },
           {
             "text": "le",
-            "startMs": 2495,
-            "endMs": 2595
+            "startMs": 2322,
+            "endMs": 2380
           },
           {
             "text": "premier",
-            "startMs": 2608,
-            "endMs": 2945
+            "startMs": 2426,
+            "endMs": 2694
           },
           {
             "text": "avion",
-            "startMs": 2958,
-            "endMs": 3208
+            "startMs": 2740,
+            "endMs": 2972
           },
           {
             "text": "de",
-            "startMs": 3220,
-            "endMs": 3332
+            "startMs": 3019,
+            "endMs": 3077
           },
           {
             "text": "ligne",
-            "startMs": 3345,
-            "endMs": 3570
+            "startMs": 3123,
+            "endMs": 3355
           },
           {
             "text": "à",
-            "startMs": 3582,
-            "endMs": 3620
+            "startMs": 3425,
+            "endMs": 3460
           },
           {
             "text": "réaction.",
-            "startMs": 3632,
-            "endMs": 4245
+            "startMs": 3541,
+            "endMs": 4087
           }
         ]
       }
@@ -160,7 +160,7 @@
     {
       "id": "crash",
       "text": "Mais en 1954, deux Comet se brisent en plein vol.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 12,
       "keywords": [
@@ -168,59 +168,59 @@
         "brisent"
       ],
       "audio": {
-        "src": "audio/f74e156cf191eee3.wav",
-        "seconds": 3.73,
-        "durationInFrames": 112,
+        "src": "audio/025e667506bab810.wav",
+        "seconds": 3.158,
+        "durationInFrames": 95,
         "words": [
           {
             "text": "Mais",
-            "startMs": 20,
-            "endMs": 232
+            "startMs": 0,
+            "endMs": 174
           },
           {
             "text": "en",
-            "startMs": 245,
-            "endMs": 395
+            "startMs": 221,
+            "endMs": 267
           },
           {
             "text": "1954,",
-            "startMs": 408,
-            "endMs": 1582
+            "startMs": 302,
+            "endMs": 1289
           },
           {
             "text": "deux",
-            "startMs": 1845,
-            "endMs": 1958
+            "startMs": 1358,
+            "endMs": 1474
           },
           {
             "text": "Comet",
-            "startMs": 1970,
-            "endMs": 2395
+            "startMs": 1498,
+            "endMs": 1846
           },
           {
             "text": "se",
-            "startMs": 2408,
-            "endMs": 2558
+            "startMs": 1997,
+            "endMs": 2113
           },
           {
             "text": "brisent",
-            "startMs": 2570,
-            "endMs": 2845
+            "startMs": 2148,
+            "endMs": 2473
           },
           {
             "text": "en",
-            "startMs": 2858,
-            "endMs": 2932
+            "startMs": 2554,
+            "endMs": 2647
           },
           {
             "text": "plein",
-            "startMs": 2945,
-            "endMs": 3145
+            "startMs": 2682,
+            "endMs": 2844
           },
           {
             "text": "vol.",
-            "startMs": 3158,
-            "endMs": 3608
+            "startMs": 2879,
+            "endMs": 3158
           }
         ]
       }
@@ -228,7 +228,7 @@
     {
       "id": "pression",
       "text": "À chaque vol, la cabine est gonflée d’air comme un ballon, puis dégonflée à l’atterrissage.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 8,
       "keywords": [
@@ -236,84 +236,84 @@
         "dégonflée"
       ],
       "audio": {
-        "src": "audio/9a81e277fbcbd2ae.wav",
-        "seconds": 5.08,
-        "durationInFrames": 153,
+        "src": "audio/cef3c2619854aa6a.wav",
+        "seconds": 4.226,
+        "durationInFrames": 127,
         "words": [
           {
             "text": "À",
-            "startMs": 10,
-            "endMs": 135
+            "startMs": 0,
+            "endMs": 81
           },
           {
             "text": "chaque",
-            "startMs": 148,
-            "endMs": 435
+            "startMs": 163,
+            "endMs": 395
           },
           {
             "text": "vol,",
-            "startMs": 448,
-            "endMs": 798
+            "startMs": 418,
+            "endMs": 697
           },
           {
             "text": "la",
-            "startMs": 1122,
-            "endMs": 1222
+            "startMs": 720,
+            "endMs": 813
           },
           {
             "text": "cabine",
-            "startMs": 1235,
-            "endMs": 1598
+            "startMs": 859,
+            "endMs": 1242
           },
           {
             "text": "est",
-            "startMs": 1610,
-            "endMs": 1660
+            "startMs": 1265,
+            "endMs": 1335
           },
           {
             "text": "gonflée",
-            "startMs": 1672,
-            "endMs": 2060
+            "startMs": 1405,
+            "endMs": 1776
           },
           {
             "text": "d’air",
-            "startMs": 2072,
-            "endMs": 2310
+            "startMs": 1811,
+            "endMs": 2032
           },
           {
             "text": "comme",
-            "startMs": 2322,
-            "endMs": 2560
+            "startMs": 2090,
+            "endMs": 2276
           },
           {
             "text": "un",
-            "startMs": 2572,
-            "endMs": 2635
+            "startMs": 2299,
+            "endMs": 2345
           },
           {
             "text": "ballon,",
-            "startMs": 2648,
-            "endMs": 2985
+            "startMs": 2392,
+            "endMs": 2705
           },
           {
             "text": "puis",
-            "startMs": 3272,
-            "endMs": 3422
+            "startMs": 2728,
+            "endMs": 2891
           },
           {
             "text": "dégonflée",
-            "startMs": 3435,
-            "endMs": 3960
+            "startMs": 2926,
+            "endMs": 3332
           },
           {
             "text": "à",
-            "startMs": 3972,
-            "endMs": 4010
+            "startMs": 3355,
+            "endMs": 3379
           },
           {
             "text": "l’atterrissage.",
-            "startMs": 4022,
-            "endMs": 4898
+            "startMs": 3425,
+            "endMs": 4226
           }
         ]
       }
@@ -321,7 +321,7 @@
     {
       "id": "bassin",
       "text": "Les enquêteurs plongent un Comet dans un bassin, et le gonflent encore et encore. Après environ 3 000 cycles, il se déchire.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 12,
       "keywords": [
@@ -329,119 +329,119 @@
         "déchire"
       ],
       "audio": {
-        "src": "audio/edab16748714fe77.wav",
-        "seconds": 7.93,
-        "durationInFrames": 238,
+        "src": "audio/a69f82f92f68640f.wav",
+        "seconds": 7.059,
+        "durationInFrames": 212,
         "words": [
           {
             "text": "Les",
-            "startMs": 10,
-            "endMs": 235
+            "startMs": 0,
+            "endMs": 163
           },
           {
             "text": "enquêteurs",
-            "startMs": 248,
-            "endMs": 810
+            "startMs": 209,
+            "endMs": 627
           },
           {
             "text": "plongent",
-            "startMs": 822,
-            "endMs": 1160
+            "startMs": 650,
+            "endMs": 1068
           },
           {
             "text": "un",
-            "startMs": 1172,
-            "endMs": 1248
+            "startMs": 1138,
+            "endMs": 1184
           },
           {
             "text": "Comet",
-            "startMs": 1260,
-            "endMs": 1748
+            "startMs": 1219,
+            "endMs": 1498
           },
           {
             "text": "dans",
-            "startMs": 1760,
-            "endMs": 1885
+            "startMs": 1544,
+            "endMs": 1672
           },
           {
             "text": "un",
-            "startMs": 1898,
-            "endMs": 2060
+            "startMs": 1741,
+            "endMs": 1788
           },
           {
             "text": "bassin,",
-            "startMs": 2072,
-            "endMs": 2522
+            "startMs": 1823,
+            "endMs": 2136
           },
           {
             "text": "et",
-            "startMs": 2860,
-            "endMs": 2885
+            "startMs": 2159,
+            "endMs": 2229
           },
           {
             "text": "le",
-            "startMs": 2898,
-            "endMs": 3010
+            "startMs": 2264,
+            "endMs": 2334
           },
           {
             "text": "gonflent",
-            "startMs": 3022,
-            "endMs": 3335
+            "startMs": 2380,
+            "endMs": 2775
           },
           {
             "text": "encore",
-            "startMs": 3348,
-            "endMs": 3672
+            "startMs": 2856,
+            "endMs": 3297
           },
           {
             "text": "et",
-            "startMs": 3685,
-            "endMs": 3748
+            "startMs": 3332,
+            "endMs": 3460
           },
           {
             "text": "encore.",
-            "startMs": 3760,
-            "endMs": 4272
+            "startMs": 3529,
+            "endMs": 4017
           },
           {
             "text": "Après",
-            "startMs": 5148,
-            "endMs": 5498
+            "startMs": 4342,
+            "endMs": 4667
           },
           {
             "text": "environ",
-            "startMs": 5510,
-            "endMs": 5948
+            "startMs": 4690,
+            "endMs": 5027
           },
           {
             "text": "3",
-            "startMs": 5960,
-            "endMs": 6030
+            "startMs": 5143,
+            "endMs": 5224
           },
           {
             "text": "000",
-            "startMs": 6030,
-            "endMs": 6240
+            "startMs": 5306,
+            "endMs": 5445
           },
           {
             "text": "cycles,",
-            "startMs": 6240,
-            "endMs": 6660
+            "startMs": 5480,
+            "endMs": 5851
           },
           {
             "text": "il",
-            "startMs": 6910,
-            "endMs": 7010
+            "startMs": 5886,
+            "endMs": 5979
           },
           {
             "text": "se",
-            "startMs": 7022,
-            "endMs": 7148
+            "startMs": 6049,
+            "endMs": 6258
           },
           {
             "text": "déchire.",
-            "startMs": 7160,
-            "endMs": 7798
+            "startMs": 6374,
+            "endMs": 7059
           }
         ]
       }
@@ -449,7 +449,7 @@
     {
       "id": "coin",
       "text": "La fissure part du coin d’une petite fenêtre presque carrée, sur le toit.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 8,
       "keywords": [
@@ -457,74 +457,74 @@
         "carrée"
       ],
       "audio": {
-        "src": "audio/695c854c16f4725c.wav",
-        "seconds": 3.98,
-        "durationInFrames": 120,
+        "src": "audio/41f76cc05587a1fb.wav",
+        "seconds": 3.437,
+        "durationInFrames": 104,
         "words": [
           {
             "text": "La",
-            "startMs": 10,
-            "endMs": 235
+            "startMs": 0,
+            "endMs": 163
           },
           {
             "text": "fissure",
-            "startMs": 248,
-            "endMs": 635
+            "startMs": 209,
+            "endMs": 557
           },
           {
             "text": "part",
-            "startMs": 648,
-            "endMs": 848
+            "startMs": 580,
+            "endMs": 743
           },
           {
             "text": "du",
-            "startMs": 860,
-            "endMs": 972
+            "startMs": 766,
+            "endMs": 871
           },
           {
             "text": "coin",
-            "startMs": 985,
-            "endMs": 1235
+            "startMs": 917,
+            "endMs": 1184
           },
           {
             "text": "d’une",
-            "startMs": 1248,
-            "endMs": 1435
+            "startMs": 1219,
+            "endMs": 1370
           },
           {
             "text": "petite",
-            "startMs": 1448,
-            "endMs": 1772
+            "startMs": 1393,
+            "endMs": 1649
           },
           {
             "text": "fenêtre",
-            "startMs": 1785,
-            "endMs": 2222
+            "startMs": 1672,
+            "endMs": 2032
           },
           {
             "text": "presque",
-            "startMs": 2235,
-            "endMs": 2598
+            "startMs": 2067,
+            "endMs": 2380
           },
           {
             "text": "carrée,",
-            "startMs": 2610,
-            "endMs": 2960
+            "startMs": 2426,
+            "endMs": 2786
           },
           {
             "text": "sur",
-            "startMs": 3210,
-            "endMs": 3360
+            "startMs": 2833,
+            "endMs": 3007
           },
           {
             "text": "le",
-            "startMs": 3372,
-            "endMs": 3485
+            "startMs": 3042,
+            "endMs": 3111
           },
           {
             "text": "toit.",
-            "startMs": 3498,
-            "endMs": 3848
+            "startMs": 3158,
+            "endMs": 3437
           }
         ]
       }
@@ -532,7 +532,7 @@
     {
       "id": "angle",
       "text": "Dans un angle vif, l’effort se concentre en un point. Le métal s’y fatigue, et finit par se fendre.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 8,
       "keywords": [
@@ -540,104 +540,104 @@
         "concentre"
       ],
       "audio": {
-        "src": "audio/49cbd09664bfa5ec.wav",
-        "seconds": 6.77,
-        "durationInFrames": 204,
+        "src": "audio/42b654f0ed2d416b.wav",
+        "seconds": 5.108,
+        "durationInFrames": 154,
         "words": [
           {
             "text": "Dans",
-            "startMs": 20,
-            "endMs": 245
+            "startMs": 0,
+            "endMs": 197
           },
           {
             "text": "un",
-            "startMs": 258,
-            "endMs": 420
+            "startMs": 267,
+            "endMs": 313
           },
           {
             "text": "angle",
-            "startMs": 432,
-            "endMs": 758
+            "startMs": 372,
+            "endMs": 580
           },
           {
             "text": "vif,",
-            "startMs": 770,
-            "endMs": 1132
+            "startMs": 627,
+            "endMs": 917
           },
           {
             "text": "l’effort",
-            "startMs": 1420,
-            "endMs": 1795
+            "startMs": 1033,
+            "endMs": 1474
           },
           {
             "text": "se",
-            "startMs": 1808,
-            "endMs": 1920
+            "startMs": 1498,
+            "endMs": 1591
           },
           {
             "text": "concentre",
-            "startMs": 1932,
-            "endMs": 2420
+            "startMs": 1637,
+            "endMs": 2078
           },
           {
             "text": "en",
-            "startMs": 2432,
-            "endMs": 2470
+            "startMs": 2101,
+            "endMs": 2276
           },
           {
             "text": "un",
-            "startMs": 2482,
-            "endMs": 2608
+            "startMs": 2345,
+            "endMs": 2392
           },
           {
             "text": "point.",
-            "startMs": 2620,
-            "endMs": 2970
+            "startMs": 2438,
+            "endMs": 2717
           },
           {
             "text": "Le",
-            "startMs": 3832,
-            "endMs": 3970
+            "startMs": 2786,
+            "endMs": 2902
           },
           {
             "text": "métal",
-            "startMs": 3982,
-            "endMs": 4382
+            "startMs": 2949,
+            "endMs": 3274
           },
           {
             "text": "s’y",
-            "startMs": 4395,
-            "endMs": 4545
+            "startMs": 3355,
+            "endMs": 3460
           },
           {
             "text": "fatigue,",
-            "startMs": 4558,
-            "endMs": 5095
+            "startMs": 3518,
+            "endMs": 3913
           },
           {
             "text": "et",
-            "startMs": 5458,
-            "endMs": 5495
+            "startMs": 3936,
+            "endMs": 4017
           },
           {
             "text": "finit",
-            "startMs": 5508,
-            "endMs": 5795
+            "startMs": 4052,
+            "endMs": 4307
           },
           {
             "text": "par",
-            "startMs": 5808,
-            "endMs": 6008
+            "startMs": 4331,
+            "endMs": 4458
           },
           {
             "text": "se",
-            "startMs": 6020,
-            "endMs": 6145
+            "startMs": 4505,
+            "endMs": 4598
           },
           {
             "text": "fendre.",
-            "startMs": 6158,
-            "endMs": 6645
+            "startMs": 4656,
+            "endMs": 5108
           }
         ]
       }
@@ -645,7 +645,7 @@
     {
       "id": "arrondi",
       "text": "Dans un arrondi, l’effort glisse tout autour, sans s’accumuler.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 12,
       "keywords": [
@@ -653,54 +653,54 @@
         "glisse"
       ],
       "audio": {
-        "src": "audio/8cde6b2fd456e651.wav",
-        "seconds": 3.84,
-        "durationInFrames": 116,
+        "src": "audio/c6e0592d72a4c60f.wav",
+        "seconds": 3.204,
+        "durationInFrames": 97,
         "words": [
           {
             "text": "Dans",
-            "startMs": 30,
-            "endMs": 242
+            "startMs": 0,
+            "endMs": 244
           },
           {
             "text": "un",
-            "startMs": 255,
-            "endMs": 418
+            "startMs": 302,
+            "endMs": 360
           },
           {
             "text": "arrondi,",
-            "startMs": 430,
-            "endMs": 980
+            "startMs": 418,
+            "endMs": 859
           },
           {
             "text": "l’effort",
-            "startMs": 1280,
-            "endMs": 1630
+            "startMs": 975,
+            "endMs": 1393
           },
           {
             "text": "glisse",
-            "startMs": 1642,
-            "endMs": 1930
+            "startMs": 1440,
+            "endMs": 1695
           },
           {
             "text": "tout",
-            "startMs": 1942,
-            "endMs": 2080
+            "startMs": 1730,
+            "endMs": 1881
           },
           {
             "text": "autour,",
-            "startMs": 2092,
-            "endMs": 2605
+            "startMs": 1939,
+            "endMs": 2287
           },
           {
             "text": "sans",
-            "startMs": 2855,
-            "endMs": 3005
+            "startMs": 2334,
+            "endMs": 2496
           },
           {
             "text": "s’accumuler.",
-            "startMs": 3018,
-            "endMs": 3742
+            "startMs": 2519,
+            "endMs": 3204
           }
         ]
       }
@@ -708,61 +708,61 @@
     {
       "id": "resultat",
       "text": "Depuis, les fenêtres des avions ont des coins arrondis.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 10,
       "keywords": [
         "arrondis"
       ],
       "audio": {
-        "src": "audio/b01f9f31f6353603.wav",
-        "seconds": 3.1,
-        "durationInFrames": 93,
+        "src": "audio/5805fb9b84cea3f9.wav",
+        "seconds": 3.019,
+        "durationInFrames": 91,
         "words": [
           {
             "text": "Depuis,",
-            "startMs": 70,
-            "endMs": 532
+            "startMs": 0,
+            "endMs": 546
           },
           {
             "text": "les",
-            "startMs": 882,
-            "endMs": 995
+            "startMs": 627,
+            "endMs": 720
           },
           {
             "text": "fenêtres",
-            "startMs": 1008,
-            "endMs": 1445
+            "startMs": 743,
+            "endMs": 1138
           },
           {
             "text": "des",
-            "startMs": 1458,
-            "endMs": 1582
+            "startMs": 1161,
+            "endMs": 1382
           },
           {
             "text": "avions",
-            "startMs": 1595,
-            "endMs": 1932
+            "startMs": 1463,
+            "endMs": 1811
           },
           {
             "text": "ont",
-            "startMs": 1945,
-            "endMs": 2020
+            "startMs": 1858,
+            "endMs": 1974
           },
           {
             "text": "des",
-            "startMs": 2032,
-            "endMs": 2132
+            "startMs": 2009,
+            "endMs": 2101
           },
           {
             "text": "coins",
-            "startMs": 2145,
-            "endMs": 2370
+            "startMs": 2136,
+            "endMs": 2380
           },
           {
             "text": "arrondis.",
-            "startMs": 2382,
-            "endMs": 2970
+            "startMs": 2438,
+            "endMs": 3019
           }
         ]
       }
@@ -770,91 +770,91 @@
     {
       "id": "conclusion",
       "text": "Un hublot rond, ce n’est pas une question de style : c’est une question de solidité.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 10,
       "keywords": [
         "solidité"
       ],
       "audio": {
-        "src": "audio/486c1c239f577352.wav",
-        "seconds": 4.52,
-        "durationInFrames": 136,
+        "src": "audio/d60e10bd1f249ff4.wav",
+        "seconds": 3.994,
+        "durationInFrames": 120,
         "words": [
           {
             "text": "Un",
-            "startMs": 20,
-            "endMs": 195
+            "startMs": 0,
+            "endMs": 163
           },
           {
             "text": "hublot",
-            "startMs": 208,
-            "endMs": 482
+            "startMs": 197,
+            "endMs": 511
           },
           {
             "text": "rond,",
-            "startMs": 495,
-            "endMs": 720
+            "startMs": 534,
+            "endMs": 778
           },
           {
             "text": "ce",
-            "startMs": 995,
-            "endMs": 1132
+            "startMs": 813,
+            "endMs": 859
           },
           {
             "text": "n’est",
-            "startMs": 1145,
-            "endMs": 1270
+            "startMs": 882,
+            "endMs": 1010
           },
           {
             "text": "pas",
-            "startMs": 1282,
-            "endMs": 1420
+            "startMs": 1068,
+            "endMs": 1207
           },
           {
             "text": "une",
-            "startMs": 1432,
-            "endMs": 1582
+            "startMs": 1277,
+            "endMs": 1347
           },
           {
             "text": "question",
-            "startMs": 1595,
-            "endMs": 1970
+            "startMs": 1370,
+            "endMs": 1683
           },
           {
             "text": "de",
-            "startMs": 1982,
-            "endMs": 2108
+            "startMs": 1730,
+            "endMs": 1788
           },
           {
             "text": "style :",
-            "startMs": 2120,
-            "endMs": 2495
+            "startMs": 1834,
+            "endMs": 2148
           },
           {
             "text": "c’est",
-            "startMs": 2858,
-            "endMs": 3008
+            "startMs": 2450,
+            "endMs": 2612
           },
           {
             "text": "une",
-            "startMs": 3020,
-            "endMs": 3208
+            "startMs": 2682,
+            "endMs": 2763
           },
           {
             "text": "question",
-            "startMs": 3220,
-            "endMs": 3582
+            "startMs": 2786,
+            "endMs": 3088
           },
           {
             "text": "de",
-            "startMs": 3595,
-            "endMs": 3708
+            "startMs": 3146,
+            "endMs": 3216
           },
           {
             "text": "solidité.",
-            "startMs": 3720,
-            "endMs": 4420
+            "startMs": 3297,
+            "endMs": 3994
           }
         ]
       }
@@ -862,46 +862,46 @@
     {
       "id": "abonne",
       "text": "Abonne-toi pour d’autres secrets du ciel.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 20,
       "keywords": [
         "secrets"
       ],
       "audio": {
-        "src": "audio/88573bc10331e58e.wav",
-        "seconds": 2.27,
+        "src": "audio/1142dcc53e29e537.wav",
+        "seconds": 2.276,
         "durationInFrames": 69,
         "words": [
           {
             "text": "Abonne-toi",
-            "startMs": 10,
-            "endMs": 610
+            "startMs": 0,
+            "endMs": 604
           },
           {
             "text": "pour",
-            "startMs": 622,
-            "endMs": 822
+            "startMs": 662,
+            "endMs": 813
           },
           {
             "text": "d’autres",
-            "startMs": 835,
-            "endMs": 1172
+            "startMs": 859,
+            "endMs": 1161
           },
           {
             "text": "secrets",
-            "startMs": 1185,
-            "endMs": 1498
+            "startMs": 1184,
+            "endMs": 1509
           },
           {
             "text": "du",
-            "startMs": 1510,
-            "endMs": 1635
+            "startMs": 1533,
+            "endMs": 1649
           },
           {
             "text": "ciel.",
-            "startMs": 1648,
-            "endMs": 2135
+            "startMs": 1695,
+            "endMs": 2276
           }
         ]
       }

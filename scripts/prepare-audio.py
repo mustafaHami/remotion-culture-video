@@ -2,15 +2,18 @@
 
 Usage : .venv/Scripts/python scripts/prepare-audio.py --content content/essais/styles-paris.json
 
-Pour chaque passage de `narration`, synthétise la voix avec edge-tts (si elle n'est pas déjà
-en cache dans public/audio), mesure sa durée, récupère le minutage de chaque mot et écrit le
-tout dans le fichier de contenu (`audio`). Un rendu ne fait que lire ces données.
+Pour chaque passage de `narration`, synthétise la voix (si elle n'est pas déjà en cache dans
+public/audio), mesure sa durée, récupère le minutage de chaque mot et écrit le tout dans le
+fichier de contenu (`audio`). Un rendu ne fait que lire ces données.
 Une panne de synthèse arrête la préparation : on ne produit jamais un passage muet.
+
+Champ `voice` d'un passage :
+  "elevenlabs:<modèle>:<identifiant de voix>"  ElevenLabs (clé ELEVENLABS_API_KEY dans .env, jamais versionnée)
+  "fr-FR-DeniseNeural"                        edge-tts (nom de voix Microsoft)
+Le champ `rate` (« +0% », « +10% »…) règle le débit dans les deux cas.
 """
 from pathlib import Path
-import argparse, array, asyncio, hashlib, io, json, math, re, shutil, subprocess, sys, unicodedata, wave
-
-import edge_tts
+import argparse, array, asyncio, base64, hashlib, io, json, math, os, re, shutil, subprocess, sys, unicodedata, urllib.error, urllib.request, wave
 
 ROOT = Path(__file__).resolve().parents[1]
 AUDIO = ROOT / 'public' / 'audio'
@@ -18,6 +21,16 @@ FPS = 30
 RATE = 24000
 LEAD_MS = 120   # silence conservé avant la voix
 TAIL_MS = 160   # silence conservé après la voix
+# ElevenLabs : réglages fixes de la voix (les changer impose de changer le champ `voice` pour refaire les WAV).
+ELEVEN_SETTINGS = {'stability': 0.5, 'similarity_boost': 0.75, 'style': 0.0, 'use_speaker_boost': True}
+ELEVEN_SEED = 1859
+# Voix de secours (la voix d'origine du projet), utilisée pour TOUT l'épisode quand ElevenLabs refuse faute de crédits
+# ou d'abonnement : jamais de mélange de deux voix dans une même vidéo.
+FALLBACK_VOICE, FALLBACK_RATE = 'fr-FR-DeniseNeural', '+0%'
+
+
+class CreditsExhausted(RuntimeError):
+    """ElevenLabs refuse la génération faute de crédits ou d'abonnement : on bascule sur la voix de secours."""
 
 
 def ffmpeg():
@@ -41,8 +54,80 @@ def normalize(text):
     return re.sub(r"[^\w']", '', text)
 
 
+def api_key():
+    """Clé ElevenLabs : variable d'environnement, sinon fichier .env à la racine (exclu de Git)."""
+    key = os.environ.get('ELEVENLABS_API_KEY', '').strip()
+    env = ROOT / '.env'
+    if not key and env.exists():
+        for line in env.read_text(encoding='utf-8').splitlines():
+            name, _, value = line.partition('=')
+            if name.strip() == 'ELEVENLABS_API_KEY':
+                key = value.strip().strip('"\'')
+    if not key:
+        raise RuntimeError('Clé ElevenLabs absente : ajouter ELEVENLABS_API_KEY=… dans .env (voir .env.example).')
+    return key
+
+
+def speed_of(rate):
+    """« +10% » → 1.1 ; ElevenLabs accepte 0,7 à 1,2."""
+    return max(0.7, min(1.2, 1 + int(rate.rstrip('%')) / 100))
+
+
+def words_from_alignment(alignment):
+    """Caractères minutés d'ElevenLabs → [(mot, début_ms, fin_ms)], un mot = suite de caractères sans espace."""
+    words, current = [], None
+    for char, start, end in zip(alignment['characters'], alignment['character_start_times_seconds'], alignment['character_end_times_seconds']):
+        if char.isspace():
+            if current:
+                words.append(current)
+            current = None
+        elif current is None:
+            current = [char, start * 1000, end * 1000]
+        else:
+            current[0] += char
+            current[2] = end * 1000
+    if current:
+        words.append(current)
+    return [tuple(w) for w in words]
+
+
+def synthesize_elevenlabs(text, voice, rate, context):
+    """Renvoie (pcm 24 kHz mono, mots) ; `context` = textes voisins, pour une intonation continue."""
+    _, model, voice_id = voice.split(':')
+    body = {
+        'text': tts_text(text), 'model_id': model, 'seed': ELEVEN_SEED,
+        'voice_settings': {**ELEVEN_SETTINGS, 'speed': speed_of(rate)},
+        'previous_text': tts_text(context[0]) if context[0] else None, 'next_text': tts_text(context[1]) if context[1] else None,
+    }
+    request = urllib.request.Request(
+        f'https://api.elevenlabs.io/v1/text-to-speech/{voice_id}/with-timestamps?output_format=pcm_{RATE}',
+        data=json.dumps({k: v for k, v in body.items() if v is not None}).encode(),
+        headers={'xi-api-key': api_key(), 'Content-Type': 'application/json'},
+    )
+    for attempt in range(3):
+        try:
+            with urllib.request.urlopen(request, timeout=120) as response:
+                data = json.loads(response.read())
+            pcm = array.array('h', base64.b64decode(data['audio_base64']))
+            words = words_from_alignment(data['alignment'])
+            if not pcm or not words:
+                raise RuntimeError('réponse vide de la synthèse vocale')
+            return pcm, words
+        except urllib.error.HTTPError as error:
+            # Erreurs de requête (clé, voix, quota) : inutile de réessayer ; le message d'ElevenLabs est affiché.
+            if error.code < 500 or attempt == 2:
+                message = error.read().decode(errors='replace')[:400]
+                if error.code == 402 or any(word in message for word in ('quota_exceeded', 'paid_plan_required', 'payment_required')):
+                    raise CreditsExhausted(f'ElevenLabs {error.code} : {message}') from None
+                raise RuntimeError(f'ElevenLabs {error.code} : {message}') from None
+        except Exception:
+            if attempt == 2:
+                raise
+
+
 async def synthesize(text, voice, rate):
     """Renvoie (mp3, mots) ; mots = [(texte, début_ms, fin_ms)] relatifs au début de l'audio."""
+    import edge_tts
     for attempt in range(3):
         try:
             mp3, words = bytearray(), []
@@ -125,13 +210,17 @@ def align(text, words):
     return out
 
 
-async def prepare_cue(cue, provenance):
+async def prepare_cue(cue, provenance, context=(None, None)):
     voice, rate, text = cue['voice'], cue.get('rate', '+0%'), cue['text']
     key = hashlib.sha256(f'{voice}|{rate}|{tts_text(text)}'.encode()).hexdigest()[:16]
     wav_path, words_path = AUDIO / f'{key}.wav', AUDIO / f'{key}.words.json'
     if not (wav_path.exists() and words_path.exists()):
-        mp3, raw_words = await synthesize(text, voice, rate)
-        pcm, cut_ms = trim(decode(mp3))
+        if voice.startswith('elevenlabs:'):
+            raw_pcm, raw_words = synthesize_elevenlabs(text, voice, rate, context)
+        else:
+            mp3, raw_words = await synthesize(text, voice, rate)
+            raw_pcm = decode(mp3)
+        pcm, cut_ms = trim(raw_pcm)
         with wave.open(str(wav_path), 'wb') as writer:
             writer.setnchannels(1)
             writer.setsampwidth(2)
@@ -146,8 +235,11 @@ async def prepare_cue(cue, provenance):
     with wave.open(str(wav_path), 'rb') as reader:
         seconds = reader.getnframes() / reader.getframerate()
     words = align(text, json.loads(words_path.read_text(encoding='utf-8')))
-    if words[-1]['endMs'] / 1000 > seconds + 0.05:
+    if words[-1]['startMs'] / 1000 > seconds:
         raise ValueError(f'Minutage incohérent pour {cue["id"]} : dernier mot après la fin du WAV.')
+    # ElevenLabs compte la ponctuation finale dans la durée du dernier mot : la fin est ramenée à celle du WAV.
+    for w in words:
+        w['endMs'] = min(w['endMs'], seconds * 1000)
     cue['audio'] = {
         'src': f'audio/{wav_path.name}',
         'seconds': round(seconds, 3),
@@ -166,8 +258,21 @@ async def prepare(path):
     meta_path = AUDIO / 'provenance.json'
     provenance = json.loads(meta_path.read_text(encoding='utf-8')) if meta_path.exists() else {}
     print(f'{content["id"]} :', flush=True)
-    for cue in content['narration']:
-        await prepare_cue(cue, provenance)
+    cues = content['narration']
+
+    async def run():
+        for i, cue in enumerate(cues):
+            context = (cues[i - 1]['text'] if i else None, cues[i + 1]['text'] if i + 1 < len(cues) else None)
+            await prepare_cue(cue, provenance, context)
+
+    try:
+        await run()
+    except CreditsExhausted as error:
+        # Plus de crédits ElevenLabs : tout l'épisode passe sur la voix de secours (écrite dans le fichier, donc visible).
+        print(f'ATTENTION : {error}\n  → épisode entier préparé avec la voix de secours {FALLBACK_VOICE}.', file=sys.stderr, flush=True)
+        for cue in cues:
+            cue['voice'], cue['rate'] = FALLBACK_VOICE, FALLBACK_RATE
+        await run()
     path.write_text(json.dumps(content, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     meta_path.write_text(json.dumps(provenance, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     total = sum(c['audio']['seconds'] for c in content['narration'])
@@ -176,7 +281,13 @@ async def prepare(path):
 
 if __name__ == '__main__':
     sys.stdout.reconfigure(encoding='utf-8')
+    sys.stderr.reconfigure(encoding='utf-8')
     parser = argparse.ArgumentParser()
     parser.add_argument('--content', type=Path, required=True)
     args = parser.parse_args()
-    asyncio.run(prepare(args.content.resolve()))
+    try:
+        asyncio.run(prepare(args.content.resolve()))
+    except RuntimeError as error:
+        # Panne de synthèse (clé absente, abonnement, quota…) : message clair, rien n'est écrit dans l'épisode.
+        print(f'Préparation arrêtée : {error}', file=sys.stderr)
+        sys.exit(1)

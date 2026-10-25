@@ -42,46 +42,46 @@
     {
       "id": "question",
       "text": "Pourquoi les immeubles parisiens se ressemblent-ils ?",
-      "voice": "fr-FR-DeniseNeural",
-      "rate": "+0%",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
+      "rate": "-8%",
       "pauseAfterFrames": 12,
       "keywords": [
         "ressemblent-ils"
       ],
       "audio": {
-        "src": "audio/c3c4bd5b4c3c7a3d.wav",
-        "seconds": 2.45,
-        "durationInFrames": 74,
+        "src": "audio/e221f093c7684c3b.wav",
+        "seconds": 2.601,
+        "durationInFrames": 79,
         "words": [
           {
             "text": "Pourquoi",
             "startMs": 0,
-            "endMs": 325
+            "endMs": 337
           },
           {
             "text": "les",
-            "startMs": 338,
-            "endMs": 450
+            "startMs": 360,
+            "endMs": 464
           },
           {
             "text": "immeubles",
-            "startMs": 462,
-            "endMs": 850
+            "startMs": 557,
+            "endMs": 952
           },
           {
             "text": "parisiens",
-            "startMs": 862,
-            "endMs": 1338
+            "startMs": 975,
+            "endMs": 1498
           },
           {
             "text": "se",
-            "startMs": 1350,
-            "endMs": 1475
+            "startMs": 1521,
+            "endMs": 1614
           },
           {
             "text": "ressemblent-ils ?",
-            "startMs": 1488,
-            "endMs": 2300
+            "startMs": 1649,
+            "endMs": 2473
           }
         ]
       }
@@ -89,8 +89,8 @@
     {
       "id": "regle",
       "text": "En 1859, un décret fixe la règle : dans les rues de plus de 20 mètres de large, les façades peuvent monter jusqu’à 20 mètres.",
-      "voice": "fr-FR-DeniseNeural",
-      "rate": "+0%",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
+      "rate": "-8%",
       "pauseAfterFrames": 10,
       "keywords": [
         "1859",
@@ -98,129 +98,129 @@
         "façades"
       ],
       "audio": {
-        "src": "audio/d6f3205172663720.wav",
-        "seconds": 7.64,
-        "durationInFrames": 230,
+        "src": "audio/639d1c94908d801f.wav",
+        "seconds": 7.523,
+        "durationInFrames": 226,
         "words": [
           {
             "text": "En",
-            "startMs": 20,
-            "endMs": 170
+            "startMs": 0,
+            "endMs": 139
           },
           {
             "text": "1859,",
-            "startMs": 182,
-            "endMs": 1358
+            "startMs": 174,
+            "endMs": 1149
           },
           {
             "text": "un",
-            "startMs": 1608,
-            "endMs": 1670
+            "startMs": 1254,
+            "endMs": 1347
           },
           {
             "text": "décret",
-            "startMs": 1682,
-            "endMs": 2020
+            "startMs": 1393,
+            "endMs": 1765
           },
           {
             "text": "fixe",
-            "startMs": 2032,
-            "endMs": 2320
+            "startMs": 1846,
+            "endMs": 2113
           },
           {
             "text": "la",
-            "startMs": 2332,
-            "endMs": 2458
+            "startMs": 2148,
+            "endMs": 2218
           },
           {
             "text": "règle :",
-            "startMs": 2470,
-            "endMs": 2795
+            "startMs": 2276,
+            "endMs": 2589
           },
           {
             "text": "dans",
-            "startMs": 3170,
-            "endMs": 3282
+            "startMs": 2670,
+            "endMs": 2821
           },
           {
             "text": "les",
-            "startMs": 3295,
-            "endMs": 3420
+            "startMs": 2844,
+            "endMs": 2937
           },
           {
             "text": "rues",
-            "startMs": 3432,
-            "endMs": 3595
+            "startMs": 2961,
+            "endMs": 3146
           },
           {
             "text": "de",
-            "startMs": 3608,
-            "endMs": 3720
+            "startMs": 3170,
+            "endMs": 3239
           },
           {
             "text": "plus",
-            "startMs": 3732,
-            "endMs": 3920
+            "startMs": 3297,
+            "endMs": 3518
           },
           {
             "text": "de",
-            "startMs": 3932,
-            "endMs": 4032
+            "startMs": 3553,
+            "endMs": 3622
           },
           {
             "text": "20",
-            "startMs": 4045,
-            "endMs": 4154
+            "startMs": 3669,
+            "endMs": 3808
           },
           {
             "text": "mètres",
-            "startMs": 4154,
-            "endMs": 4482
+            "startMs": 3831,
+            "endMs": 4110
           },
           {
             "text": "de",
-            "startMs": 4495,
-            "endMs": 4595
+            "startMs": 4133,
+            "endMs": 4191
           },
           {
             "text": "large,",
-            "startMs": 4608,
-            "endMs": 4982
+            "startMs": 4238,
+            "endMs": 4598
           },
           {
             "text": "les",
-            "startMs": 5358,
-            "endMs": 5470
+            "startMs": 4679,
+            "endMs": 4795
           },
           {
             "text": "façades",
-            "startMs": 5482,
-            "endMs": 5945
+            "startMs": 4830,
+            "endMs": 5329
           },
           {
             "text": "peuvent",
-            "startMs": 5958,
-            "endMs": 6170
+            "startMs": 5352,
+            "endMs": 5631
           },
           {
             "text": "monter",
-            "startMs": 6182,
-            "endMs": 6508
+            "startMs": 5759,
+            "endMs": 6316
           },
           {
             "text": "jusqu’à",
-            "startMs": 6520,
-            "endMs": 6870
+            "startMs": 6420,
+            "endMs": 6803
           },
           {
             "text": "20",
-            "startMs": 6882,
-            "endMs": 7032
+            "startMs": 6861,
+            "endMs": 6978
           },
           {
             "text": "mètres.",
-            "startMs": 7032,
-            "endMs": 7482
+            "startMs": 7012,
+            "endMs": 7523
           }
         ]
       }
@@ -228,71 +228,71 @@
     {
       "id": "toit",
       "text": "Au-dessus, le toit doit rester sous une pente de 45 degrés.",
-      "voice": "fr-FR-DeniseNeural",
-      "rate": "+0%",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
+      "rate": "-8%",
       "pauseAfterFrames": 24,
       "keywords": [
         "45"
       ],
       "audio": {
-        "src": "audio/4399509c3ded68d4.wav",
-        "seconds": 3.79,
-        "durationInFrames": 114,
+        "src": "audio/9878f61110750087.wav",
+        "seconds": 3.437,
+        "durationInFrames": 104,
         "words": [
           {
             "text": "Au-dessus,",
-            "startMs": 20,
-            "endMs": 582
+            "startMs": 0,
+            "endMs": 743
           },
           {
             "text": "le",
-            "startMs": 908,
-            "endMs": 1008
+            "startMs": 929,
+            "endMs": 1033
           },
           {
             "text": "toit",
-            "startMs": 1020,
-            "endMs": 1220
+            "startMs": 1091,
+            "endMs": 1289
           },
           {
             "text": "doit",
-            "startMs": 1232,
-            "endMs": 1408
+            "startMs": 1312,
+            "endMs": 1498
           },
           {
             "text": "rester",
-            "startMs": 1420,
-            "endMs": 1782
+            "startMs": 1521,
+            "endMs": 1800
           },
           {
             "text": "sous",
-            "startMs": 1795,
-            "endMs": 1945
+            "startMs": 1834,
+            "endMs": 1985
           },
           {
             "text": "une",
-            "startMs": 1958,
-            "endMs": 2145
+            "startMs": 2043,
+            "endMs": 2136
           },
           {
             "text": "pente",
-            "startMs": 2158,
-            "endMs": 2508
+            "startMs": 2159,
+            "endMs": 2357
           },
           {
             "text": "de",
-            "startMs": 2520,
-            "endMs": 2632
+            "startMs": 2380,
+            "endMs": 2450
           },
           {
             "text": "45",
-            "startMs": 2645,
-            "endMs": 2901
+            "startMs": 2554,
+            "endMs": 2949
           },
           {
             "text": "degrés.",
-            "startMs": 2901,
-            "endMs": 3670
+            "startMs": 2995,
+            "endMs": 3437
           }
         ]
       }
@@ -300,61 +300,61 @@
     {
       "id": "etages",
       "text": "Et pas plus de cinq étages au-dessus du rez-de-chaussée.",
-      "voice": "fr-FR-DeniseNeural",
-      "rate": "+0%",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
+      "rate": "-8%",
       "pauseAfterFrames": 10,
       "keywords": [
         "cinq"
       ],
       "audio": {
-        "src": "audio/ceeb8f860f8af0a3.wav",
-        "seconds": 2.59,
-        "durationInFrames": 78,
+        "src": "audio/6571fcc2d3d2413b.wav",
+        "seconds": 2.508,
+        "durationInFrames": 76,
         "words": [
           {
             "text": "Et",
-            "startMs": 30,
-            "endMs": 130
+            "startMs": 0,
+            "endMs": 128
           },
           {
             "text": "pas",
-            "startMs": 142,
-            "endMs": 280
+            "startMs": 163,
+            "endMs": 267
           },
           {
             "text": "plus",
-            "startMs": 292,
-            "endMs": 505
+            "startMs": 290,
+            "endMs": 441
           },
           {
             "text": "de",
-            "startMs": 518,
-            "endMs": 642
+            "startMs": 464,
+            "endMs": 557
           },
           {
             "text": "cinq",
-            "startMs": 655,
-            "endMs": 905
+            "startMs": 639,
+            "endMs": 848
           },
           {
             "text": "étages",
-            "startMs": 918,
-            "endMs": 1268
+            "startMs": 940,
+            "endMs": 1300
           },
           {
             "text": "au-dessus",
-            "startMs": 1280,
-            "endMs": 1642
+            "startMs": 1324,
+            "endMs": 1625
           },
           {
             "text": "du",
-            "startMs": 1655,
-            "endMs": 1780
+            "startMs": 1649,
+            "endMs": 1718
           },
           {
             "text": "rez-de-chaussée.",
-            "startMs": 1792,
-            "endMs": 2492
+            "startMs": 1765,
+            "endMs": 2508
           }
         ]
       }
@@ -362,51 +362,51 @@
     {
       "id": "haussmann",
       "text": "Le préfet Haussmann ajoute ses propres exigences.",
-      "voice": "fr-FR-DeniseNeural",
-      "rate": "+0%",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
+      "rate": "-8%",
       "pauseAfterFrames": 6,
       "keywords": [
         "Haussmann"
       ],
       "audio": {
-        "src": "audio/5af405acc312e756.wav",
-        "seconds": 2.78,
-        "durationInFrames": 84,
+        "src": "audio/83e0aaefe8eb3409.wav",
+        "seconds": 2.74,
+        "durationInFrames": 83,
         "words": [
           {
             "text": "Le",
-            "startMs": 50,
-            "endMs": 188
+            "startMs": 0,
+            "endMs": 151
           },
           {
             "text": "préfet",
-            "startMs": 200,
-            "endMs": 575
+            "startMs": 174,
+            "endMs": 499
           },
           {
             "text": "Haussmann",
-            "startMs": 588,
-            "endMs": 1012
+            "startMs": 534,
+            "endMs": 917
           },
           {
             "text": "ajoute",
-            "startMs": 1025,
-            "endMs": 1375
+            "startMs": 998,
+            "endMs": 1242
           },
           {
             "text": "ses",
-            "startMs": 1388,
-            "endMs": 1525
+            "startMs": 1265,
+            "endMs": 1370
           },
           {
             "text": "propres",
-            "startMs": 1538,
-            "endMs": 1862
+            "startMs": 1405,
+            "endMs": 1741
           },
           {
             "text": "exigences.",
-            "startMs": 1875,
-            "endMs": 2612
+            "startMs": 1800,
+            "endMs": 2740
           }
         ]
       }
@@ -414,102 +414,102 @@
     {
       "id": "lignes",
       "text": "Quand il vend les terrains, il demande les mêmes hauteurs d’étage et les mêmes lignes de façade.",
-      "voice": "fr-FR-DeniseNeural",
-      "rate": "+0%",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
+      "rate": "-8%",
       "pauseAfterFrames": 8,
       "keywords": [
         "hauteurs",
         "lignes"
       ],
       "audio": {
-        "src": "audio/cfdd64cbdc6fea29.wav",
-        "seconds": 4.58,
-        "durationInFrames": 138,
+        "src": "audio/e8094a16a8eb4168.wav",
+        "seconds": 4.226,
+        "durationInFrames": 127,
         "words": [
           {
             "text": "Quand",
-            "startMs": 30,
-            "endMs": 192
+            "startMs": 0,
+            "endMs": 197
           },
           {
             "text": "il",
-            "startMs": 205,
-            "endMs": 418
+            "startMs": 255,
+            "endMs": 313
           },
           {
             "text": "vend",
-            "startMs": 430,
-            "endMs": 580
+            "startMs": 395,
+            "endMs": 522
           },
           {
             "text": "les",
-            "startMs": 592,
-            "endMs": 705
+            "startMs": 546,
+            "endMs": 639
           },
           {
             "text": "terrains,",
-            "startMs": 718,
-            "endMs": 1105
+            "startMs": 673,
+            "endMs": 1045
           },
           {
             "text": "il",
-            "startMs": 1442,
-            "endMs": 1542
+            "startMs": 1091,
+            "endMs": 1219
           },
           {
             "text": "demande",
-            "startMs": 1555,
-            "endMs": 1930
+            "startMs": 1277,
+            "endMs": 1614
           },
           {
             "text": "les",
-            "startMs": 1942,
-            "endMs": 2068
+            "startMs": 1637,
+            "endMs": 1730
           },
           {
             "text": "mêmes",
-            "startMs": 2080,
-            "endMs": 2292
+            "startMs": 1776,
+            "endMs": 1997
           },
           {
             "text": "hauteurs",
-            "startMs": 2305,
-            "endMs": 2618
+            "startMs": 2020,
+            "endMs": 2392
           },
           {
             "text": "d’étage",
-            "startMs": 2630,
-            "endMs": 3055
+            "startMs": 2415,
+            "endMs": 2821
           },
           {
             "text": "et",
-            "startMs": 3068,
-            "endMs": 3092
+            "startMs": 2844,
+            "endMs": 2902
           },
           {
             "text": "les",
-            "startMs": 3105,
-            "endMs": 3205
+            "startMs": 2937,
+            "endMs": 3019
           },
           {
             "text": "mêmes",
-            "startMs": 3218,
-            "endMs": 3442
+            "startMs": 3042,
+            "endMs": 3251
           },
           {
             "text": "lignes",
-            "startMs": 3455,
-            "endMs": 3705
+            "startMs": 3274,
+            "endMs": 3506
           },
           {
             "text": "de",
-            "startMs": 3718,
-            "endMs": 3830
+            "startMs": 3529,
+            "endMs": 3599
           },
           {
             "text": "façade.",
-            "startMs": 3842,
-            "endMs": 4442
+            "startMs": 3657,
+            "endMs": 4226
           }
         ]
       }
@@ -517,77 +517,77 @@
     {
       "id": "prolongent",
       "text": "Les balcons et les corniches se prolongent alors d’un immeuble à l’autre.",
-      "voice": "fr-FR-DeniseNeural",
-      "rate": "+0%",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
+      "rate": "-8%",
       "pauseAfterFrames": 10,
       "keywords": [
         "balcons",
         "corniches"
       ],
       "audio": {
-        "src": "audio/13a94809d6c30376.wav",
-        "seconds": 3.63,
-        "durationInFrames": 109,
+        "src": "audio/ef696790c95796b5.wav",
+        "seconds": 3.762,
+        "durationInFrames": 113,
         "words": [
           {
             "text": "Les",
-            "startMs": 60,
-            "endMs": 235
+            "startMs": 0,
+            "endMs": 163
           },
           {
             "text": "balcons",
-            "startMs": 248,
-            "endMs": 698
+            "startMs": 186,
+            "endMs": 557
           },
           {
             "text": "et",
-            "startMs": 710,
-            "endMs": 785
+            "startMs": 592,
+            "endMs": 639
           },
           {
             "text": "les",
-            "startMs": 798,
-            "endMs": 898
+            "startMs": 662,
+            "endMs": 743
           },
           {
             "text": "corniches",
-            "startMs": 910,
-            "endMs": 1435
+            "startMs": 778,
+            "endMs": 1335
           },
           {
             "text": "se",
-            "startMs": 1448,
-            "endMs": 1648
+            "startMs": 1358,
+            "endMs": 1498
           },
           {
             "text": "prolongent",
-            "startMs": 1660,
-            "endMs": 2135
+            "startMs": 1544,
+            "endMs": 1974
           },
           {
             "text": "alors",
-            "startMs": 2148,
-            "endMs": 2448
+            "startMs": 2067,
+            "endMs": 2392
           },
           {
             "text": "d’un",
-            "startMs": 2460,
-            "endMs": 2598
+            "startMs": 2415,
+            "endMs": 2543
           },
           {
             "text": "immeuble",
-            "startMs": 2610,
-            "endMs": 2972
+            "startMs": 2624,
+            "endMs": 3007
           },
           {
             "text": "à",
-            "startMs": 2985,
-            "endMs": 3035
+            "startMs": 3100,
+            "endMs": 3181
           },
           {
             "text": "l’autre.",
-            "startMs": 3048,
-            "endMs": 3485
+            "startMs": 3239,
+            "endMs": 3762
           }
         ]
       }
@@ -595,66 +595,66 @@
     {
       "id": "resultat",
       "text": "Résultat : toute la rue ressemble à un seul grand immeuble.",
-      "voice": "fr-FR-DeniseNeural",
-      "rate": "+0%",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
+      "rate": "-8%",
       "pauseAfterFrames": 14,
       "keywords": [
         "seul"
       ],
       "audio": {
-        "src": "audio/9be9241a99d75637.wav",
-        "seconds": 3.41,
-        "durationInFrames": 103,
+        "src": "audio/0a1366b54f9bd182.wav",
+        "seconds": 3.715,
+        "durationInFrames": 112,
         "words": [
           {
             "text": "Résultat :",
-            "startMs": 20,
-            "endMs": 758
+            "startMs": 0,
+            "endMs": 685
           },
           {
             "text": "toute",
-            "startMs": 1070,
-            "endMs": 1282
+            "startMs": 859,
+            "endMs": 1138
           },
           {
             "text": "la",
-            "startMs": 1295,
-            "endMs": 1432
+            "startMs": 1173,
+            "endMs": 1300
           },
           {
             "text": "rue",
-            "startMs": 1445,
-            "endMs": 1582
+            "startMs": 1382,
+            "endMs": 1579
           },
           {
             "text": "ressemble",
-            "startMs": 1595,
-            "endMs": 2058
+            "startMs": 1741,
+            "endMs": 2299
           },
           {
             "text": "à",
-            "startMs": 2070,
-            "endMs": 2132
+            "startMs": 2380,
+            "endMs": 2415
           },
           {
             "text": "un",
-            "startMs": 2145,
-            "endMs": 2245
+            "startMs": 2496,
+            "endMs": 2566
           },
           {
             "text": "seul",
-            "startMs": 2258,
-            "endMs": 2482
+            "startMs": 2659,
+            "endMs": 2856
           },
           {
             "text": "grand",
-            "startMs": 2495,
-            "endMs": 2695
+            "startMs": 2937,
+            "endMs": 3111
           },
           {
             "text": "immeuble.",
-            "startMs": 2708,
-            "endMs": 3295
+            "startMs": 3239,
+            "endMs": 3715
           }
         ]
       }
@@ -662,56 +662,56 @@
     {
       "id": "conclusion",
       "text": "Voilà pourquoi les immeubles parisiens se ressemblent autant !",
-      "voice": "fr-FR-DeniseNeural",
-      "rate": "+0%",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
+      "rate": "-8%",
       "pauseAfterFrames": 10,
       "keywords": [
         "ressemblent"
       ],
       "audio": {
-        "src": "audio/444c9b5a73ec96c8.wav",
-        "seconds": 2.94,
-        "durationInFrames": 89,
+        "src": "audio/150e5dbc4976a397.wav",
+        "seconds": 2.554,
+        "durationInFrames": 77,
         "words": [
           {
             "text": "Voilà",
-            "startMs": 10,
-            "endMs": 385
+            "startMs": 0,
+            "endMs": 232
           },
           {
             "text": "pourquoi",
-            "startMs": 398,
-            "endMs": 748
+            "startMs": 290,
+            "endMs": 604
           },
           {
             "text": "les",
-            "startMs": 760,
-            "endMs": 885
+            "startMs": 627,
+            "endMs": 731
           },
           {
             "text": "immeubles",
-            "startMs": 898,
-            "endMs": 1335
+            "startMs": 813,
+            "endMs": 1173
           },
           {
             "text": "parisiens",
-            "startMs": 1348,
-            "endMs": 1835
+            "startMs": 1196,
+            "endMs": 1614
           },
           {
             "text": "se",
-            "startMs": 1848,
-            "endMs": 1972
+            "startMs": 1637,
+            "endMs": 1707
           },
           {
             "text": "ressemblent",
-            "startMs": 1985,
-            "endMs": 2385
+            "startMs": 1753,
+            "endMs": 2136
           },
           {
             "text": "autant !",
-            "startMs": 2398,
-            "endMs": 2785
+            "startMs": 2194,
+            "endMs": 2450
           }
         ]
       }
@@ -719,51 +719,51 @@
     {
       "id": "abonne",
       "text": "Abonne-toi pour découvrir d’autres secrets de Paris.",
-      "voice": "fr-FR-DeniseNeural",
-      "rate": "+0%",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
+      "rate": "-8%",
       "pauseAfterFrames": 20,
       "keywords": [
         "secrets"
       ],
       "audio": {
-        "src": "audio/28d5ab51cd90d617.wav",
+        "src": "audio/4de8d5a0883b74e4.wav",
         "seconds": 2.79,
         "durationInFrames": 84,
         "words": [
           {
             "text": "Abonne-toi",
-            "startMs": 30,
-            "endMs": 605
+            "startMs": 0,
+            "endMs": 685
           },
           {
             "text": "pour",
-            "startMs": 618,
-            "endMs": 805
+            "startMs": 766,
+            "endMs": 906
           },
           {
             "text": "découvrir",
-            "startMs": 818,
-            "endMs": 1405
+            "startMs": 952,
+            "endMs": 1416
           },
           {
             "text": "d’autres",
-            "startMs": 1418,
-            "endMs": 1755
+            "startMs": 1474,
+            "endMs": 1753
           },
           {
             "text": "secrets",
-            "startMs": 1768,
-            "endMs": 2068
+            "startMs": 1776,
+            "endMs": 2090
           },
           {
             "text": "de",
-            "startMs": 2080,
-            "endMs": 2180
+            "startMs": 2113,
+            "endMs": 2171
           },
           {
             "text": "Paris.",
-            "startMs": 2192,
-            "endMs": 2642
+            "startMs": 2229,
+            "endMs": 2790
           }
         ]
       }

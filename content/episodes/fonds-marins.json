@@ -30,7 +30,7 @@
     {
       "id": "question",
       "text": "Pourquoi connaît-on si mal le fond des océans ?",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 12,
       "keywords": [
@@ -38,49 +38,49 @@
         "mal"
       ],
       "audio": {
-        "src": "audio/5f666e486b29a6db.wav",
-        "seconds": 2.28,
-        "durationInFrames": 69,
+        "src": "audio/bc9bef75bbd5fe39.wav",
+        "seconds": 2.136,
+        "durationInFrames": 65,
         "words": [
           {
             "text": "Pourquoi",
-            "startMs": 10,
-            "endMs": 360
+            "startMs": 0,
+            "endMs": 337
           },
           {
             "text": "connaît-on",
             "startMs": 372,
-            "endMs": 822
+            "endMs": 766
           },
           {
             "text": "si",
-            "startMs": 835,
-            "endMs": 998
+            "startMs": 836,
+            "endMs": 952
           },
           {
             "text": "mal",
-            "startMs": 1010,
-            "endMs": 1185
+            "startMs": 998,
+            "endMs": 1161
           },
           {
             "text": "le",
-            "startMs": 1198,
-            "endMs": 1322
+            "startMs": 1196,
+            "endMs": 1265
           },
           {
             "text": "fond",
-            "startMs": 1335,
-            "endMs": 1472
+            "startMs": 1312,
+            "endMs": 1463
           },
           {
             "text": "des",
-            "startMs": 1485,
-            "endMs": 1598
+            "startMs": 1486,
+            "endMs": 1591
           },
           {
             "text": "océans ?",
-            "startMs": 1610,
-            "endMs": 2122
+            "startMs": 1660,
+            "endMs": 2032
           }
         ]
       }
@@ -88,7 +88,7 @@
     {
       "id": "pression",
       "text": "Première raison : la pression. Tous les dix mètres, elle augmente d’environ une atmosphère.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 8,
       "keywords": [
@@ -96,74 +96,74 @@
         "atmosphère"
       ],
       "audio": {
-        "src": "audio/71fd83d82aa25fb7.wav",
-        "seconds": 5.84,
-        "durationInFrames": 176,
+        "src": "audio/b1b6dce9f126f086.wav",
+        "seconds": 4.505,
+        "durationInFrames": 136,
         "words": [
           {
             "text": "Première",
-            "startMs": 20,
-            "endMs": 408
+            "startMs": 0,
+            "endMs": 383
           },
           {
             "text": "raison :",
-            "startMs": 420,
-            "endMs": 808
+            "startMs": 406,
+            "endMs": 755
           },
           {
             "text": "la",
-            "startMs": 1095,
-            "endMs": 1208
+            "startMs": 929,
+            "endMs": 1045
           },
           {
             "text": "pression.",
-            "startMs": 1220,
-            "endMs": 1745
+            "startMs": 1115,
+            "endMs": 1567
           },
           {
             "text": "Tous",
-            "startMs": 2608,
-            "endMs": 2745
+            "startMs": 1602,
+            "endMs": 1765
           },
           {
             "text": "les",
-            "startMs": 2758,
-            "endMs": 2882
+            "startMs": 1788,
+            "endMs": 1869
           },
           {
             "text": "dix",
-            "startMs": 2895,
-            "endMs": 3045
+            "startMs": 1892,
+            "endMs": 1997
           },
           {
             "text": "mètres,",
-            "startMs": 3058,
-            "endMs": 3382
+            "startMs": 2020,
+            "endMs": 2322
           },
           {
             "text": "elle",
-            "startMs": 3708,
-            "endMs": 3782
+            "startMs": 2531,
+            "endMs": 2705
           },
           {
             "text": "augmente",
-            "startMs": 3795,
-            "endMs": 4258
+            "startMs": 2728,
+            "endMs": 3088
           },
           {
             "text": "d’environ",
-            "startMs": 4270,
-            "endMs": 4732
+            "startMs": 3111,
+            "endMs": 3529
           },
           {
             "text": "une",
-            "startMs": 4745,
-            "endMs": 4858
+            "startMs": 3646,
+            "endMs": 3796
           },
           {
             "text": "atmosphère.",
-            "startMs": 4870,
-            "endMs": 5708
+            "startMs": 3820,
+            "endMs": 4505
           }
         ]
       }
@@ -171,121 +171,121 @@
     {
       "id": "fosse",
       "text": "Au fond de la fosse des Mariannes, à près de 11 kilomètres, elle dépasse 1 000 fois celle de la surface.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 12,
       "keywords": [
         "000"
       ],
       "audio": {
-        "src": "audio/120c0a924a40d85d.wav",
-        "seconds": 5.54,
-        "durationInFrames": 167,
+        "src": "audio/afa5cc5ed7ba7958.wav",
+        "seconds": 5.248,
+        "durationInFrames": 158,
         "words": [
           {
             "text": "Au",
-            "startMs": 40,
-            "endMs": 128
+            "startMs": 0,
+            "endMs": 186
           },
           {
             "text": "fond",
-            "startMs": 140,
-            "endMs": 315
+            "startMs": 232,
+            "endMs": 406
           },
           {
             "text": "de",
-            "startMs": 328,
-            "endMs": 428
+            "startMs": 430,
+            "endMs": 476
           },
           {
             "text": "la",
-            "startMs": 440,
-            "endMs": 552
+            "startMs": 522,
+            "endMs": 580
           },
           {
             "text": "fosse",
-            "startMs": 565,
-            "endMs": 802
+            "startMs": 650,
+            "endMs": 882
           },
           {
             "text": "des",
-            "startMs": 815,
-            "endMs": 915
+            "startMs": 917,
+            "endMs": 1022
           },
           {
             "text": "Mariannes,",
-            "startMs": 928,
-            "endMs": 1465
+            "startMs": 1068,
+            "endMs": 1544
           },
           {
             "text": "à",
-            "startMs": 1828,
-            "endMs": 1865
+            "startMs": 1591,
+            "endMs": 1625
           },
           {
             "text": "près",
-            "startMs": 1878,
-            "endMs": 2078
+            "startMs": 1707,
+            "endMs": 1892
           },
           {
             "text": "de",
-            "startMs": 2090,
-            "endMs": 2215
+            "startMs": 1916,
+            "endMs": 2009
           },
           {
             "text": "11",
-            "startMs": 2228,
-            "endMs": 2355
+            "startMs": 2078,
+            "endMs": 2252
           },
           {
             "text": "kilomètres,",
-            "startMs": 2355,
-            "endMs": 2990
+            "startMs": 2287,
+            "endMs": 2868
           },
           {
             "text": "elle",
-            "startMs": 3328,
-            "endMs": 3415
+            "startMs": 3042,
+            "endMs": 3204
           },
           {
             "text": "dépasse",
-            "startMs": 3428,
-            "endMs": 3815
+            "startMs": 3239,
+            "endMs": 3599
           },
           {
             "text": "1",
-            "startMs": 3828,
-            "endMs": 3876
+            "startMs": 3646,
+            "endMs": 3669
           },
           {
             "text": "000",
-            "startMs": 3876,
-            "endMs": 4021
+            "startMs": 3692,
+            "endMs": 3796
           },
           {
             "text": "fois",
-            "startMs": 4021,
-            "endMs": 4215
+            "startMs": 3855,
+            "endMs": 4075
           },
           {
             "text": "celle",
-            "startMs": 4228,
-            "endMs": 4452
+            "startMs": 4098,
+            "endMs": 4331
           },
           {
             "text": "de",
-            "startMs": 4465,
-            "endMs": 4552
+            "startMs": 4365,
+            "endMs": 4435
           },
           {
             "text": "la",
-            "startMs": 4565,
-            "endMs": 4665
+            "startMs": 4481,
+            "endMs": 4540
           },
           {
             "text": "surface.",
-            "startMs": 4678,
-            "endMs": 5352
+            "startMs": 4586,
+            "endMs": 5248
           }
         ]
       }
@@ -293,7 +293,7 @@
     {
       "id": "lumiere",
       "text": "Deuxième raison : le noir. Au-delà de 200 mètres, il ne reste presque plus de lumière, et sous 1 000 mètres, plus du tout.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 12,
       "keywords": [
@@ -302,124 +302,124 @@
         "000"
       ],
       "audio": {
-        "src": "audio/b8d8c244730ab83a.wav",
-        "seconds": 8,
-        "durationInFrames": 240,
+        "src": "audio/5ec5ddabbd418d6d.wav",
+        "seconds": 6.54,
+        "durationInFrames": 197,
         "words": [
           {
             "text": "Deuxième",
-            "startMs": 60,
-            "endMs": 498
+            "startMs": 0,
+            "endMs": 406
           },
           {
             "text": "raison :",
-            "startMs": 510,
-            "endMs": 910
+            "startMs": 441,
+            "endMs": 743
           },
           {
             "text": "le",
-            "startMs": 1210,
-            "endMs": 1285
+            "startMs": 940,
+            "endMs": 1057
           },
           {
             "text": "noir.",
-            "startMs": 1298,
-            "endMs": 1798
+            "startMs": 1103,
+            "endMs": 1579
           },
           {
             "text": "Au-delà",
-            "startMs": 2660,
-            "endMs": 2998
+            "startMs": 1614,
+            "endMs": 1927
           },
           {
             "text": "de",
-            "startMs": 3010,
-            "endMs": 3135
+            "startMs": 1974,
+            "endMs": 2055
           },
           {
             "text": "200",
-            "startMs": 3148,
-            "endMs": 3360
+            "startMs": 2183,
+            "endMs": 2403
           },
           {
             "text": "mètres,",
-            "startMs": 3360,
-            "endMs": 3785
+            "startMs": 2450,
+            "endMs": 2763
           },
           {
             "text": "il",
-            "startMs": 4110,
-            "endMs": 4198
+            "startMs": 3042,
+            "endMs": 3135
           },
           {
             "text": "ne",
-            "startMs": 4210,
-            "endMs": 4335
+            "startMs": 3170,
+            "endMs": 3228
           },
           {
             "text": "reste",
-            "startMs": 4348,
-            "endMs": 4710
+            "startMs": 3274,
+            "endMs": 3518
           },
           {
             "text": "presque",
-            "startMs": 4722,
-            "endMs": 5122
+            "startMs": 3564,
+            "endMs": 3878
           },
           {
             "text": "plus",
-            "startMs": 5135,
-            "endMs": 5310
+            "startMs": 3924,
+            "endMs": 4063
           },
           {
             "text": "de",
-            "startMs": 5322,
-            "endMs": 5448
+            "startMs": 4087,
+            "endMs": 4145
           },
           {
             "text": "lumière,",
-            "startMs": 5460,
-            "endMs": 5922
+            "startMs": 4180,
+            "endMs": 4667
           },
           {
             "text": "et",
-            "startMs": 6298,
-            "endMs": 6335
+            "startMs": 4690,
+            "endMs": 4795
           },
           {
             "text": "sous",
-            "startMs": 6348,
-            "endMs": 6510
+            "startMs": 4830,
+            "endMs": 4981
           },
           {
             "text": "1",
-            "startMs": 6522,
-            "endMs": 6571
+            "startMs": 5016,
+            "endMs": 5062
           },
           {
             "text": "000",
-            "startMs": 6571,
-            "endMs": 6718
+            "startMs": 5097,
+            "endMs": 5224
           },
           {
             "text": "mètres,",
-            "startMs": 6718,
-            "endMs": 7010
+            "startMs": 5283,
+            "endMs": 5619
           },
           {
             "text": "plus",
-            "startMs": 7248,
-            "endMs": 7410
+            "startMs": 5735,
+            "endMs": 5979
           },
           {
             "text": "du",
-            "startMs": 7422,
-            "endMs": 7560
+            "startMs": 6049,
+            "endMs": 6165
           },
           {
             "text": "tout.",
-            "startMs": 7572,
-            "endMs": 7798
+            "startMs": 6223,
+            "endMs": 6540
           }
         ]
       }
@@ -427,7 +427,7 @@
     {
       "id": "radio",
       "text": "Troisième raison : les ondes radio ne traversent pas l’eau. Les satellites ne peuvent pas voir le fond en détail.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 8,
       "keywords": [
@@ -435,104 +435,104 @@
         "radio"
       ],
       "audio": {
-        "src": "audio/b5a375e14e8addf9.wav",
-        "seconds": 6.62,
-        "durationInFrames": 199,
+        "src": "audio/0d40e015beeac636.wav",
+        "seconds": 5.526,
+        "durationInFrames": 166,
         "words": [
           {
             "text": "Troisième",
-            "startMs": 20,
-            "endMs": 470
+            "startMs": 0,
+            "endMs": 430
           },
           {
             "text": "raison :",
-            "startMs": 482,
-            "endMs": 882
+            "startMs": 464,
+            "endMs": 859
           },
           {
             "text": "les",
-            "startMs": 1232,
-            "endMs": 1345
+            "startMs": 998,
+            "endMs": 1161
           },
           {
             "text": "ondes",
-            "startMs": 1358,
-            "endMs": 1632
+            "startMs": 1231,
+            "endMs": 1370
           },
           {
             "text": "radio",
-            "startMs": 1645,
-            "endMs": 1982
+            "startMs": 1393,
+            "endMs": 1637
           },
           {
             "text": "ne",
-            "startMs": 1995,
-            "endMs": 2120
+            "startMs": 1683,
+            "endMs": 1765
           },
           {
             "text": "traversent",
-            "startMs": 2132,
-            "endMs": 2570
+            "startMs": 1800,
+            "endMs": 2252
           },
           {
             "text": "pas",
-            "startMs": 2582,
-            "endMs": 2720
+            "startMs": 2276,
+            "endMs": 2403
           },
           {
             "text": "l’eau.",
-            "startMs": 2732,
-            "endMs": 2970
+            "startMs": 2426,
+            "endMs": 2612
           },
           {
             "text": "Les",
-            "startMs": 3832,
-            "endMs": 4045
+            "startMs": 2670,
+            "endMs": 2833
           },
           {
             "text": "satellites",
-            "startMs": 4058,
-            "endMs": 4695
+            "startMs": 2868,
+            "endMs": 3309
           },
           {
             "text": "ne",
-            "startMs": 4708,
-            "endMs": 4895
+            "startMs": 3332,
+            "endMs": 3402
           },
           {
             "text": "peuvent",
-            "startMs": 4908,
-            "endMs": 5108
+            "startMs": 3460,
+            "endMs": 3692
           },
           {
             "text": "pas",
-            "startMs": 5120,
-            "endMs": 5245
+            "startMs": 3866,
+            "endMs": 4040
           },
           {
             "text": "voir",
-            "startMs": 5258,
-            "endMs": 5470
+            "startMs": 4063,
+            "endMs": 4319
           },
           {
             "text": "le",
-            "startMs": 5482,
-            "endMs": 5595
+            "startMs": 4365,
+            "endMs": 4447
           },
           {
             "text": "fond",
-            "startMs": 5608,
-            "endMs": 5758
+            "startMs": 4516,
+            "endMs": 4737
           },
           {
             "text": "en",
-            "startMs": 5770,
-            "endMs": 5870
+            "startMs": 4795,
+            "endMs": 4934
           },
           {
             "text": "détail.",
-            "startMs": 5882,
-            "endMs": 6445
+            "startMs": 4992,
+            "endMs": 5526
           }
         ]
       }
@@ -540,7 +540,7 @@
     {
       "id": "sonar",
       "text": "Alors on le cartographie au son, avec un sonar, navire par navire, bande par bande.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 12,
       "keywords": [
@@ -548,84 +548,84 @@
         "bande"
       ],
       "audio": {
-        "src": "audio/fbb6394b35b9bfe2.wav",
-        "seconds": 5.56,
-        "durationInFrames": 167,
+        "src": "audio/c8723084db97aefe.wav",
+        "seconds": 5.1,
+        "durationInFrames": 153,
         "words": [
           {
             "text": "Alors",
-            "startMs": 20,
-            "endMs": 382
+            "startMs": 0,
+            "endMs": 348
           },
           {
             "text": "on",
-            "startMs": 395,
-            "endMs": 458
+            "startMs": 383,
+            "endMs": 522
           },
           {
             "text": "le",
-            "startMs": 470,
-            "endMs": 558
+            "startMs": 580,
+            "endMs": 755
           },
           {
             "text": "cartographie",
-            "startMs": 570,
-            "endMs": 1295
+            "startMs": 848,
+            "endMs": 1556
           },
           {
             "text": "au",
-            "startMs": 1308,
-            "endMs": 1395
+            "startMs": 1579,
+            "endMs": 1718
           },
           {
             "text": "son,",
-            "startMs": 1408,
-            "endMs": 1695
+            "startMs": 1788,
+            "endMs": 2101
           },
           {
             "text": "avec",
-            "startMs": 1995,
-            "endMs": 2220
+            "startMs": 2125,
+            "endMs": 2322
           },
           {
             "text": "un",
-            "startMs": 2232,
-            "endMs": 2308
+            "startMs": 2392,
+            "endMs": 2438
           },
           {
             "text": "sonar,",
-            "startMs": 2320,
-            "endMs": 2808
+            "startMs": 2485,
+            "endMs": 2995
           },
           {
             "text": "navire",
-            "startMs": 3158,
-            "endMs": 3520
+            "startMs": 3030,
+            "endMs": 3367
           },
           {
             "text": "par",
-            "startMs": 3532,
-            "endMs": 3732
+            "startMs": 3390,
+            "endMs": 3529
           },
           {
             "text": "navire,",
-            "startMs": 3745,
-            "endMs": 4245
+            "startMs": 3587,
+            "endMs": 3971
           },
           {
             "text": "bande",
-            "startMs": 4495,
-            "endMs": 4745
+            "startMs": 3994,
+            "endMs": 4203
           },
           {
             "text": "par",
-            "startMs": 4758,
-            "endMs": 4958
+            "startMs": 4226,
+            "endMs": 4377
           },
           {
             "text": "bande.",
-            "startMs": 4970,
-            "endMs": 5432
+            "startMs": 4435,
+            "endMs": 5100
           }
         ]
       }
@@ -633,71 +633,71 @@
     {
       "id": "resultat",
       "text": "Résultat : en avril 2026, seulement 28,7 % des fonds marins étaient cartographiés.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 10,
       "keywords": [
         "28,7"
       ],
       "audio": {
-        "src": "audio/74c54a95f51969e8.wav",
-        "seconds": 6.35,
-        "durationInFrames": 191,
+        "src": "audio/65d963376f6cb91f.wav",
+        "seconds": 5.898,
+        "durationInFrames": 177,
         "words": [
           {
             "text": "Résultat :",
-            "startMs": 20,
-            "endMs": 770
+            "startMs": 0,
+            "endMs": 662
           },
           {
             "text": "en",
-            "startMs": 1132,
-            "endMs": 1182
+            "startMs": 743,
+            "endMs": 859
           },
           {
             "text": "avril",
-            "startMs": 1195,
-            "endMs": 1924
+            "startMs": 929,
+            "endMs": 1219
           },
           {
             "text": "2026,",
-            "startMs": 1924,
-            "endMs": 2508
+            "startMs": 1335,
+            "endMs": 2113
           },
           {
             "text": "seulement",
-            "startMs": 2820,
-            "endMs": 3182
+            "startMs": 2229,
+            "endMs": 2670
           },
           {
             "text": "28,7 %",
-            "startMs": 3195,
-            "endMs": 4558
+            "startMs": 2717,
+            "endMs": 3727
           },
           {
             "text": "des",
-            "startMs": 4570,
-            "endMs": 4695
+            "startMs": 4133,
+            "endMs": 4226
           },
           {
             "text": "fonds",
-            "startMs": 4708,
-            "endMs": 4858
+            "startMs": 4261,
+            "endMs": 4458
           },
           {
             "text": "marins",
-            "startMs": 4870,
-            "endMs": 5158
+            "startMs": 4481,
+            "endMs": 4760
           },
           {
             "text": "étaient",
-            "startMs": 5170,
-            "endMs": 5358
+            "startMs": 4795,
+            "endMs": 5027
           },
           {
             "text": "cartographiés.",
-            "startMs": 5370,
-            "endMs": 6245
+            "startMs": 5143,
+            "endMs": 5898
           }
         ]
       }
@@ -705,7 +705,7 @@
     {
       "id": "lune",
       "text": "La Lune, elle, est entièrement cartographiée, avec une précision d’environ 100 mètres.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 12,
       "keywords": [
@@ -713,69 +713,69 @@
         "entièrement"
       ],
       "audio": {
-        "src": "audio/e711a2a29d2b254e.wav",
-        "seconds": 5.13,
-        "durationInFrames": 154,
+        "src": "audio/05d3c78a12917cd0.wav",
+        "seconds": 4.64,
+        "durationInFrames": 140,
         "words": [
           {
             "text": "La",
-            "startMs": 60,
-            "endMs": 235
+            "startMs": 0,
+            "endMs": 151
           },
           {
             "text": "Lune,",
-            "startMs": 248,
-            "endMs": 548
+            "startMs": 197,
+            "endMs": 534
           },
           {
             "text": "elle,",
-            "startMs": 848,
-            "endMs": 1022
+            "startMs": 592,
+            "endMs": 964
           },
           {
             "text": "est",
-            "startMs": 1322,
-            "endMs": 1348
+            "startMs": 1022,
+            "endMs": 1173
           },
           {
             "text": "entièrement",
-            "startMs": 1360,
-            "endMs": 1860
+            "startMs": 1242,
+            "endMs": 1695
           },
           {
             "text": "cartographiée,",
-            "startMs": 1872,
-            "endMs": 2672
+            "startMs": 1765,
+            "endMs": 2438
           },
           {
             "text": "avec",
-            "startMs": 2998,
-            "endMs": 3272
+            "startMs": 2461,
+            "endMs": 2682
           },
           {
             "text": "une",
-            "startMs": 3285,
-            "endMs": 3372
+            "startMs": 2752,
+            "endMs": 2833
           },
           {
             "text": "précision",
-            "startMs": 3385,
-            "endMs": 3910
+            "startMs": 2856,
+            "endMs": 3355
           },
           {
             "text": "d’environ",
-            "startMs": 3922,
-            "endMs": 4360
+            "startMs": 3390,
+            "endMs": 3738
           },
           {
             "text": "100",
-            "startMs": 4372,
-            "endMs": 4572
+            "startMs": 3808,
+            "endMs": 3947
           },
           {
             "text": "mètres.",
-            "startMs": 4572,
-            "endMs": 4972
+            "startMs": 3982,
+            "endMs": 4640
           }
         ]
       }
@@ -783,7 +783,7 @@
     {
       "id": "conclusion",
       "text": "Voilà pourquoi la Lune est mieux cartographiée que le fond de nos océans !",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 10,
       "keywords": [
@@ -791,74 +791,74 @@
         "océans"
       ],
       "audio": {
-        "src": "audio/665a3d2858f0ada0.wav",
-        "seconds": 3.34,
-        "durationInFrames": 101,
+        "src": "audio/2a19dba7bb138bc2.wav",
+        "seconds": 3.529,
+        "durationInFrames": 106,
         "words": [
           {
             "text": "Voilà",
-            "startMs": 10,
-            "endMs": 398
+            "startMs": 0,
+            "endMs": 221
           },
           {
             "text": "pourquoi",
-            "startMs": 410,
-            "endMs": 760
+            "startMs": 279,
+            "endMs": 662
           },
           {
             "text": "la",
-            "startMs": 772,
-            "endMs": 885
+            "startMs": 743,
+            "endMs": 813
           },
           {
             "text": "Lune",
-            "startMs": 898,
-            "endMs": 1098
+            "startMs": 871,
+            "endMs": 1173
           },
           {
             "text": "est",
-            "startMs": 1110,
-            "endMs": 1148
+            "startMs": 1265,
+            "endMs": 1382
           },
           {
             "text": "mieux",
-            "startMs": 1160,
-            "endMs": 1322
+            "startMs": 1416,
+            "endMs": 1614
           },
           {
             "text": "cartographiée",
-            "startMs": 1335,
-            "endMs": 2048
+            "startMs": 1649,
+            "endMs": 2287
           },
           {
             "text": "que",
-            "startMs": 2060,
-            "endMs": 2172
+            "startMs": 2310,
+            "endMs": 2380
           },
           {
             "text": "le",
-            "startMs": 2185,
-            "endMs": 2298
+            "startMs": 2403,
+            "endMs": 2461
           },
           {
             "text": "fond",
-            "startMs": 2310,
-            "endMs": 2448
+            "startMs": 2531,
+            "endMs": 2717
           },
           {
             "text": "de",
-            "startMs": 2460,
-            "endMs": 2548
+            "startMs": 2740,
+            "endMs": 2798
           },
           {
             "text": "nos",
-            "startMs": 2560,
-            "endMs": 2672
+            "startMs": 2844,
+            "endMs": 2995
           },
           {
             "text": "océans !",
-            "startMs": 2685,
-            "endMs": 3198
+            "startMs": 3065,
+            "endMs": 3448
           }
         ]
       }
@@ -866,46 +866,46 @@
     {
       "id": "abonne",
       "text": "Abonne-toi pour d’autres plongées dans l’inconnu.",
-      "voice": "fr-FR-DeniseNeural",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",
       "rate": "+0%",
       "pauseAfterFrames": 20,
       "keywords": [
         "plongées"
       ],
       "audio": {
-        "src": "audio/1adf6115240aa5d2.wav",
-        "seconds": 2.5,
-        "durationInFrames": 75,
+        "src": "audio/7f836c6ca68af155.wav",
+        "seconds": 2.276,
+        "durationInFrames": 69,
         "words": [
           {
             "text": "Abonne-toi",
-            "startMs": 10,
-            "endMs": 648
+            "startMs": 0,
+            "endMs": 580
           },
           {
             "text": "pour",
-            "startMs": 660,
-            "endMs": 885
+            "startMs": 639,
+            "endMs": 778
           },
           {
             "text": "d’autres",
-            "startMs": 898,
-            "endMs": 1210
+            "startMs": 824,
+            "endMs": 1103
           },
           {
             "text": "plongées",
-            "startMs": 1222,
-            "endMs": 1585
+            "startMs": 1126,
+            "endMs": 1428
           },
           {
             "text": "dans",
-            "startMs": 1598,
-            "endMs": 1722
+            "startMs": 1451,
+            "endMs": 1556
           },
           {
             "text": "l’inconnu.",
-            "startMs": 1735,
-            "endMs": 2298
+            "startMs": 1579,
+            "endMs": 2276
           }
         ]
       }
