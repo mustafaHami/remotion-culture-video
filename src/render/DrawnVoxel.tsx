@@ -1,4 +1,4 @@
-// Essai « voxels dessinés » : les mêmes cubes, mais crayonnés. Trois ajouts, sans toucher au moteur voxel :
+// Finition « crayonné » (docs/rendu.md § 3) : les mêmes cubes, mais crayonnés. Trois ajouts, sans toucher au moteur voxel :
 // - des hachures au crayon dans les faces, plus denses sur les faces sombres (shader, attachées à l'objet) ;
 // - un contour encré sur les arêtes vives des volumes (EdgesGeometry + lignes épaisses) ;
 // - un contour encré autour du hibou (coque inversée).
@@ -9,14 +9,10 @@ import * as THREE from 'three';
 import {LineMaterial} from 'three/examples/jsm/lines/LineMaterial.js';
 import {LineSegments2} from 'three/examples/jsm/lines/LineSegments2.js';
 import {LineSegmentsGeometry} from 'three/examples/jsm/lines/LineSegmentsGeometry.js';
-import {hexToRgb} from '../../design/color';
-import {HEIGHT, WIDTH} from '../../design/format';
-import type {Look} from '../../design/looks';
-import {STREET} from '../../scenes/paris/ParisStreet';
-import {building, ground, sideWall} from '../../voxel/decor/haussmann';
-import {buildVoxelGeometry} from '../../voxel/geometry';
-import {VoxelGrid} from '../../voxel/grid';
-import {edgesOf} from '../../voxel/edges';
+import {hexToRgb} from '../design/color';
+import {HEIGHT, WIDTH} from '../design/format';
+import type {Look} from '../design/looks';
+import {edgesOf} from '../voxel/edges';
 
 /** Épaisseur du contour des volumes, en pixels. */
 const EDGE_PX = 7;
@@ -99,37 +95,6 @@ export const DrawnVoxelModel: React.FC<ModelProps> = ({geometry, edges, ink, pos
       <mesh geometry={geometry} material={surface} />
       <primitive object={lines} />
     </group>
-  );
-};
-
-// Même rue que ParisStreet, avec le mur amovible au même pivot.
-const WALL_PIVOT = [STREET.cutOy + 9.5, 0, 4] as const;
-
-const buildStreet = (look: Look) => {
-  const t = look.voxel;
-  const decor = new VoxelGrid();
-  ground(decor, STREET.groundX, STREET.groundY);
-  building(decor, t, 0, 0, {awning: 0, tone: false});
-  building(decor, t, 0, 10, {awning: 1, tone: true});
-  building(decor, t, 0, STREET.cutOy, {awning: 2, tone: false, cut: true});
-  const wallGrid = sideWall(t, 0, STREET.cutOy, {awning: 2, tone: false});
-  const decorGeometry = buildVoxelGeometry(decor, t);
-  const wallGeometry = buildVoxelGeometry(wallGrid, t, {occluders: decor});
-  return {decor: decorGeometry, decorEdges: edgesOf(decorGeometry), wall: wallGeometry, wallEdges: edgesOf(wallGeometry)};
-};
-
-export const DrawnParisStreet: React.FC<{look: Look; lift: number}> = ({look, lift}) => {
-  const s = useMemo(() => buildStreet(look), [look]);
-  const opacity = lift < 0.75 ? 1 : 1 - (lift - 0.75) / 0.25;
-  return (
-    <>
-      <DrawnVoxelModel geometry={s.decor} edges={s.decorEdges} ink={look.text} />
-      {opacity > 0 ? (
-        <group position={[WALL_PIVOT[0] + lift * 3, lift * 46, WALL_PIVOT[2]]} rotation={[0, 0, -lift * 0.22]}>
-          <DrawnVoxelModel geometry={s.wall} edges={s.wallEdges} ink={look.text} position={[-WALL_PIVOT[0], 0, -WALL_PIVOT[2]]} opacity={opacity} />
-        </group>
-      ) : null}
-    </>
   );
 };
 

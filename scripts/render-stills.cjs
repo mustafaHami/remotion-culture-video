@@ -1,5 +1,5 @@
 // Rend des images fixes pour régler un cadrage sans rendre toute la vidéo.
-// Usage : node scripts/render-stills.cjs --compositions=EssaiStyleA,EssaiStyleB --frames=0,90,300 [--out=output/stills]
+// Usage : node scripts/render-stills.cjs --compositions=EssaiStyleA,EssaiStyleB --frames=0,90,300 [--out=output/stills] [--look=B]
 // Les rendus programmatiques ne lisent pas remotion.config.ts : le moteur OpenGL est passé ici.
 const path = require('node:path');
 const fs = require('node:fs');
@@ -13,6 +13,14 @@ const arg = (name, fallback) => {
 
 const root = path.resolve(__dirname, '..');
 const compositions = arg('compositions', '').split(',').filter(Boolean);
+// Style à imposer (A, B ou D) : rend l'épisode dans ce style au lieu du sien ; le style est ajouté au nom du fichier.
+const look = arg('look', '');
+if (look && !['A', 'B', 'D'].includes(look)) {
+  console.error('--look attend A, B ou D');
+  process.exit(1);
+}
+const inputProps = look ? {look} : {};
+const suffix = look ? `-${look}` : '';
 const frames = arg('frames', '0').split(',').map(Number);
 const out = path.resolve(root, arg('out', 'output/stills'));
 if (!compositions.length) {
@@ -26,10 +34,10 @@ if (!compositions.length) {
   fs.mkdirSync(out, {recursive: true});
   const chromiumOptions = {gl: 'angle'};
   for (const id of compositions) {
-    const composition = await selectComposition({serveUrl, id, chromiumOptions});
+    const composition = await selectComposition({serveUrl, id, chromiumOptions, inputProps});
     for (const frame of frames) {
-      const output = path.join(out, `${id}-${String(frame).padStart(4, '0')}.png`);
-      await renderStill({serveUrl, composition, frame, output, chromiumOptions, overwrite: true});
+      const output = path.join(out, `${id}${suffix}-${String(frame).padStart(4, '0')}.png`);
+      await renderStill({serveUrl, composition, frame, output, chromiumOptions, inputProps, overwrite: true});
       console.log(output);
     }
   }

@@ -12,8 +12,8 @@ import type {Shot} from '../../scenes/camera';
 import {fineStreetScene, UNIT} from '../../voxel/decor/haussmann-fin';
 import {buildVoxelGeometry} from '../../voxel/geometry';
 import {VoxelModel} from '../../voxel/VoxelModel';
-import {DrawnFilters, GrainOverlay} from '../dessin/Filters';
-import {DrawnVoxelModel, edgesOf} from './DrawnVoxel';
+import {DrawnFilters, GrainOverlay} from '../../render/Filters';
+import {DrawnVoxelModel, edgesOf} from '../../render/DrawnVoxel';
 
 /** Vue d'ensemble, façade, corniche et comble, coupe. */
 export const FINE_SHOTS: Shot[] = [

@@ -20,8 +20,8 @@ import {CameraRig} from '../scenes/CameraRig';
 import {projectPoint} from '../scenes/camera';
 import {VoxelModel} from '../voxel/VoxelModel';
 import {DECORS} from '../voxel/decor/scenes';
-import {DrawnFilters, GrainOverlay} from '../compositions/dessin/Filters';
-import {DrawnVoxelModel, InkOutline} from '../compositions/voxel-dessin/DrawnVoxel';
+import {DrawnFilters, GrainOverlay} from '../render/Filters';
+import {DrawnVoxelModel, InkOutline} from '../render/DrawnVoxel';
 import {progress, windowAt} from './anim';
 import {num, vec, type Ctx} from './expr';
 import {annotationsAt, cameraAt, objectsAt, owlSpotAt, owlStateAt, type ObjectState} from './scene';
@@ -75,11 +75,15 @@ const StagedObject: React.FC<{state: ObjectState} & Omit<PartProps, 'opacity' | 
   );
 };
 
-/** Composition d'un épisode, désigné par son identifiant (nom du fichier JSON). */
-export const Episode: React.FC<{id: string}> = ({id}) => {
+/**
+ * Composition d'un épisode, désigné par son identifiant (nom du fichier JSON).
+ * `look` (facultatif) rend l'épisode dans un autre style officiel que le sien (A, B ou D), sans modifier son fichier.
+ */
+export const Episode: React.FC<{id: string; look?: LookId}> = ({id, look: lookOverride}) => {
   const episode = episodeById(id);
-  const look = LOOKS[episode.look];
-  useLookFonts(episode.look);
+  const lookId = lookOverride ?? episode.look;
+  const look = LOOKS[lookId];
+  useLookFonts(lookId);
   const frame = useCurrentFrame();
   const staging = episode.staging;
   const decor = DECORS[staging.decor];

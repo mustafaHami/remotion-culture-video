@@ -14,11 +14,11 @@ import {ChapterBanner} from '../../overlays/ChapterBanner';
 import {HookTitle, HookVeil, hookBlur} from '../../overlays/HookTitle';
 import {Subtitles} from '../../overlays/Subtitles';
 import {CameraRig} from '../../scenes/CameraRig';
-import {ParisStreet} from '../../scenes/paris/ParisStreet';
+import {ParisStreet} from '../paris/ParisStreet';
 import {NightSky} from '../../overlays/NightSky';
 import {beatsOf, cameraAt, liftAt, overlaysAt, owlAt, owlPlacementAt} from './direction';
-import {DrawnFilters, GrainOverlay} from '../dessin/Filters';
-import {InkOutline} from '../voxel-dessin/DrawnVoxel';
+import {DrawnFilters, GrainOverlay} from '../../render/Filters';
+import {InkOutline} from '../../render/DrawnVoxel';
 import {DrawnFineStreet, FINE_ANCHORS, FINE_LAYOUT} from '../voxel-dessin/FineStreet';
 import {withAlpha} from '../../design/color';
 

@@ -1,5 +1,5 @@
 // Rend une ou plusieurs compositions en MP4 (H.264 + AAC, yuv420p, BT.709, 1080 × 1920, 30 i/s).
-// Usage : node scripts/render.cjs --compositions=EssaiStyleA,EssaiStyleB --out=output/essais
+// Usage : node scripts/render.cjs --compositions=EssaiStyleA,EssaiStyleB --out=output/essais [--look=B]
 // Les rendus programmatiques ne lisent pas remotion.config.ts : le moteur OpenGL est passé ici.
 const path = require('node:path');
 const fs = require('node:fs');
@@ -13,6 +13,14 @@ const arg = (name, fallback) => {
 
 const root = path.resolve(__dirname, '..');
 const compositions = arg('compositions', '').split(',').filter(Boolean);
+// Style à imposer (A, B ou D) : rend l'épisode dans ce style au lieu du sien ; le style est ajouté au nom du fichier.
+const look = arg('look', '');
+if (look && !['A', 'B', 'D'].includes(look)) {
+  console.error('--look attend A, B ou D');
+  process.exit(1);
+}
+const inputProps = look ? {look} : {};
+const suffix = look ? `-${look}` : '';
 const out = path.resolve(root, arg('out', 'output/videos'));
 if (!compositions.length) {
   console.error('Préciser --compositions=Id1,Id2');
@@ -25,14 +33,15 @@ if (!compositions.length) {
   fs.mkdirSync(out, {recursive: true});
   const chromiumOptions = {gl: 'angle'};
   for (const id of compositions) {
-    const composition = await selectComposition({serveUrl, id, chromiumOptions});
-    const outputLocation = path.join(out, `${id}.mp4`);
+    const composition = await selectComposition({serveUrl, id, chromiumOptions, inputProps});
+    const outputLocation = path.join(out, `${id}${suffix}.mp4`);
     let reported = -1;
     await renderMedia({
       serveUrl,
       composition,
       outputLocation,
       chromiumOptions,
+      inputProps,
       codec: 'h264',
       audioCodec: 'aac',
       pixelFormat: 'yuv420p',

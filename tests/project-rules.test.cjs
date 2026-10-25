@@ -64,6 +64,13 @@ test('Git refuse rendus, secrets, caches et fichiers volumineux', () => {
   assert.ok(found.some((p) => p.includes('trop volumineux')));
 });
 
+test('les vidéos finales de videos/ ne passent que par Git LFS', () => {
+  const huge = () => 90 * 1024 * 1024;
+  assert.deepEqual(rules.trackedFileProblems(['videos/fonds-marins.mp4'], huge, ['videos/*.mp4']), []);
+  assert.match(rules.trackedFileProblems(['videos/fonds-marins.mp4'], huge, [])[0], /hors Git LFS/);
+  assert.ok(rules.trackedFileProblems(['videos/brouillon/essai.mp4'], huge, ['videos/*.mp4']).some((p) => p.includes('export vidéo')));
+});
+
 test('CLAUDE.md doit importer AGENTS.md en première ligne', () => {
   assert.deepEqual(rules.claudeImportProblems('@AGENTS.md\n\nPrécisions Claude.'), []);
   assert.equal(rules.claudeImportProblems('# Claude\n@AGENTS.md').length, 1);

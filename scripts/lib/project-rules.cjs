@@ -76,11 +76,17 @@ const FORBIDDEN_TRACKED = [
   [/\.(pem|key)$/i, 'clé privée'],
 ];
 const EXAMPLE_ENV = /(^|\/)\.env\.example$/;
+// Vidéos finales validées : seule exception aux exports vidéo, et seulement par Git LFS (aucune limite de taille Git).
+const FINAL_VIDEO = /^videos\/[a-z0-9-]+\.mp4$/;
 const MAX_TRACKED_BYTES = 15 * 1024 * 1024;
 
-function trackedFileProblems(files, sizeOf) {
+function trackedFileProblems(files, sizeOf, lfsPatterns = []) {
   const problems = [];
   for (const file of files) {
+    if (FINAL_VIDEO.test(file)) {
+      if (!lfsPatterns.includes('videos/*.mp4')) problems.push(`Vidéo finale hors Git LFS : ${file} (attendu dans .gitattributes : videos/*.mp4 filter=lfs)`);
+      continue;
+    }
     for (const [pattern, label] of FORBIDDEN_TRACKED) {
       if (pattern.test(file) && !EXAMPLE_ENV.test(file)) problems.push(`Fichier interdit dans Git (${label}) : ${file}`);
     }

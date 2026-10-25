@@ -56,7 +56,9 @@ for (const file of contentFiles) {
 
 if (fs.existsSync(at('.git'))) {
   const tracked = execFileSync('git', ['ls-files', '-z'], {cwd: root, encoding: 'utf8'}).split('\0').filter(Boolean);
-  problems.push(...rules.trackedFileProblems(tracked, (file) => (fs.existsSync(at(file)) ? fs.statSync(at(file)).size : 0)));
+  // Motifs suivis par Git LFS (.gitattributes) : seules les vidéos finales de videos/ y ont droit.
+  const lfsPatterns = read('.gitattributes').split(/\r?\n/).filter((l) => /filter=lfs/.test(l)).map((l) => l.split(/\s+/)[0]);
+  problems.push(...rules.trackedFileProblems(tracked, (file) => (fs.existsSync(at(file)) ? fs.statSync(at(file)).size : 0), lfsPatterns));
 }
 
 for (const problem of problems) console.error(problem);

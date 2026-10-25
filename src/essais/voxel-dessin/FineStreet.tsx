@@ -5,8 +5,8 @@ import type {Look} from '../../design/looks';
 import {fineBuilding, fineOppositeEdge, fineSideWall, fineStreet, fineStreetScene, OPPOSITE_FACE, UNIT, WIDTH_FINE} from '../../voxel/decor/haussmann-fin';
 import {VoxelGrid} from '../../voxel/grid';
 import {buildVoxelGeometry} from '../../voxel/geometry';
-import type {Layout} from '../essai/direction';
-import {DrawnVoxelModel, edgesOf} from './DrawnVoxel';
+import type {Layout} from '../styles/direction';
+import {DrawnVoxelModel, edgesOf} from '../../render/DrawnVoxel';
 
 /** Bord de la coupe (côté ouvert du dernier immeuble), haut de façade, nu de la façade, bord de corniche. */
 export const CUT_FACE = WIDTH_FINE * 3 * UNIT + 0.05;

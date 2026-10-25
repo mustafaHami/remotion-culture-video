@@ -2,7 +2,7 @@
 // Le tremblement change de graine toutes les BOIL_FRAMES images, comme un dessin animé refait
 // à la main ; le grain change à chaque image. Tout dépend du numéro d'image : rendu déterministe.
 import React from 'react';
-import {HEIGHT, WIDTH} from '../../design/format';
+import {HEIGHT, WIDTH} from '../design/format';
 
 const BOIL_FRAMES = 4;
 

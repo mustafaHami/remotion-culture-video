@@ -1,8 +1,8 @@
 import React from 'react';
 import {Composition, Folder} from 'remotion';
-import {EssaiDessin} from './compositions/dessin/EssaiDessin';
-import {EssaiImmeubleFin, FINE_SHOTS} from './compositions/voxel-dessin/EssaiImmeubleFin';
-import {EssaiStyles, essaiTimeline} from './compositions/essai/EssaiStyles';
+import {EssaiDessin} from './essais/dessin-2d/EssaiDessin';
+import {EssaiImmeubleFin, FINE_SHOTS} from './essais/voxel-dessin/EssaiImmeubleFin';
+import {EssaiStyles, essaiTimeline} from './essais/styles/EssaiStyles';
 import {FPS, HEIGHT, WIDTH} from './design/format';
 import {Episode, episodeTimeline} from './engine/Episode';
 import {EPISODES} from './engine/episodes';
