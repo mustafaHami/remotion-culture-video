@@ -12,7 +12,7 @@
 3. Après un changement visuel ou un nouvel épisode : rendre, contrôler le MP4 et inspecter les images (voir `AGENTS.md`, section « Vérifications »).
 4. Relire `git diff --check` et la liste des fichiers ajoutés.
 5. Ajouter les fichiers **par chemins explicites** (`git add AGENTS.md src/overlays/Subtitles.tsx`), jamais `git add -A` ou `git add .`.
-6. Exclure secrets, `.env`, caches, `node_modules`, `.venv`, `output/`, MP4 et exports volumineux. Les WAV de narration figés sont versionnés.
+6. Exclure secrets, `.env`, caches, `node_modules`, `.venv`, `output/`, MP4 et exports volumineux. Les WAV de narration figés sont versionnés. Seules exceptions vidéo : les vidéos finales validées de `videos/`, par Git LFS (`git lfs ls-files` doit les lister avant le commit).
 
 ## Messages de commit
 

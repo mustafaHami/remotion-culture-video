@@ -129,7 +129,7 @@ Avant de valider, contrôler en rendu les caractères français : accents majusc
 
 - La police des annotations.
 - Le nom définitif du projet et de la chaîne.
-- Le débit de la voix et l'éventuelle ambiance sonore ou les bruitages (libres de droits, licence notée).
+- L'éventuelle ambiance sonore ou les bruitages (libres de droits, licence notée). La voix est choisie (ElevenLabs « Peter - Narrator », voir `AGENTS.md`, section « Voix »).
 - La formulation de l'appel à suivre.
 - Les premiers sujets.
 - La fréquence et le calendrier de publication, ainsi que les comptes et l'outil de publication.

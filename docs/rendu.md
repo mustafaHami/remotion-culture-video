@@ -70,9 +70,9 @@ Les coordonnées de la grille sont des indices entiers ; `scale` les convertit e
 
 ## 3. Finition « crayonné » (voxels dessinés)
 
-Validée le 25 octobre 2026 en style A sur les deux épisodes (`"finish": "crayonné"` dans l'épisode). Elle garde les couleurs précalculées et ajoute, dans l'ordre : des hachures dans les faces, un contour encré des volumes, un contour encré du hibou, puis sur toute l'image un trait qui tremble, du papier, du grain et une vignette. **Non encore essayée en B et D** : la vérifier en images fixes avant de l'utiliser dans ces styles.
+Validée le 25 octobre 2026 en style A sur les deux épisodes (`"finish": "crayonné"` dans l'épisode). Elle garde les couleurs précalculées et ajoute, dans l'ordre : des hachures dans les faces, un contour encré des volumes, un contour encré du hibou, puis sur toute l'image un trait qui tremble, du papier, du grain et une vignette. Essayée en B et D le 25 octobre 2026 (images fixes de HublotsRonds) : rendu correct et lisible ; validation définitive sur une vidéo complète à faire par l'utilisateur.
 
-Code : `src/compositions/voxel-dessin/DrawnVoxel.tsx` (modèle dessiné, contour du hibou) et `src/compositions/dessin/Filters.tsx` (filtres SVG, grain). Ces deux fichiers sont du rendu **global**, utilisable par tout sujet, même s'ils vivent pour l'instant dans des dossiers d'essai.
+Code : `src/render/DrawnVoxel.tsx` (modèle dessiné, contour du hibou) et `src/render/Filters.tsx` (filtres SVG, grain). Rendu **global**, utilisé par le moteur pour tout sujet.
 
 ### 3.1 Modèle dessiné : `DrawnVoxelModel`
 

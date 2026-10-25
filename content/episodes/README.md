@@ -25,8 +25,8 @@ Le fichier contient **tout ce qui est dit ou écrit** à l'écran, les sources e
     {
       "id": "question",                 // identifiant court, utilisé par la mise en scène
       "text": "Pourquoi connaît-on si mal le fond des océans ?",  // texte exact prononcé et affiché
-      "voice": "fr-FR-DeniseNeural",
-      "rate": "+0%",
+      "voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG",  // voix du projet (AGENTS.md)
+      "rate": "+0%",                     // débit ; ElevenLabs l'applique en partie : "-8%" ≈ 5 % plus lent
       "pauseAfterFrames": 12,           // silence après le passage (images à 30 i/s)
       "keywords": ["si", "mal"],        // mots surlignés dans les sous-titres
       "audio": { … }                    // écrit par scripts/prepare-audio.py, ne jamais l'écrire à la main

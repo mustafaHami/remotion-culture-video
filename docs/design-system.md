@@ -23,7 +23,7 @@ Si un décor semble exiger une nouvelle couleur, on ajoute un **rôle génériqu
 
 ## Les trois styles
 
-Les trois sont officiels : **chaque vidéo choisit le sien** (`"look"` dans son fichier d'épisode), pour varier ce que voit le public. Aucun n'est prioritaire.
+Les trois sont officiels et sont des **options** : **chaque vidéo choisit le sien** (`"look"` dans son fichier d'épisode), pour varier ce que voit le public. Aucun n'est prioritaire. Une vidéo peut aussi être rendue dans un autre style sans modifier son fichier : `npm run render -- --compositions=<Id> --look=B` (propriété `look` dans Remotion Studio) ; décor, mise en scène et voix ne changent pas.
 
 | | **A · Atelier** | **B · Veillée** | **D · Zinc & craie** |
 |---|---|---|---|

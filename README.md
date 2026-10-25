@@ -4,7 +4,7 @@ Nom de travail du projet : `remotion-culture-video` (nom définitif à choisir).
 
 Vidéos verticales de 40 s à 1 min 30, destinées à Instagram Reels, TikTok et YouTube Shorts. Chaque vidéo répond à **une** question de culture générale (pourquoi on appelle une chose ainsi, pourquoi une ville a cette forme, pourquoi un mot s'écrit comme ça…) dans un univers en voxels, guidée par une mascotte : le hibou explorateur. Le décor est vu en coupe, la caméra passe d'une pièce à l'autre et des annotations techniques apparaissent au rythme de la voix.
 
-État actuel : moteur d'épisode générique (la mise en scène s'écrit en données dans le fichier d'épisode, [docs/moteur.md](docs/moteur.md)) et trois épisodes en style A crayonné : **ImmeublesParis** (« Pourquoi les immeubles parisiens se ressemblent-ils ? », 41 s), **FondsMarins** (« Pourquoi connaît-on si mal le fond des océans ? », 55 s) et **HublotsRonds** (« Pourquoi les hublots des avions sont-ils ronds ? », 52 s), plus les essais de style (voir [content/essais/README.md](content/essais/README.md)). Hibou version C. Aucun épisode n'est publié. Vision et direction artistique : [docs/vision.md](docs/vision.md). Produire une vidéo : skill [produire-episode](.agents/skills/produire-episode/SKILL.md).
+État actuel : moteur d'épisode générique (la mise en scène s'écrit en données dans le fichier d'épisode, [docs/moteur.md](docs/moteur.md)) et trois épisodes en style A crayonné : **ImmeublesParis** (« Pourquoi les immeubles parisiens se ressemblent-ils ? », 39 s), **FondsMarins** (« Pourquoi connaît-on si mal le fond des océans ? », 50 s) et **HublotsRonds** (« Pourquoi les hublots des avions sont-ils ronds ? », 46 s), plus les essais de style (voir [content/essais/README.md](content/essais/README.md)). Hibou version C. Aucun épisode n'est publié. Vision et direction artistique : [docs/vision.md](docs/vision.md). Produire une vidéo : skill [produire-episode](.agents/skills/produire-episode/SKILL.md).
 
 ## Prérequis
 
@@ -25,6 +25,7 @@ python -m venv .venv
 .venv/Scripts/python -m pip install -r requirements.txt   # Windows
 .venv/bin/python -m pip install -r requirements.txt       # Linux / macOS
 npm run browser
+cp .env.example .env    # puis renseigner ELEVENLABS_API_KEY (voix ElevenLabs), jamais versionné
 ```
 
 ## Commandes
@@ -37,8 +38,8 @@ npm run browser
 | `npm run verify` | Contrôle statique du dépôt et synchronisation des skills |
 | `npm run browser` | Installe ou vérifie le navigateur de Remotion |
 | `npm run skills:sync` | Copie `.agents/skills` vers `.claude/skills` |
-| `npm run render -- --compositions=Id --out=output/...` | Rend des compositions en MP4 |
-| `npm run stills -- --compositions=Id --frames=0,120` | Rend des images fixes pour régler un cadrage |
+| `npm run render -- --compositions=Id --out=output/...` | Rend des compositions en MP4 ; `--look=A`, `B` ou `D` rend dans un autre style |
+| `npm run stills -- --compositions=Id --frames=0,120` | Rend des images fixes pour régler un cadrage (accepte aussi `--look`) |
 | `npm run essai:render` | Rend les trois versions de l'essai de styles dans `output/essais` |
 
 Préparation audio et contrôle vidéo (Python, dans `.venv`) :
@@ -63,7 +64,9 @@ Aucun rendu n'est versionné.
 | `src/scenes` | Caméra (plans, projection des points 3D) |
 | `src/overlays` | Accroche, sous-titres, bandeau de chapitre, annotations |
 | `src/engine` | Moteur d'épisode : une composition pour toutes les vidéos, pilotée par `content/episodes/<id>.json` |
-| `src/compositions` | Rendu crayonné (`voxel-dessin/`, `dessin/Filters.tsx`), essais |
+| `src/render` | Finition crayonnée globale (hachures, contours, filtres, grain) |
+| `src/essais` | Compositions d'essai et de réglage (jamais une vidéo finale) |
+| `videos/` | Vidéos finales validées, versionnées par Git LFS ([videos/README.md](videos/README.md)) |
 | `content/episodes` | Un fichier JSON par vidéo |
 | `content/essais` | Contenus d'essais (tests de style, jamais publiés) |
 | `src/content` | Minutage de la narration (voix → images) |

@@ -23,7 +23,7 @@ Procédure complète, de la notion au MP4 contrôlé. Chaque étape renvoie au d
 2. Découper la réponse en 3 ou 4 étapes (futurs chapitres).
 3. Pour chaque étape, noter le fait, le chiffre éventuel et **ce qui se verra** (tableau de correspondances : `docs/mise-en-scene.md` § 1).
 4. Choisir le lieu unique (maquette) et l'élément de comparaison éventuel.
-5. Choisir le style (`A`, `B` ou `D`) en variant d'une vidéo à l'autre, et la finition (`crayonné` validé en A ; en B ou D, la vérifier d'abord en images fixes).
+5. Choisir le style (`A`, `B` ou `D`, options équivalentes) en variant d'une vidéo à l'autre, et la finition `crayonné`. Un autre style se teste sans modifier l'épisode : `npm run stills -- --compositions=<Nom> --frames=0,300 --look=B`.
 
 ## 2. Vérifier les faits
 
@@ -41,7 +41,7 @@ Créer `content/episodes/<id>.json` selon le schéma : `look`, `finish`, `title`
 .venv/Scripts/python scripts/prepare-audio.py --content content/episodes/<id>.json
 ```
 
-Une panne de synthèse arrête tout : ne jamais contourner par une vidéo muette. Puis `npm run verify` (voix conforme, annotations accrochées, sources).
+Chaque passage porte la voix du projet : `"voice": "elevenlabs:eleven_multilingual_v2:JdwJ7jL68CWmQZuo7KgG"` et `"rate": "+0%"` (clé `ELEVENLABS_API_KEY` dans `.env`, jamais lue ni affichée par l'agent). Plus de crédits : le script passe tout l'épisode sur la voix de secours `fr-FR-DeniseNeural` et l'écrit dans le fichier ; le signaler dans le compte rendu. Sans clé ou autre erreur, la préparation s'arrête : le signaler. La génération consomme ≈ 1 crédit par caractère ; ne pas régénérer sans raison. Une panne de synthèse arrête tout : ne jamais contourner par une vidéo muette. Puis `npm run verify` (voix conforme, annotations accrochées, sources).
 
 ## 5. Construire la maquette
 
@@ -71,4 +71,4 @@ Puis **regarder réellement** la planche et des images extraites aux changements
 
 ## 8. Compte rendu
 
-Distinguer : contrôle technique (résultat de `inspect-video.py`, des tests et de `verify`), inspection visuelle effectivement faite (quelles images), écoute (un agent qui ne peut pas écouter le dit). Lister les défauts vus. Ne jamais écrire « publié ». Ne pas commiter sans accord ; jamais de MP4 dans Git (les WAV de `public/audio` sont versionnés).
+Distinguer : contrôle technique (résultat de `inspect-video.py`, des tests et de `verify`), inspection visuelle effectivement faite (quelles images), écoute (un agent qui ne peut pas écouter le dit). Lister les défauts vus. Ne jamais écrire « publié ». Ne pas commiter sans accord. Une vidéo que l'utilisateur valide comme finale est copiée dans `videos/<id>.mp4` (Git LFS) avec sa ligne dans `videos/README.md` ; aucun autre MP4 dans Git (les WAV de `public/audio` sont versionnés).

@@ -19,4 +19,4 @@ npm run essai:render
 .venv/Scripts/python scripts/inspect-video.py --content content/essais/styles-paris.json --videos output/essais/EssaiStyleA.mp4,output/essais/EssaiStyleB.mp4,output/essais/EssaiStyleD.mp4 --board output/essais/planche-comparative.jpg
 ```
 
-Les compositions s'appellent `EssaiStyleA`, `EssaiStyleB` et `EssaiStyleD` dans Remotion Studio (dossier « Essais »). La mise en scène propre à chaque direction (caméra, rythme) est dans `src/compositions/essai/direction.ts`.
+Les compositions s'appellent `EssaiStyleA`, `EssaiStyleB` et `EssaiStyleD` dans Remotion Studio (dossier « Essais »). La mise en scène propre à chaque direction (caméra, rythme) est dans `src/essais/styles/direction.ts`.

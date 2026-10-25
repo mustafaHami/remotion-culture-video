@@ -2,6 +2,8 @@
 
 Une seule composition (`src/engine/Episode.tsx`) fabrique **toutes** les vidéos. Elle lit `content/episodes/<id>.json` : la narration, les annotations, les chapitres et le champ **`staging`** (la mise en scène). Un fichier d'épisode doté d'un `staging` devient automatiquement une composition Remotion (`src/engine/episodes.ts`), sans toucher au code.
 
+Le style vient du champ `look` de l'épisode ; la propriété `look` de la composition (`--look=B` au rendu, ou dans Remotion Studio) le remplace sans modifier le fichier.
+
 Pour une nouvelle vidéo, on écrit donc :
 
 1. le fichier d'épisode (texte, sources, mise en scène) ;

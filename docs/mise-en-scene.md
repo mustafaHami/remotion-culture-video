@@ -66,7 +66,7 @@ type Shot = {target: Vec3; yaw: number; pitch: number; distance: number; fov: nu
 - **Rien de fixe** : pendant un plan tenu, ajouter un léger travelling (`yaw` + 2 à 8° sur la durée du passage, ou `Math.sin(frame / 60) × 2`). Un plan de suivi vise un objet mobile (`target` = position du sous-marin).
 - `centerY` usuels : 1 000 pour l'accroche (décor centré derrière le titre), 940 à 1 010 pendant l'explication (laisse la place aux sous-titres en bas), jusqu'à 1 270 pour cadrer haut.
 - Distances usuelles : plan d'ensemble 165 à 365, plan moyen 110 à 155, plan rapproché 72 à 96, gros plan sur le hibou ou un objet 26 à 32.
-- Grammaire par style (`src/compositions/essai/direction.ts`, `cameraAt`) : **A** travelling latéral lent et glissés ; **B** dérive flottante permanente (`yaw ± 1,6°`, `pitch ± 0,9°`, cible ± 0,35) et rapprochements lents ; **D** plans fixes, coupes franches et zooms secs (`fov × 0,88` en 5 images sur le mot clé).
+- Grammaire par style (dans le moteur : `travel`, `drift`, `punch` des plans, `docs/moteur.md` § 4.2 ; référence historique : `src/essais/styles/direction.ts`) : **A** travelling latéral lent et glissés ; **B** dérive flottante permanente (`yaw ± 1,6°`, `pitch ± 0,9°`, cible ± 0,35) et rapprochements lents ; **D** plans fixes, coupes franches et zooms secs (`fov × 0,88` en 5 images sur le mot clé).
 
 Plans de référence (immeubles) : accroche `{target: [37, 10, 10], yaw: 42, pitch: 24, distance: 175}` ; coupe `{[41, 11, 8], 56, 18, 134}` ; toit `{[CUT_FACE − 1, 20.5, 7], 84, 12, 84}` ; en travers de la rue `{yaw: 86, pitch: 9, distance: 172}` ; ensemble `{[26, 9, 13], 32, 20, 205}` ; hibou `{[41, 6, 12.6], 34, 9, 78}`.
 
