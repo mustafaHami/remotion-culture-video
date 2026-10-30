@@ -1,6 +1,7 @@
 // Filtres SVG du rendu « dessiné » : trait qui tremble, halo lumineux et grain.
-// Le tremblement change de graine toutes les BOIL_FRAMES images, comme un dessin animé refait
-// à la main ; le grain change à chaque image. Tout dépend du numéro d'image : rendu déterministe.
+// Le tremblement et le grain changent de graine toutes les BOIL_FRAMES images, comme un dessin animé
+// refait à la main (un grain renouvelé à chaque image coûte cher à l'encodage et se dégrade sur les
+// plateformes). Tout dépend du numéro d'image : rendu déterministe.
 import React from 'react';
 import {HEIGHT, WIDTH} from '../design/format';
 
@@ -28,9 +29,9 @@ export const DrawnFilters: React.FC<{frame: number}> = ({frame}) => {
         <filter id="dessin-soft" x="-50%" y="-50%" width="200%" height="200%">
           <feGaussianBlur stdDeviation="22" />
         </filter>
-        {/* Grain fin : bruit gris, renouvelé à chaque image. */}
+        {/* Grain fin : bruit gris, renouvelé avec le tremblement (toutes les BOIL_FRAMES images). */}
         <filter id="dessin-grain" x="0" y="0" width="100%" height="100%">
-          <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves={2} seed={frame % 97} />
+          <feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves={2} seed={Math.floor(frame / BOIL_FRAMES) % 97} />
           <feColorMatrix type="saturate" values="0" />
         </filter>
         {/* Texture de papier : taches lentes, fixes. */}

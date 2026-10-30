@@ -122,7 +122,7 @@ Coque inversée : chaque maillage opaque standard du hibou reçoit un enfant de 
 |---|---|---|
 | `dessin-wobble` | `feTurbulence fractalNoise`, `baseFrequency 0.016`, 2 octaves, graine `1 + floor(frame / 4) % 7` ; `feDisplacementMap scale 5` | le trait « bouillonne » : la graine change toutes les **4 images** (dessin refait à la main), cycle de 7 |
 | `dessin-paper` | `baseFrequency 0.0045 0.009`, 3 octaves, graine fixe 11, désaturé ; calque `soft-light` à 0,75 | taches lentes de papier |
-| `dessin-grain` | `baseFrequency 0.8`, 2 octaves, graine `frame % 97`, désaturé ; calque `overlay` à 0,3 | grain fin renouvelé à chaque image |
+| `dessin-grain` | `baseFrequency 0.8`, 2 octaves, graine `floor(frame / 4) % 97`, désaturé ; calque `overlay` à 0,3 | grain fin renouvelé avec le tremblé, toutes les **4 images** (un grain changé à chaque image coûte cher à l'encodage et se dégrade sur les plateformes ; changé le 27 octobre 2026) |
 | vignette | `radial-gradient(ellipse 75% 60% at 50% 45%, transparent 55%, withAlpha(look.text, 0.18) 100%)` | bords légèrement assombris |
 | `dessin-glow`, `dessin-soft` | flou 9 px (fusionné deux fois) et 22 px | halo de lumières, au besoin |
 

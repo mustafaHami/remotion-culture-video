@@ -13,5 +13,9 @@ Config.setAudioCodec('aac');
 Config.setPixelFormat('yuv420p');
 Config.setColorSpace('bt709');
 Config.setVideoImageFormat('jpeg');
+// Mêmes réglages de qualité que scripts/render.cjs.
+Config.setJpegQuality(95);
+Config.setCrf(16);
+Config.setX264Preset('slow');
 
 Config.setOverwriteOutput(true);

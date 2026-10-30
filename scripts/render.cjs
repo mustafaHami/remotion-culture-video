@@ -46,6 +46,11 @@ if (!compositions.length) {
       audioCodec: 'aac',
       pixelFormat: 'yuv420p',
       colorSpace: 'bt709',
+      // Qualité de livraison : images intermédiaires JPEG quasi sans perte et H.264 soigné,
+      // pour que hachures, contours et grain survivent à la recompression des plateformes.
+      jpegQuality: 95,
+      crf: 16,
+      x264Preset: 'slow',
       overwrite: true,
       onProgress: ({progress}) => {
         const step = Math.floor(progress * 10);

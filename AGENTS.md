@@ -16,7 +16,7 @@ Ce fichier est la **source de vérité** pour tous les agents (Codex, Claude Cod
 - **Rendu** : Remotion 4.0.534 (React 19.2 + TypeScript), aligné sur Englizy. Versions npm figées, sans `^` ni `~` ; tous les paquets `remotion` et `@remotion/*` à la même version.
 - **3D** : Three.js via `@remotion/three` (`ThreeCanvas`) et `@react-three/fiber` 9. Les objets voxel sont construits **en code** (cubes et assemblages), jamais importés depuis des sources sous droits.
 - **Voix** : ElevenLabs (voix « Peter - Narrator »), avec une voix de secours gratuite. Règles complètes dans la section « Voix » ci-dessous.
-- **Format** : 1080 × 1920, 30 images par seconde, H.264 + AAC, yuv420p, BT.709.
+- **Format** : 1080 × 1920, 30 images par seconde, H.264 + AAC, yuv420p, BT.709. Qualité de livraison (27 octobre 2026) : images intermédiaires JPEG à 95, `crf` 16, préréglage x264 `slow` (`scripts/render.cjs` et `remotion.config.ts`).
 - **OpenGL** : Chromium utilise le moteur `angle` (`remotion.config.ts`) pour Studio et la CLI. Un rendu programmatique (`@remotion/renderer`) ne lit pas ce fichier et doit passer `chromiumOptions: {gl: 'angle'}`. Sur un serveur Linux sans GPU, tester `angle-egl` ou `swangle` et documenter le choix.
 - **Environnement** : Node.js 22 ou plus récent (`.nvmrc`), Python 3.11+ dans `.venv`, FFmpeg (celui embarqué par Remotion convient si aucun FFmpeg système n'est installé), navigateur Remotion (`npm run browser`).
 - **Écartés pour l'instant** : Blender, vidéo générée par IA, HyperFrames. Ne pas les ajouter sans demande explicite. HyperFrames a été essayé le 25 octobre 2026 (essai de styles refait avec GSAP) puis rejeté : le projet reste sur Remotion.
