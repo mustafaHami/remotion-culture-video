@@ -56,6 +56,10 @@ Licences : si une ressource externe est utilisée (rare), ajouter `"licences": [
 - Un chiffre qui change avec le temps est daté dans la phrase et dans `answer`.
 - `answer` et chaque fait des sources doivent dire la même chose que la narration.
 
+## Légendes réseaux (`social`)
+
+`social` contient `youtubeTitle` et `captions` (`instagram`, `tiktok`, `youtube`), sans lien ni crédit. Chaque légende : **1re ligne = la question** (identique à `hook.title`), en dessous **un résumé rapide de la réponse** (1 ou 2 phrases, mêmes faits que la narration), puis **au moins 5 hashtags** liés à la culture générale et au sujet (`#culturegenerale #lesaviezvous #hibou` + sujet ; `#Shorts` sur YouTube). Contrôlé par l'adaptateur VPS.
+
 ## Contrôles automatiques (`npm run verify`)
 
 Style connu ; voix figée présente et conforme au texte ; mots minutés qui reproduisent le texte ; durées cohérentes ; chaque annotation accrochée à un mot réellement prononcé ; au moins deux sources complètes (`fact`, `url`, `consulted`) ; mise en scène : décor connu, repères de temps sur des mots prononcés, poses connues, chaque annotation affichée.
